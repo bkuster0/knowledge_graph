@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "What is the next disassembly step?",
+        "A": "Turn over the smoke_detector_02 such that the front of the device is showing. The battery can only be accessed by removing the front of the device by CNC milling."
+    },
+    {
+        "Q": "What are the object relations?",
+        "A": "Module: vision. Loose component: firealarm_back"
+    },
+    {
+        "Q": "What are the object positions?",
+        "A": "firealarm_back (id: 02) at (812, 688). "
+    },
+    {
+        "Q": "What is the JSON formatted disassembly step?",
+        "A": {
+            "reasoning": "Turn over the smoke_detector_02 such that the front of the device is showing",
+            "action": "turn_over",
+            "action_input": "firealarm_back at (812, 688)"
+        }
+    }
+]

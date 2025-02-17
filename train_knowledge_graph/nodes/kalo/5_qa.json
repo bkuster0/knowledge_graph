@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "What are the object relations?",
+        "A": "at_location(table_vise). Device 1: battery next to pcb, internals next to pcb. Loose component: hca"
+    },
+    {
+        "Q": "What are the object positions?",
+        "A": "hca back (kalo) at (866, 568), battery at (800, 1102), internals at (859, 1216), pcb at (875, 1142). "
+    },
+    {
+        "Q": "Caption the image and suggest the next disassembly step?",
+        "A": "The PCB has been removed from the hca back (kalo) housing. The next step is to place the PCB into the cutter to remove the battery."
+    },
+    {
+        "Q": "What is the JSON formatted disassembly step?",
+        "A": {
+            "reasoning": "Put the PCB in the cutter to remove the battery.",
+            "action": "move",
+            "action_input": "pcb"
+        }
+    }
+]

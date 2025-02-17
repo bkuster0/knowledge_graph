@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "What are the object relations?",
+        "A": "at_location(table_vise). Device 1: battery in hca, internals in hca, gap in hca, battery next to internals, gap next to internals. "
+    },
+    {
+        "Q": "What are the object positions?",
+        "A": "hca back (kalo) at (865, 567), battery at (771, 567), internals at (875, 567), gap at (985, 567). "
+    },
+    {
+        "Q": "Caption the image and suggest the next disassembly step?",
+        "A": "The hca back (kalo) device is in the vise. The next step is to lever out the PCB."
+    },
+    {
+        "Q": "What is the JSON formatted disassembly step?",
+        "A": {
+            "reasoning": "The hca back (kalo) device is in the vise. The next step is to lever out the PCB.",
+            "action": "lever",
+            "action_input": "gap"
+        }
+    }
+]

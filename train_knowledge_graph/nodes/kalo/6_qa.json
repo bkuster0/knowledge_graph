@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "What are the object relations?",
+        "A": "at_location(table_cutter). Loose components: battery, internals, pcb_covered, pcb"
+    },
+    {
+        "Q": "What are the object positions?",
+        "A": "battery at (661, 595), internals at (836, 693), pcb_covered at (965, 299), pcb at (609, 754). "
+    },
+    {
+        "Q": "Caption the image and suggest the next disassembly step?",
+        "A": "The battery has been removed from the PCB by the cutter. The next step is to place the battery and PCB into separate bins."
+    },
+    {
+        "Q": "What is the JSON formatted disassembly step?",
+        "A": {
+            "reasoning": "Place the battery and PCB into separate bins.",
+            "action": "move",
+            "action_input": "battery, pcb"
+        }
+    }
+]

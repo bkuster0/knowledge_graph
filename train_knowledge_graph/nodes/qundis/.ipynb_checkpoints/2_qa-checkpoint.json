@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "What are the object relations?",
+        "A": "at_location(table_vision). Device 1: pcb_covered in hca, plastic_clip in hca, pcb_covered next to plastic_clip. "
+    },
+    {
+        "Q": "What are the object positions?",
+        "A": "hca back (qundis) at (734, 659), pcb_covered at (743, 662), plastic_clip at (821, 690). "
+    },
+    {
+        "Q": "Caption the image and suggest the next disassembly step?",
+        "A": "The Qundis HCA is on its back. The next step is to put the device in the vise such that the plastic clip can be removed."
+    },
+    {
+        "Q": "What is the JSON formatted disassembly step?",
+        "A": {
+            "reasoning": "Put the device in the vise such that the plastic clip can be removed.",
+            "action": "move",
+            "action_input": "hca back (qundis)"
+        }
+    }
+]

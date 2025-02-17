@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "What are the object relations?",
+        "A": "at_location(table_cnc). Device 1: pcb in smoke_detector, battery in smoke_detector, battery in smoke_detector, battery in pcb, battery in pcb. "
+    },
+    {
+        "Q": "What are the object positions?",
+        "A": "smoke_detector back (hekatron) at (488, 491), pcb at (467, 478), battery at (476, 462), battery at (457, 490). "
+    },
+    {
+        "Q": "Caption the image and suggest the next disassembly step?",
+        "A": "Pick the batteries from the PCB of the Hekatron and place them into the battery bin. The batteries are visible."
+    },
+    {
+        "Q": "What is the JSON formatted disassembly step?",
+        "A": {
+            "reasoning": "Pick the batteries and place them into the battery bin.",
+            "action": "move",
+            "action_input": "battery at (476, 462), battery at (457, 490)"
+        }
+    }
+]

@@ -1,0 +1,6 @@
+[
+    {
+        "Q": "What devices are shown here and how can they be used for disassembly?",
+        "A": "Linear Cutter: Similar to guillotine. Can be used to cut apart objects, e.g. PCBs, which are held by robot. In case where a battery is attached to one end of the PCB, the battery portion can be cut off."
+    }
+]

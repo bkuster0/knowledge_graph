@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "What are the object relations?",
+        "A": "at_location(table_vision). Loose component: smoke_detector"
+    },
+    {
+        "Q": "What are the object positions?",
+        "A": "smoke_detector front (fumonic) at (1600, 1288). "
+    },
+    {
+        "Q": "Caption the image and suggest the next disassembly step?",
+        "A": "Pick up the smoke_detector front (fumonic) device and place it into the CNC mill. The battery is visible under the plastic housing and we can remove this plastic using the CNC mill to access the battery."
+    },
+    {
+        "Q": "What is the JSON formatted disassembly step?",
+        "A": {
+            "reasoning": "Pick up the smoke detector (fumonic) device and place it into the CNC mill.",
+            "action": "move",
+            "action_input": "smoke_detector front (fumonic)"
+        }
+    }
+]

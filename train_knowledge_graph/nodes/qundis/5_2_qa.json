@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "What are the object relations?",
+        "A": "at_location(table_vise). Device 1: battery next to pcb_covered. Loose components: hca, plastic_clip"
+    },
+    {
+        "Q": "What are the object positions?",
+        "A": "hca back (qundis) at (841, 572), pcb_covered at (893, 865), battery at (813, 887), plastic_clip at (936, 1072). "
+    },
+    {
+        "Q": "Caption the image and suggest the next disassembly step?",
+        "A": "The PCB has been levered out of the Qundis HCA. The next step is to put the PCB and battery in the cutter to remove the battery."
+    },
+    {
+        "Q": "What is the JSON formatted disassembly step?",
+        "A": {
+            "reasoning": "Put the PCB and battery in the cutter.",
+            "action": "cutter",
+            "action_input": "pcb_covered"
+        }
+    }
+]

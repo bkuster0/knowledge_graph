@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "What are the object relations?",
+        "A": "at_location(table_cnc). Loose component: smoke_detector"
+    },
+    {
+        "Q": "What are the object positions?",
+        "A": "smoke_detector front (fumonic) at (489, 495). "
+    },
+    {
+        "Q": "Caption the image and suggest the next disassembly step?",
+        "A": "CNC mill the plastic front of the smoke_detector front (fumonic) device away to gain access to the battery."
+    },
+    {
+        "Q": "What is the JSON formatted disassembly step?",
+        "A": {
+            "reasoning": "CNC mill the plastic front of the smoke_detector front (fumonic) device away to gain access to the battery.",
+            "action": "cnc",
+            "action_input": "smoke_detector front (fumonic)"
+        }
+    }
+]

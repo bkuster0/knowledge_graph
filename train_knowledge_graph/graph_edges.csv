@@ -1,0 +1,14 @@
+device,hca
+
+hca,kalo
+hca,qundis
+
+device,smoke_detector
+
+smoke_detector,kaloremotus
+smoke_detector,hekatron
+smoke_detector,fumonic
+
+skill,cnc
+skill,levering
+skill,cutting

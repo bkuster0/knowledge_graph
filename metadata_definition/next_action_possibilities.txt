@@ -1,0 +1,16 @@
+Place into CNC mill
+Place into vise
+
+Remove pin
+Perform levering
+
+Perform round CNC cut
+Perform rectangular CNC cut
+
+Cut battery contacts using CNC
+Remove battery by wiggling
+
+Place into linear cutter and cut
+
+Move to waste battery container
+Move to waste container

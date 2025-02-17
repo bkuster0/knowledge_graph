@@ -1,0 +1,8 @@
+[
+    {
+        "full_image_path": "/knowledge_graph/example_single_node_dataset/smoke_detector/0.png",
+        "full_metadata_path": "/knowledge_graph/example_single_node_dataset/smoke_detector/0_meta.json",
+        "number_of_remaining_steps": 3,
+        "is_final_step": 0
+    }
+]

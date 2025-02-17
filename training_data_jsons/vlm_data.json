@@ -1,0 +1,17 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>What is the JSON formatted disassembly step?"
+      },
+      {
+        "role": "assistant",
+        "content": "{'reasoning': 'Turn over the hca front (kalo) such that the back of the device is showing.', 'action': 'turn', 'action_input': 'hca front (kalo)'}"
+      }
+    ],
+    "images": [
+      "/knowledge_graph/example_single_node_dataset/kalo/kalo/0.png"
+    ]
+  }
+]

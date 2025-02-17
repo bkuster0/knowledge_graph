@@ -1,0 +1,125 @@
+[Detection(id=0, tracking_id=0, label=<Label.hca: 0>, label_face=<LabelFace.back: 1>, label_precise='04', label_precise_name='kalo', score=1.0, tf_px=translation: 
+  x: 865
+  y: 567
+  z: 0
+rotation: 
+  x: 0.0
+  y: 0.0
+  z: -0.9999868064753128
+  w: 0.005136815677578585, box_px=array([[        713,         517],
+       [       1020,         620]]), obb_px=array([[        712,         519],
+       [       1018,         515],
+       [       1019,         615],
+       [        713,         619]]), center_px=array([        865,         567]), polygon_px=<POLYGON ((718 619, 1010 616, 1019 607, 1018 520, 1013 517, 716 519, 714 530...>, tf=translation: 
+  x: 0.3596480786541279
+  y: 0.3712050721767045
+  z: 0.0
+rotation: 
+  x: 0.0
+  y: 0.0
+  z: -0.9999868064753128
+  w: 0.005136815677578585, box=array([[     0.2928,     0.39411],
+       [     0.4278,     0.34695]]), obb=array([[    0.29235,     0.39324],
+       [     0.4275,     0.39338],
+       [    0.42739,     0.34917],
+       [    0.29224,     0.34903]]), center=array([    0.35965,     0.37121,           0]), polygon=<POLYGON Z ((0.294 0.349 0.025, 0.423 0.349 0.025, 0.427 0.353 0.025, 0.427 ...>, obb_3d=array([[    0.29235,     0.39324,           0],
+       [     0.4275,     0.39338,           0],
+       [    0.42739,     0.34917,           0],
+       [    0.29224,     0.34903,           0],
+       [    0.29235,     0.39324,       0.025],
+       [     0.4275,     0.39338,       0.025],
+       [    0.42739,     0.34917,       0.025],
+       [    0.29224,     0.34903,       0.025]]), mask=None, mask_contour=None, tracking_score=None, tracking_box=None, parent_frame='', table_name='', tf_name=''), Detection(id=1, tracking_id=1, label=<Label.battery: 2>, label_face=<LabelFace.front: 0>, label_precise='', label_precise_name='', score=1.0, tf_px=translation: 
+  x: 771
+  y: 567
+  z: 0
+rotation: 
+  x: 0.0
+  y: 0.0
+  z: 0.6783269044849928
+  w: 0.7347602402497072, box_px=array([[        752,         532],
+       [        794,         608]]), obb_px=array([[        749,         603],
+       [        755,         528],
+       [        793,         532],
+       [        787,         607]]), center_px=array([        771,         567]), polygon_px=<POLYGON ((752 601, 787 607, 793 532, 755 533, 752 601))>, tf=translation: 
+  x: 0.31813793418231145
+  y: 0.37170494721531155
+  z: 0.0
+rotation: 
+  x: 0.0
+  y: 0.0
+  z: 0.6783269044849928
+  w: 0.7347602402497072, box=array([[    0.30994,     0.38728],
+       [    0.32807,     0.35346]]), obb=array([[    0.30822,     0.35591],
+       [    0.31129,     0.38903],
+       [    0.32805,     0.38706],
+       [    0.32498,     0.35394]]), center=array([    0.31814,      0.3717,           0]), polygon=<POLYGON Z ((0.31 0.357 0.025, 0.325 0.354 0.025, 0.328 0.387 0.025, 0.311 0...>, obb_3d=array([[    0.30822,     0.35591,           0],
+       [    0.31129,     0.38903,           0],
+       [    0.32805,     0.38706,           0],
+       [    0.32498,     0.35394,           0],
+       [    0.30822,     0.35591,       0.025],
+       [    0.31129,     0.38903,       0.025],
+       [    0.32805,     0.38706,       0.025],
+       [    0.32498,     0.35394,       0.025]]), mask=None, mask_contour=None, tracking_score=None, tracking_box=None, parent_frame='', table_name='', tf_name=''), Detection(id=2, tracking_id=2, label=<Label.internals: 4>, label_face=<LabelFace.front: 0>, label_precise='', label_precise_name='', score=1.0, tf_px=translation: 
+  x: 875
+  y: 567
+  z: 0
+rotation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0, box_px=array([[        789,         525],
+       [        962,         611]]), obb_px=array([[        789,         525],
+       [        961,         525],
+       [        961,         610],
+       [        789,         610]]), center_px=array([        875,         567]), polygon_px=<POLYGON ((789 609, 961 610, 961 525, 789 525, 789 609))>, tf=translation: 
+  x: 0.3640640514702786
+  y: 0.371151893981108
+  z: 0.0
+rotation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0, box=array([[    0.32632,     0.39017],
+       [    0.40224,     0.35124]]), obb=array([[    0.32632,     0.39017],
+       [    0.40228,     0.38926],
+       [     0.4018,     0.35169],
+       [    0.32585,      0.3526]]), center=array([    0.36406,     0.37115,           0]), polygon=<POLYGON Z ((0.326 0.353 0.025, 0.402 0.352 0.025, 0.402 0.389 0.025, 0.326 ...>, obb_3d=array([[    0.32632,     0.39017,           0],
+       [    0.40228,     0.38926,           0],
+       [     0.4018,     0.35169,           0],
+       [    0.32585,      0.3526,           0],
+       [    0.32632,     0.39017,       0.025],
+       [    0.40228,     0.38926,       0.025],
+       [     0.4018,     0.35169,       0.025],
+       [    0.32585,      0.3526,       0.025]]), mask=None, mask_contour=None, tracking_score=None, tracking_box=None, parent_frame='', table_name='', tf_name=''), Detection(id=3, tracking_id=3, label=<Label.gap: 10>, label_face=<LabelFace.front: 0>, label_precise='', label_precise_name='', score=1.0, tf_px=translation: 
+  x: 985
+  y: 567
+  z: 0
+rotation: 
+  x: 0.0
+  y: 0.0
+  z: -0.6995457121808979
+  w: 0.7145878508408329, box_px=array([[        957,         527],
+       [       1015,         608]]), obb_px=array([[        955,         528],
+       [       1013,         526],
+       [       1014,         605],
+       [        957,         607]]), center_px=array([        985,         567]), polygon_px=<POLYGON ((962 528, 1009 527, 1012 528, 1013 539, 1014 570, 1012 605, 962 60...>, tf=translation: 
+  x: 0.4126397524479361
+  y: 0.37056693382954653
+  z: 0.0
+rotation: 
+  x: 0.0
+  y: 0.0
+  z: -0.6995457121808979
+  w: 0.7145878508408329, box=array([[     0.4005,      0.3884],
+       [    0.42566,     0.35228]]), obb=array([[    0.39961,     0.38797],
+       [    0.42523,     0.38854],
+       [    0.42523,     0.35362],
+       [    0.40005,     0.35304]]), center=array([    0.41264,     0.37057,           0]), polygon=<POLYGON Z ((0.403 0.388 0.025, 0.423 0.388 0.025, 0.425 0.388 0.025, 0.425 ...>, obb_3d=array([[    0.39961,     0.38797,           0],
+       [    0.42523,     0.38854,           0],
+       [    0.42523,     0.35362,           0],
+       [    0.40005,     0.35304,           0],
+       [    0.39961,     0.38797,       0.025],
+       [    0.42523,     0.38854,       0.025],
+       [    0.42523,     0.35362,       0.025],
+       [    0.40005,     0.35304,       0.025]]), mask=None, mask_contour=None, tracking_score=None, tracking_box=None, parent_frame='', table_name='', tf_name='')]

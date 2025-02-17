@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "What are the object relations?",
+        "A": "at_location(table_cnc). Device 1: battery in smoke_detector, pcb in smoke_detector, battery next to pcb. "
+    },
+    {
+        "Q": "What are the object positions?",
+        "A": "smoke_detector front (fumonic) at (491, 491), battery at (466, 530), pcb at (507, 462). "
+    },
+    {
+        "Q": "Caption the image and suggest the next disassembly step?",
+        "A": "Pick the smoke_detector front (fumonic) and place it into the bin."
+    },
+    {
+        "Q": "What is the JSON formatted disassembly step?",
+        "A": {
+            "reasoning": "Pick the smoke_detector front (fumonic) and place it into the bin.",
+            "action": "move",
+            "action_input": "smoke_detector front (fumonic)"
+        }
+    }
+]

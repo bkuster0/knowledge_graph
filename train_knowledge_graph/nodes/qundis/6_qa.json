@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "What are the object relations?",
+        "A": "at_location(table_cutter). Loose components: internals, internals, battery"
+    },
+    {
+        "Q": "What are the object positions?",
+        "A": "internals at (650, 479), internals at (732, 652), battery at (548, 635). "
+    },
+    {
+        "Q": "Caption the image and suggest the next disassembly step?",
+        "A": "The Qundis HCA has separated into battery and other components. The next step is to put the internals and battery into separate bins."
+    },
+    {
+        "Q": "What is the JSON formatted disassembly step?",
+        "A": {
+            "reasoning": "Put the internals and battery into separate bins.",
+            "action": "move",
+            "action_input": "internals at (650, 479), internals at (732, 652), battery at (548, 635). "
+        }
+    }
+]

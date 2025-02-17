@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "What are the object relations?",
+        "A": "at_location(table_vise). Device 1: pcb_covered in hca, gap in hca, gap next to pcb_covered. "
+    },
+    {
+        "Q": "What are the object positions?",
+        "A": "hca back at (649, 627), pcb_covered at (649, 615), gap at (649, 528). "
+    },
+    {
+        "Q": "Caption the image and suggest the next disassembly step?",
+        "A": "The Qundis HCA device is in the vise and a gap is visible. The next step is to lever out the PCB."
+    },
+    {
+        "Q": "What is the JSON formatted disassembly step?",
+        "A": {
+            "reasoning": "Lever out the PCB from the Qundis HCA.",
+            "action": "lever",
+            "action_input": "gap"
+        }
+    }
+]

@@ -1,0 +1,32 @@
+[Detection(id=0, tracking_id=0, label=<Label.smoke_detector: 1>, label_face=<LabelFace.front: 0>, label_precise='02', label_precise_name='fumonic', score=1.0, tf_px=translation: 
+  x: 489
+  y: 495
+  z: 0
+rotation: 
+  x: 0.0
+  y: 0.0
+  z: -0.0005240323944940052
+  w: 0.9999998626950153, box_px=array([[        374,         380],
+       [        606,         611]]), obb_px=array([[        369,         605],
+       [        378,         375],
+       [        609,         385],
+       [        600,         614]]), center_px=array([        489,         495]), polygon_px=<POLYGON ((461 381, 412 407, 389 436, 375 476, 376 514, 396 561, 430 594, 46...>, tf=translation: 
+  x: 0.1710417479793996
+  y: 0.4154866623387352
+  z: 0.0
+rotation: 
+  x: 0.0
+  y: 0.0
+  z: -0.0005240323944940052
+  w: 0.9999998626950153, box=array([[    0.10207,     0.57402],
+       [    0.24115,     0.25541]]), obb=array([[    0.11347,     0.30369],
+       [     0.1039,     0.57935],
+       [    0.22861,     0.52728],
+       [    0.23812,     0.25283]]), center=array([    0.17104,     0.41549,           0]), polygon=<POLYGON Z ((0.149 0.558 0.025, 0.124 0.535 0.025, 0.114 0.504 0.025, 0.109 ...>, obb_3d=array([[    0.11347,     0.30369,           0],
+       [     0.1039,     0.57935,           0],
+       [    0.22861,     0.52728,           0],
+       [    0.23812,     0.25283,           0],
+       [    0.11347,     0.30369,       0.025],
+       [     0.1039,     0.57935,       0.025],
+       [    0.22861,     0.52728,       0.025],
+       [    0.23812,     0.25283,       0.025]]), mask=None, mask_contour=None, tracking_score=None, tracking_box=None, parent_frame='', table_name='', tf_name='')]
