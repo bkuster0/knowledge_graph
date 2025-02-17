@@ -54,22 +54,19 @@ Example **metadata JSON**:
 
 Convert to dataset for training a classifier:
 
-> python3 scripts/generate_evaluation_datapoints.py --folder_to_parse '/knowledge_graph/datasets/train_knowledge_graph' --output_json_full_path '/knowledge_graph/training_data_jsons/data.json'
+>     python3 scripts/generate_evaluation_datapoints.py --folder_to_parse '/knowledge_graph/datasets/train_knowledge_graph' --output_json_full_path '/knowledge_graph/training_data_jsons/data.json'
 
 Convert to a dataset for training a VLM (TODO - remove dependency on rag_retrieval_augmented_generation pkg):
 
-> python3 scripts/convert_knowledge_graph_to_vlm_dataset.py --folder_to_parse '/knowledge_graph/datasets/train_knowledge_graph' --output_json_full_path '/knowledge_graph/training_data_jsons/vlm_data.json'
+
+>      python3 scripts/convert_knowledge_graph_to_vlm_dataset.py --folder_to_parse '/knowledge_graph/datasets/train_knowledge_graph' --output_json_full_path '/knowledge_graph/training_data_jsons/vlm_data.json'
 
 For the example dataset:
 
-> 
-
-    python3 scripts/generate_evaluation_datapoints.py --folder_to_parse '/knowledge_graph/example_single_node_dataset' --output_json_full_path '/knowledge_graph/training_data_jsons/data.json'
+>     python3 scripts/generate_evaluation_datapoints.py --folder_to_parse '/knowledge_graph/example_single_node_dataset' --output_json_full_path '/knowledge_graph/training_data_jsons/data.json'
 
 
-> 
-
-    python3 scripts/convert_knowledge_graph_to_vlm_dataset.py --folder_to_parse '/knowledge_graph/example_single_node_dataset' --output_json_full_path '/knowledge_graph/training_data_jsons/vlm_data.json'
+>     python3 scripts/convert_knowledge_graph_to_vlm_dataset.py --folder_to_parse '/knowledge_graph/example_single_node_dataset' --output_json_full_path '/knowledge_graph/training_data_jsons/vlm_data.json'
 
 
 # Misc
@@ -79,3 +76,4 @@ Device components in image form can be found in: `~/datasets2/reconcycle/2023-05
 New images can be labelled using [Labelme with segment anything](https://github.com/originlake/labelme-with-segment-anything).
 
 0\_qa.json files can be created using [knowledge_graph_generator.ipynb](https://github.com/ReconCycle/vision_pipeline/blob/dev/notebooks/knowledge_graph_generator.ipynb).
+
