@@ -146,7 +146,7 @@ def convert_evaluation_datapoints_to_vlm_qa_datapoints(evaluation_datapoints = L
                 raise ValueError(f"Question '{question}' not specified in question_to_detailed_question_dict!")
 
             n_random_possibilities = len(question_to_randomized_question_dict[question])
-            random_idx = random.randint(0, n_random_possibilities)
+            random_idx = random.randint(0, n_random_possibilities -1 )
             randomized_question = question_to_randomized_question_dict[question][random_idx]
             #print(randomized_question)
 
@@ -160,7 +160,7 @@ def convert_evaluation_datapoints_to_vlm_qa_datapoints(evaluation_datapoints = L
                 answer_to_randomized_answers = question_answer_to_randomized_answer_str[question]
                 if answer in answer_to_randomized_answers.keys():
                     n_possible_answers = len(answer_to_randomized_answers[answer])
-                    randomized_answer = answer_to_randomized_answers[answer][random.randint(0, n_possible_answers)]
+                    randomized_answer = answer_to_randomized_answers[answer][random.randint(0, n_possible_answers -1)]
                     answer = randomized_answer
             # Convert answer to string if it's integer
             if isinstance(answer, int):
