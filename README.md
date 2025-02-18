@@ -54,11 +54,13 @@ Example **metadata JSON**:
 
 Convert to dataset for training a classifier:
 
->     python3 scripts/convert_dataset_to_training_data.py --folder_to_parse '/knowledge_graph/datasets/train_knowledge_graph' --output_classification_json_full_path '/knowledge_graph/training_data_jsons/classification_data.json' --output_vlm_json_full_path '/knowledge_graph/training_data_jsons/vlm_data.json'
+>     cd scripts
+>     python3 convert_dataset_to_training_data.py --folder_to_parse '/knowledge_graph/datasets/train_knowledge_graph' --output_classification_json_full_path '/knowledge_graph/training_data_jsons/classification_data.json' --output_vlm_json_full_path '/knowledge_graph/training_data_jsons/vlm_data.json'
 
 For the example dataset:
 
->     python3 scripts/convert_dataset_to_training_data.py --folder_to_parse '/knowledge_graph/example_single_node_dataset' --output_classification_json_full_path '/knowledge_graph/training_data_jsons/classification_data.json' --output_vlm_json_full_path '/knowledge_graph/training_data_jsons/vlm_data.json'
+>     cd scripts
+>     python3 convert_dataset_to_training_data.py --folder_to_parse '/knowledge_graph/example_single_node_dataset' --output_classification_json_full_path '/knowledge_graph/training_data_jsons/classification_data.json' --output_vlm_json_full_path '/knowledge_graph/training_data_jsons/vlm_data.json'
 
 # OLD - Misc
 

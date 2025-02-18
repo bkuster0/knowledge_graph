@@ -1,0 +1,47 @@
+{
+    "number_of_remaining_steps": {
+        "questions": ["How many steps are remaining?",
+                     "How many disassembly steps are remaining?",
+                     "What is the number of remaining steps?",
+                     "What is the number of remaining disassembly steps?",
+                     "Number of remaining steps?",
+                     "Number of remaining disassembly steps?"
+        ],
+        "answers": {"0": "0"}
+    },
+    "is_final_step": {
+        "questions": [
+            "Does this image show the final step?",
+            "Does this image show the final disassembly step?",
+            "Does this picture show the final disassembly step?",
+            "Does this picture show the final step?",
+            "Is this the final step?",
+            "Is this the final disassembly step?"
+        ],
+        "answers": {
+             "0": ["No."],
+             "1": ["Yes."]
+        }
+    },
+    "next_step": {
+        "questions": [
+            "What is the next step?",
+            "What is the next disassembly step?"
+        ],
+        "answers": {
+            "flip": ["Flip the object"],
+            "place_into_cnc": ["Place the object into the CNC mill"],
+            "place_into_vise": ["Place the object in to the vise"],
+            "remove_pin": ["Remove the holding pin"],
+            "levering": ["Perform levering to dislodge a component"],
+            "cnc_circular_cut": ["Perform a circular CNC cut"],
+            "cnc_rectangular_cut": ["Perform a rectangular CNC cut"],
+            "cnc_cut_battery_contacts": ["Remove the battery contacts by CNC milling"],
+            "wiggling_battery_removal": ["Remove the battery by grasping and wiggling it"],
+            "linear_cutter_cut": ["Place the object into a linear cutter and cut it apart."],
+            "place_into_waste_plastic_container": ["Place the object into the waste container for plastic"],
+            "place_into_waste_battery_container": ["Place the object into the waste container for batteries"]
+        }
+
+    }
+}

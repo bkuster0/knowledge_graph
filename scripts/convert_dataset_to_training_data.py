@@ -7,28 +7,6 @@ import copy
 import random
 
 
-question_to_randomized_question_dict = {"number_of_remaining_steps": ["How many steps are remaining?",
-                                                                    "How many disassembly steps are remaining?",
-                                                                    "What is the number of remaining steps?",
-                                                                    "What is the number of remaining disassembly steps?",
-                                                                    "Number of remaining steps?",
-                                                                    "Number of remaining disassembly steps?"],
-                                      "next_step": ["What is the next step?",
-                                                    "What is the next disassembly step?"],
-                                      "is_final_step": ["Does this image show the final step?",
-                                                        "Does this image show the final disassembly step?",
-                                                        "Does this picture show the final disassembly step?",
-                                                        "Does this picture show the final step?",
-                                                        "Is this the final step?",
-                                                        "Is this the final disassembly step?"]
-                                    }
-
-question_answer_to_randomized_answer_str = {"number_of_remaining_steps": {0: ['0'], 1: ['1']},
-                                  "next_step": {},
-                                  "is_final_step": {0: ['No.'], 1: ['Yes.']}
-                                }
-
-
 @dataclass
 class EvaluationDatapoint:
     full_image_path: str = '/knowledge_graph/example_single_node_dataset/smoke_detector/0.jpg'
@@ -131,6 +109,10 @@ def convert_dataset_to_evaluation_datapoints(folder, output_json_full_path = Non
 
 
 def convert_evaluation_datapoints_to_vlm_qa_datapoints(evaluation_datapoints = List[EvaluationDatapoint]) -> List[QADatapoint]:
+    JSON_FILE_PATH = "questions_and_answers_to_vlm_randomized_qa.json"
+    with open(JSON_FILE_PATH, 'r') as f:
+        qa_to_randomized_vlm_qa = json.load(f)
+
     out_qa_datapoints = []
 
     for eval_datapoint in evaluation_datapoints:
@@ -140,36 +122,41 @@ def convert_evaluation_datapoints_to_vlm_qa_datapoints(evaluation_datapoints = L
         with open(metadata_path, 'r') as f:
             metadata = json.load(f)
 
-        out_questions = []
-        for question in metadata.keys():
-            if question not in question_to_randomized_question_dict.keys():
-                raise ValueError(f"Question '{question}' not specified in question_to_detailed_question_dict!")
-
-            n_random_possibilities = len(question_to_randomized_question_dict[question])
+        out_qa_pairs = []
+        # q - question, a - answer
+        for q in metadata.keys():
+            # Randomize question
+            if q not in qa_to_randomized_vlm_qa.keys():
+                raise ValueError(f"Question '{q}' not specified in qa_to_randomized_vlm_qa dict!")
+            n_random_possibilities = len(qa_to_randomized_vlm_qa[q]["questions"])
             random_idx = random.randint(0, n_random_possibilities -1 )
-            randomized_question = question_to_randomized_question_dict[question][random_idx]
+            randomized_question = qa_to_randomized_vlm_qa[q]["questions"][random_idx]
             #print(randomized_question)
 
-            answer = metadata[question]
-
-            if not (isinstance(answer, str) or isinstance(answer, int)):
-                raise ValueError(f"Unsupported answer type, neither string not integer. Answer is: {answer}")
+            # Randomize answer
+            answer = str(metadata[q])
+            #if not (isinstance(answer, str) or isinstance(answer, int)):
+            #    raise ValueError(f"Unsupported answer type, neither string not integer. Answer is: {answer}")
 
             # Try to convert answer to one of randomized answers.
-            if question in question_answer_to_randomized_answer_str.keys():
-                answer_to_randomized_answers = question_answer_to_randomized_answer_str[question]
-                if answer in answer_to_randomized_answers.keys():
-                    n_possible_answers = len(answer_to_randomized_answers[answer])
-                    randomized_answer = answer_to_randomized_answers[answer][random.randint(0, n_possible_answers -1)]
+            if "answers" in qa_to_randomized_vlm_qa[q].keys() and (answer in qa_to_randomized_vlm_qa[q]["answers"].keys()):
+                answer_to_randomized_answer = qa_to_randomized_vlm_qa[q]["answers"][answer]
+                # If only single choice, not a list of choices
+                if isinstance(answer_to_randomized_answer, str):
+                    answer = answer_to_randomized_answer
+                else:
+                    #print("ans to possible ans:", answer_to_randomized_answer)
+                    n_possible_answers = len(answer_to_randomized_answer)
+                    randomized_answer = answer_to_randomized_answer[random.randint(0, n_possible_answers -1)]
                     answer = randomized_answer
             # Convert answer to string if it's integer
-            if isinstance(answer, int):
-                answer = str(answer)
+            #if isinstance(answer, int):
+            #    answer = str(answer)
 
-            out_questions.append({"Q": randomized_question, "A": answer})
+            out_qa_pairs.append({"Q": randomized_question, "A": answer})
 
         qa_datapoint = QADatapoint(full_image_path = image_path,
-                                   list_of_qa_pairs = out_questions)
+                                   list_of_qa_pairs = out_qa_pairs)
 
         out_qa_datapoints.append(copy.deepcopy(qa_datapoint))
     return out_qa_datapoints
