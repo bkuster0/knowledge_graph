@@ -1,4 +1,9 @@
 {
+    "centered_object": {
+        "questions": ["Which object is shown?"
+        ],
+        "answers": {"0": "0"}
+    },
     "number_of_remaining_steps": {
         "questions": ["How many steps are remaining?",
                      "How many disassembly steps are remaining?",
@@ -20,7 +25,9 @@
         ],
         "answers": {
              "0": ["No."],
-             "1": ["Yes."]
+             "1": ["Yes."],
+             "False": ["No."],
+             "True": ["Yes."]
         }
     },
     "next_step": {
@@ -42,6 +49,12 @@
             "place_into_waste_plastic_container": ["Place the object into the waste container for plastic"],
             "place_into_waste_battery_container": ["Place the object into the waste container for batteries"]
         }
-
+    },
+    "previous_step": {
+        "questions": [
+            "What was the previous step?",
+            "What was the previous disassembly step?"
+        ],
+        "answers": {"0":"0"}
     }
 }

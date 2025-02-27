@@ -1,8 +1,13 @@
 [
     {
-        "full_image_path": "/knowledge_graph/example_single_node_dataset/kalo/0.png",
-        "full_metadata_path": "/knowledge_graph/example_single_node_dataset/kalo/0_meta.json",
-        "number_of_remaining_steps": 3,
-        "is_final_step": 0
+        "step_idx": 0,
+        "step_example_idx": 0,
+        "full_image_path": "/knowledge_graph/example_single_node_dataset/kalo/0_0.png",
+        "full_metadata_path": "/knowledge_graph/example_single_node_dataset/kalo/seq_metadata.json",
+        "centered_object": "heat_cost_allocator_kalo",
+        "previous_step": "None",
+        "next_step": "flip",
+        "number_of_remaining_steps": 1,
+        "is_final_step": true
     }
 ]

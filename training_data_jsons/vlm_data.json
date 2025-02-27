@@ -3,23 +3,47 @@
         "messages": [
             {
                 "role": "user",
-                "content": "<image>How many disassembly steps are remaining?"
+                "content": "<image>Which object is shown?"
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "heat_cost_allocator_kalo"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
-                "content": "No."
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Flip the object"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
             }
         ],
         "images": [
-            "/knowledge_graph/example_single_node_dataset/kalo/0.png"
+            "/knowledge_graph/example_single_node_dataset/kalo/0_0.png"
         ]
     }
 ]
