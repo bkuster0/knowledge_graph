@@ -1,0 +1,5 @@
+{
+    "image_sequences": ["0_0.png"],
+    "steps": ["place_into_waste_battery_container"],
+    "centered_object": "battery"
+}

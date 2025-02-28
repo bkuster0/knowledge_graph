@@ -1,0 +1,5 @@
+{
+    "image_sequences": ["0_0.png"],
+    "steps": ["flip", "place_into_vise", "levering", "place_into_waste_plastic_container", "place_into_waste_battery_container"],
+    "centered_object": "heat_cost_allocator_kalo"
+}

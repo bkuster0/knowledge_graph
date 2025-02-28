@@ -7,6 +7,2309 @@
             },
             {
                 "role": "assistant",
+                "content": "heat_cost_allocator_qundis"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "levering"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/03_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_qundis"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "levering"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/03_02.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_qundis"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_qundis"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_qundis"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform levering to dislodge a component"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/02_01.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_qundis"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_waste_plastic_container"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Flip the object"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "5"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/00_00.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_qundis"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "flip"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object in to the vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/01_00.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_qundis"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "levering"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/03_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_qundis"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform levering to dislodge a component"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/02_00.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "cnc_rectangular_cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Remove the battery by grasping and wiggling it"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/04_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_waste_plastic_container"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Flip the object"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "5"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/00_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_cnc"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform a rectangular CNC cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/02_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "flip"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "cnc_rectangular_cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Remove the battery by grasping and wiggling it"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform levering to dislodge a component"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_00.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_waste_battery_container"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Flip the object"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "5"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/00_00.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "flip"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object in to the vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/01_00.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "levering"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_00.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform levering to dislodge a component"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_00.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_kaloremotus"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/01_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_kaloremotus"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_cnc"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Flip the object"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/00_03.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_kaloremotus"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/01_02.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_kaloremotus"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_cnc"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Flip the object"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/00_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_kaloremotus"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_cnc"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Flip the object"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/00_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_kaloremotus"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_cnc"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Flip the object"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/00_02.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_kaloremotus"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/01_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_sensys"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_cnc"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Flip the object"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/senys/00_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_sensys"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/senys/01_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_fumonic"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Remove the battery contacts by CNC milling"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/03_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_fumonic"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "flip"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/01_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_fumonic"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "cnc_cut_battery_contacts"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Flip the object"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/00_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_fumonic"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_cnc"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform a circular CNC cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/02_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_fumonic"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "flip"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/01_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform levering to dislodge a component"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/02_03.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "levering"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into a linear cutter and cut it apart."
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/03_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "levering"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into a linear cutter and cut it apart."
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/03_06.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "linear_cutter_cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/04_06.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "levering"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into a linear cutter and cut it apart."
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/03_02.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "linear_cutter_cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/04_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform levering to dislodge a component"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/02_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "levering"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into a linear cutter and cut it apart."
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/03_03.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "flip"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object in to the vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "5"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/01_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform levering to dislodge a component"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/02_07.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "linear_cutter_cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/04_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "linear_cutter_cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/04_02.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform levering to dislodge a component"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/02_08.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "flip"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object in to the vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "5"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/01_03.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
                 "content": "heat_cost_allocator_kalo"
             },
             {
@@ -23,7 +2326,1652 @@
             },
             {
                 "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/05_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "linear_cutter_cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/04_03.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "flip"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object in to the vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "5"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/01_02.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform levering to dislodge a component"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/02_06.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform levering to dislodge a component"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/02_02.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_waste_plastic_container"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
                 "content": "Flip the object"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "6"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/00_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform levering to dislodge a component"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/02_05.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_waste_plastic_container"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Flip the object"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "6"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/00_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "levering"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into a linear cutter and cut it apart."
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/03_04.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "linear_cutter_cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/04_05.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "levering"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into a linear cutter and cut it apart."
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/03_07.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/05_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "levering"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into a linear cutter and cut it apart."
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/03_05.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform levering to dislodge a component"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/02_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/05_02.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "flip"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object in to the vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "5"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/01_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/05_03.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "linear_cutter_cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/04_04.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_vise"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform levering to dislodge a component"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/02_04.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator_kalo"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "levering"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into a linear cutter and cut it apart."
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/kalo_hca/03_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/battery/00_10.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/battery/00_08.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/battery/00_16.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/battery/00_05.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/battery/00_03.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/battery/00_15.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/battery/00_12.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/battery/00_07.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/battery/00_14.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/battery/00_13.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/battery/00_17.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/battery/00_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/battery/00_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/battery/00_02.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/battery/00_04.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
             },
             {
                 "role": "user",
@@ -43,7 +3991,1464 @@
             }
         ],
         "images": [
-            "/knowledge_graph/example_single_node_dataset/kalo/0_0.png"
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/battery/00_06.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/battery/00_11.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for batteries"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/battery/00_09.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "cnc_rectangular_cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Remove the battery by grasping and wiggling it"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/02_03.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/03_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_waste_plastic_container"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/00_10.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/03_02.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_waste_plastic_container"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/00_08.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "cnc_rectangular_cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Remove the battery by grasping and wiggling it"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/02_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/03_03.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_cnc"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform a rectangular CNC cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/01_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "cnc_rectangular_cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Remove the battery by grasping and wiggling it"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/02_07.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_waste_plastic_container"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/00_05.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "cnc_rectangular_cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Remove the battery by grasping and wiggling it"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/02_08.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_cnc"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform a rectangular CNC cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/01_03.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_waste_plastic_container"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/00_03.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_cnc"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform a rectangular CNC cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/01_02.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "cnc_rectangular_cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Remove the battery by grasping and wiggling it"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/02_06.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_waste_plastic_container"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/00_07.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_waste_plastic_container"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/00_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "cnc_rectangular_cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Remove the battery by grasping and wiggling it"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/02_05.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_waste_plastic_container"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/00_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/03_04.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_waste_plastic_container"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/00_02.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_waste_plastic_container"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/00_04.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "cnc_rectangular_cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Remove the battery by grasping and wiggling it"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/02_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_cnc"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Perform a rectangular CNC cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/01_00.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "cnc_rectangular_cut"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Remove the battery by grasping and wiggling it"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/02_04.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_waste_plastic_container"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this picture show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/00_06.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_waste_plastic_container"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/00_11.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "None"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the waste container for plastic"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/03_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>Which object is shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "smoke_detector_hekatron"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_waste_plastic_container"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "4"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/test_knowledge_graph/next_disassembly_step/hekatron_smoke_detector/00_09.jpg"
         ]
     }
 ]

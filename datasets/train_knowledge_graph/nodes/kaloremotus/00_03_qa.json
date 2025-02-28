@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "Which object is shown?",
+        "A": "smoke_detector_kaloremotus"
+    },
+    {
+        "Q": "What was the previous step?",
+        "A": "place_into_cnc"
+    },
+    {
+        "Q": "What is the next disassembly step?",
+        "A": "Flip the object"
+    },
+    {
+        "Q": "How many steps are remaining?",
+        "A": "2"
+    },
+    {
+        "Q": "Is this the final step?",
+        "A": "No."
+    }
+]

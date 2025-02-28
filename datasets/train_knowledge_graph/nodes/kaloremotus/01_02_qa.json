@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "Which object is shown?",
+        "A": "smoke_detector_kaloremotus"
+    },
+    {
+        "Q": "What was the previous disassembly step?",
+        "A": "None"
+    },
+    {
+        "Q": "What is the next disassembly step?",
+        "A": "Place the object into the CNC mill"
+    },
+    {
+        "Q": "Number of remaining disassembly steps?",
+        "A": "1"
+    },
+    {
+        "Q": "Does this image show the final disassembly step?",
+        "A": "Yes."
+    }
+]

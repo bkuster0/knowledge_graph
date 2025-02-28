@@ -239,7 +239,7 @@ def convert_sequence_metadata_to_evaluation_datapoints(folder, output_json_full_
             previous_step =  metadata_dict["steps"][step_n - 1] if not is_final_step else "None"
             print(f"Image: {full_filename}\nn_remaining_steps: {n_remaining_steps}\nCentered object: {centered_object}\nNext step: {next_step}, is_final_step: {is_final_step}")
             print(f"Previous step: {previous_step}")
-            
+
             evaluation_datapoint = EvaluationDatapoint(step_idx = step_n,
                                                        step_example_idx = example_img_idx,
                                                        full_image_path = full_image_path,
@@ -249,7 +249,7 @@ def convert_sequence_metadata_to_evaluation_datapoints(folder, output_json_full_
                                                        next_step = next_step,
                                                        number_of_remaining_steps = n_remaining_steps,
                                                        is_final_step = is_final_step)
-                            
+
             evaluation_datapoints.append(evaluation_datapoint)
 
     # Save as JSON
@@ -305,7 +305,7 @@ def convert_evaluation_datapoints_to_qa_datapoints(evaluation_datapoints = List[
                     answer = randomized_answer
             else:
                 print(f"Did not find answer mapping for q: {q}, answer: {answer}")
-                
+
             # Convert answer to string if it's integer
             #if isinstance(answer, int):
             #    answer = str(answer)

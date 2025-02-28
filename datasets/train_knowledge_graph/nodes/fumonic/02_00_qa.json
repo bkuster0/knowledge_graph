@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "Which object is shown?",
+        "A": "smoke_detector_fumonic"
+    },
+    {
+        "Q": "What was the previous disassembly step?",
+        "A": "place_into_cnc"
+    },
+    {
+        "Q": "What is the next disassembly step?",
+        "A": "Perform a circular CNC cut"
+    },
+    {
+        "Q": "What is the number of remaining steps?",
+        "A": "2"
+    },
+    {
+        "Q": "Does this picture show the final step?",
+        "A": "No."
+    }
+]

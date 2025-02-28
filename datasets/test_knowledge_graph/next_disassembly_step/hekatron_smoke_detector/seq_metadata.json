@@ -1,0 +1,5 @@
+{
+    "image_sequences": ["0_0.png"],
+    "steps": ["place_into_cnc", "cnc_rectangular_cut", "wiggling_battery_removal", "place_into_waste_plastic_container"],
+    "centered_object": "smoke_detector_hekatron"
+}

@@ -42,6 +42,8 @@ Example **sequence metadata JSON**:
 
 Image naming convention: The image name must consist of **{step_index}**_**{instance_index}**.(png|jpg|...).
 
+Both step index and instance index MUST contain 2 digits (e.g. img 0: 00, img 1: 01).
+
 The **step index** determines which (disassembly) action must be taken, e.g. 0 -> "flip", 1 -> "move", ... Index 0 is mapped to the 0-th step in the **steps** field of **sequence_metadata.json**.
 
 The **instance_index** is a particular instance of a (device) image where the same step must be taken, i.e. several images can show a device, and in all cases, the same step must be taken. The images are then named **0_0.jpg, 0_1.jpg**, ...

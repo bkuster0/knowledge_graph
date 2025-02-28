@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "Which object is shown?",
+        "A": "heat_cost_allocator_kalo"
+    },
+    {
+        "Q": "What was the previous step?",
+        "A": "place_into_waste_plastic_container"
+    },
+    {
+        "Q": "What is the next step?",
+        "A": "Flip the object"
+    },
+    {
+        "Q": "Number of remaining steps?",
+        "A": "6"
+    },
+    {
+        "Q": "Is this the final step?",
+        "A": "No."
+    }
+]
