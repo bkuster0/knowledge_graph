@@ -15,10 +15,10 @@ For an up-to-date format, check the **example_single_node_dataset** folder.
     ├── graph_edges.csv # File containing the connections between nodes in the graph. 
     └── nodes/ # Directory containing data for each node. 
         └── device_0/ # Directory for a specific node, e.g., device_0. 
-            ├── 0_0.jpg # Image of step 0, instance 0, associated with this node. 
-            ├── 0_0.json # Segmentation data in LabelMe JSON format. 
-            ├── 0_0_qa.json # Question-Answer pairs in JSON (script-generated).
-            ├── 1_0.jpg # Image of step 1, instance 0, associated with this node.
+            ├── 00_00.jpg # Image of step 0, instance 0, associated with this node. 
+            ├── 00_00.json # Segmentation data in LabelMe JSON format. 
+            ├── 00_00_qa.json # Question-Answer pairs in JSON (script-generated).
+            ├── 01_00.jpg # Image of step 1, instance 0, associated with this node.
             └── seq_metadata.json # JSON of sequence metadata used for generating QA pairs for RAG,
                 # And training data for VLMs/classifiers.
 
@@ -29,12 +29,12 @@ It is used only for Retrieval-Augmented Generation using a Knowledge Graph, so f
 
 # Single folder (node definition)
 
-A folder (node) should contain a set of images (e.g. **0_0.jpg**), and a folder should also contain a sequence metadata JSON.
+A folder (node) should contain a set of images (e.g. **00_00.jpg**), and a folder should also contain a sequence metadata JSON.
 
 Example **sequence metadata JSON**:
 
         {
-            "image_sequences": ["0_0.png"],
+            "image_sequences": ["00_00.png"],
             "steps": ["flip"],
             "centered_object": "heat_cost_allocator_kalo"
         }
