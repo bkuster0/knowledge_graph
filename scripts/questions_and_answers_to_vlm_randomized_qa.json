@@ -1,10 +1,12 @@
 {
     "centered_object": {
+        "system_prompt": "You are an AI agent controlling a robotic workcell for disassembly of waste electronics.",
         "questions": ["Which object is shown?"
         ],
         "answers": {"0": "0"}
     },
     "number_of_remaining_steps": {
+        "system_prompt": "You are an AI agent controlling a robotic workcell for disassembly of waste electronics. Disassembly is complete when there is no battery remaining in the device.",
         "questions": ["How many steps are remaining?",
                      "How many disassembly steps are remaining?",
                      "What is the number of remaining steps?",
@@ -15,6 +17,7 @@
         "answers": {"0": "0"}
     },
     "is_final_step": {
+    	"system_prompt": "You are an AI agent controlling a robotic workcell for disassembly of waste electronics. Disassembly is complete (final step) when there is no battery remaining in the device, or when there is only a battery on the image.",
         "questions": [
             "Does this image show the final step?",
             "Does this image show the final disassembly step?",
@@ -31,6 +34,7 @@
         }
     },
     "next_step": {
+    	"system_prompt": "You are an AI agent controlling a robotic workcell for disassembly of waste electronics. Disassembly is complete when there is no battery remaining in the device.",
         "questions": [
             "What is the next step?",
             "What is the next disassembly step?"
@@ -51,6 +55,7 @@
         }
     },
     "previous_step": {
+        "system_prompt": "You are an AI agent controlling a robotic workcell for disassembly of waste electronics. Disassembly is complete when there is no battery remaining in the device.",
         "questions": [
             "What was the previous step?",
             "What was the previous disassembly step?"
