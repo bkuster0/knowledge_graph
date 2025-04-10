@@ -12,11 +12,11 @@
         "A": "Flip the object"
     },
     {
-        "Q": "Number of remaining steps?",
+        "Q": "What is the number of remaining steps?",
         "A": "5"
     },
     {
-        "Q": "Does this image show the final step?",
+        "Q": "Does this picture show the final disassembly step?",
         "A": "No."
     }
 ]

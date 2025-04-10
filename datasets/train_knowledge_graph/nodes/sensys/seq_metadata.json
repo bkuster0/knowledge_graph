@@ -1,0 +1,6 @@
+{
+    "image_sequences": ["0_0.png"],
+    "steps": ["flip", "place_into_cnc"],
+    "object_general_class": "smoke_detector",
+    "object_specific_subclass": "sensys"
+}

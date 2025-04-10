@@ -5,18 +5,18 @@
     },
     {
         "Q": "What was the previous disassembly step?",
-        "A": "place_into_waste_battery_container"
+        "A": "place_into_waste_plastic_container"
     },
     {
         "Q": "What is the next disassembly step?",
         "A": "Flip the object"
     },
     {
-        "Q": "What is the number of remaining steps?",
-        "A": "5"
+        "Q": "Number of remaining steps?",
+        "A": "6"
     },
     {
-        "Q": "Does this picture show the final disassembly step?",
+        "Q": "Does this picture show the final step?",
         "A": "No."
     }
 ]

@@ -4,19 +4,19 @@
         "A": "smoke_detector_fumonic"
     },
     {
-        "Q": "What was the previous step?",
+        "Q": "What was the previous disassembly step?",
         "A": "None"
     },
     {
-        "Q": "What is the next step?",
+        "Q": "What is the next disassembly step?",
         "A": "Remove the battery contacts by CNC milling"
     },
     {
-        "Q": "What is the number of remaining disassembly steps?",
+        "Q": "Number of remaining steps?",
         "A": "1"
     },
     {
-        "Q": "Does this image show the final disassembly step?",
+        "Q": "Does this image show the final step?",
         "A": "Yes."
     }
 ]

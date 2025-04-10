@@ -8,7 +8,7 @@
         "A": "None"
     },
     {
-        "Q": "What is the next disassembly step?",
+        "Q": "What is the next step?",
         "A": "Place the object into the CNC mill"
     },
     {
@@ -16,7 +16,7 @@
         "A": "1"
     },
     {
-        "Q": "Does this image show the final disassembly step?",
+        "Q": "Does this picture show the final step?",
         "A": "Yes."
     }
 ]

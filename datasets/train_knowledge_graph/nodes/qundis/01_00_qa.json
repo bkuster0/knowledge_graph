@@ -4,7 +4,7 @@
         "A": "heat_cost_allocator_qundis"
     },
     {
-        "Q": "What was the previous disassembly step?",
+        "Q": "What was the previous step?",
         "A": "flip"
     },
     {
@@ -12,11 +12,11 @@
         "A": "Place the object in to the vise"
     },
     {
-        "Q": "Number of remaining disassembly steps?",
+        "Q": "How many steps are remaining?",
         "A": "4"
     },
     {
-        "Q": "Does this image show the final step?",
+        "Q": "Does this image show the final disassembly step?",
         "A": "No."
     }
 ]

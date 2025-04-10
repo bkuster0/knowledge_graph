@@ -5,18 +5,18 @@
     },
     {
         "Q": "What was the previous step?",
-        "A": "place_into_cnc"
+        "A": "cnc_rectangular_cut"
     },
     {
-        "Q": "What is the next step?",
-        "A": "Perform a rectangular CNC cut"
+        "Q": "What is the next disassembly step?",
+        "A": "Remove the battery by grasping and wiggling it"
     },
     {
         "Q": "Number of remaining disassembly steps?",
-        "A": "3"
+        "A": "2"
     },
     {
-        "Q": "Does this image show the final step?",
+        "Q": "Is this the final step?",
         "A": "No."
     }
 ]

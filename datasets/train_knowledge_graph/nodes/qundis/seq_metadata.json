@@ -1,5 +1,6 @@
 {
     "image_sequences": ["0_0.png"],
-    "steps": ["flip", "place_into_vise", "levering", "place_into_waste_plastic_container", "place_into_waste_plastic_container"],
-    "centered_object": "heat_cost_allocator_qundis"
+    "steps": ["flip", "place_into_vise", "levering", "linear_cutter_cut", "place_into_waste_container"],
+    "object_general_class": "heat_cost_allocator",
+    "object_specific_subclass": "qundis"
 }

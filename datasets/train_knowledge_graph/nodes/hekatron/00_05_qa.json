@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "Which object is shown?",
+        "A": "smoke_detector_hekatron"
+    },
+    {
+        "Q": "What was the previous disassembly step?",
+        "A": "place_into_waste_plastic_container"
+    },
+    {
+        "Q": "What is the next step?",
+        "A": "Place the object into the CNC mill"
+    },
+    {
+        "Q": "What is the number of remaining disassembly steps?",
+        "A": "4"
+    },
+    {
+        "Q": "Is this the final step?",
+        "A": "No."
+    }
+]

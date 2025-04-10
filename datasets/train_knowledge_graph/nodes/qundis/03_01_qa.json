@@ -12,11 +12,11 @@
         "A": "Place the object into the waste container for plastic"
     },
     {
-        "Q": "Number of remaining disassembly steps?",
+        "Q": "Number of remaining steps?",
         "A": "2"
     },
     {
-        "Q": "Is this the final step?",
+        "Q": "Does this picture show the final disassembly step?",
         "A": "No."
     }
 ]

@@ -1,5 +1,0 @@
-{
-    "image_sequences": ["0_0.png"],
-    "steps": ["flip", "place_into_cnc"],
-    "centered_object": "smoke_detector_sensys"
-}

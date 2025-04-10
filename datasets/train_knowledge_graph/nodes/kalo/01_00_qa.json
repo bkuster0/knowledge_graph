@@ -4,7 +4,7 @@
         "A": "heat_cost_allocator_kalo"
     },
     {
-        "Q": "What was the previous step?",
+        "Q": "What was the previous disassembly step?",
         "A": "flip"
     },
     {
@@ -13,10 +13,10 @@
     },
     {
         "Q": "Number of remaining steps?",
-        "A": "4"
+        "A": "5"
     },
     {
-        "Q": "Is this the final disassembly step?",
+        "Q": "Does this picture show the final disassembly step?",
         "A": "No."
     }
 ]

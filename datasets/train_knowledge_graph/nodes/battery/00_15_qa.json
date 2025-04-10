@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "Which object is shown?",
+        "A": "battery"
+    },
+    {
+        "Q": "What was the previous step?",
+        "A": "None"
+    },
+    {
+        "Q": "What is the next disassembly step?",
+        "A": "Place the object into the waste container for batteries"
+    },
+    {
+        "Q": "How many steps are remaining?",
+        "A": "1"
+    },
+    {
+        "Q": "Does this picture show the final disassembly step?",
+        "A": "Yes."
+    }
+]

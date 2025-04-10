@@ -4,7 +4,7 @@
         "A": "smoke_detector_fumonic"
     },
     {
-        "Q": "What was the previous step?",
+        "Q": "What was the previous disassembly step?",
         "A": "flip"
     },
     {
@@ -12,11 +12,11 @@
         "A": "Place the object into the CNC mill"
     },
     {
-        "Q": "Number of remaining steps?",
+        "Q": "How many disassembly steps are remaining?",
         "A": "3"
     },
     {
-        "Q": "Does this image show the final step?",
+        "Q": "Does this picture show the final disassembly step?",
         "A": "No."
     }
 ]

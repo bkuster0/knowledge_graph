@@ -5,18 +5,18 @@
     },
     {
         "Q": "What was the previous step?",
-        "A": "cnc_rectangular_cut"
+        "A": "None"
     },
     {
         "Q": "What is the next step?",
-        "A": "Remove the battery by grasping and wiggling it"
+        "A": "Place the object into the waste container for plastic"
     },
     {
-        "Q": "What is the number of remaining disassembly steps?",
-        "A": "2"
+        "Q": "How many steps are remaining?",
+        "A": "1"
     },
     {
         "Q": "Does this image show the final disassembly step?",
-        "A": "No."
+        "A": "Yes."
     }
 ]

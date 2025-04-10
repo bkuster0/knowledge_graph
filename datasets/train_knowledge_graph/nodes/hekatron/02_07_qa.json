@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "Which object is shown?",
+        "A": "smoke_detector_hekatron"
+    },
+    {
+        "Q": "What was the previous disassembly step?",
+        "A": "cnc_rectangular_cut"
+    },
+    {
+        "Q": "What is the next disassembly step?",
+        "A": "Remove the battery by grasping and wiggling it"
+    },
+    {
+        "Q": "How many disassembly steps are remaining?",
+        "A": "2"
+    },
+    {
+        "Q": "Does this picture show the final step?",
+        "A": "No."
+    }
+]

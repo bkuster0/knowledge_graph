@@ -9,14 +9,14 @@
     },
     {
         "Q": "What is the next step?",
-        "A": "Place the object into the waste container for plastic"
+        "A": "Place the object into a linear cutter and cut it apart."
     },
     {
-        "Q": "Number of remaining disassembly steps?",
-        "A": "2"
+        "Q": "What is the number of remaining disassembly steps?",
+        "A": "3"
     },
     {
-        "Q": "Does this image show the final step?",
+        "Q": "Is this the final step?",
         "A": "No."
     }
 ]

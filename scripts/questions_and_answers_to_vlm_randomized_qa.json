@@ -1,9 +1,23 @@
 {
-    "centered_object": {
+    "object_general_class": {
         "system_prompt": "You are an AI agent controlling a robotic workcell for disassembly of waste electronics.",
-        "questions": ["Which object is shown?"
+        "questions": ["What is the general class of the object shown?"
         ],
-        "answers": {"0": "0"}
+        "answers": {"smoke_detector": "Smoke detector.",
+                    "hca": "Heat Cost Allocator.",
+                    "battery": "Battery.",
+                    "pcb_no_battery": "A PCB without a battery",
+                    "pcb_battery": "A PCB with a battery attached"}
+    },
+    "object_specific_subclass": {
+        "system_prompt": "You are an AI agent controlling a robotic workcell for disassembly of waste electronics.",
+        "questions": ["What is the specific type of the object shown?"
+        ],
+        "answers": {"kalo": "Kalo.",
+                    "qundis": "Qundis.",
+                    "fumonic": "Fumonic.",
+                    "hekatron": "Hekatron.",
+                    "sensys": "Sensys."}
     },
     "number_of_remaining_steps": {
         "system_prompt": "You are an AI agent controlling a robotic workcell for disassembly of waste electronics. Disassembly is complete when there is no battery remaining in the device.",
@@ -50,8 +64,7 @@
             "cnc_cut_battery_contacts": ["Remove the battery contacts by CNC milling"],
             "wiggling_battery_removal": ["Remove the battery by grasping and wiggling it"],
             "linear_cutter_cut": ["Place the object into a linear cutter and cut it apart."],
-            "place_into_waste_plastic_container": ["Place the object into the waste container for plastic"],
-            "place_into_waste_battery_container": ["Place the object into the waste container for batteries"]
+            "place_into_waste_container": ["Place the objects into the waste containers for plastic or batteries."],
         }
     },
     "previous_step": {

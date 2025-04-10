@@ -4,7 +4,7 @@
         "A": "heat_cost_allocator_qundis"
     },
     {
-        "Q": "What was the previous disassembly step?",
+        "Q": "What was the previous step?",
         "A": "None"
     },
     {
@@ -12,11 +12,11 @@
         "A": "Place the object into the waste container for plastic"
     },
     {
-        "Q": "What is the number of remaining disassembly steps?",
+        "Q": "Number of remaining disassembly steps?",
         "A": "1"
     },
     {
-        "Q": "Does this image show the final disassembly step?",
+        "Q": "Does this picture show the final step?",
         "A": "Yes."
     }
 ]

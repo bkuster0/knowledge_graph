@@ -1,0 +1,6 @@
+{
+    "image_sequences": ["0_0.png"],
+    "steps": ["linear_cutter_cut"],
+    "object_general_class": "pcb_with_battery",
+    "object_specific_subclass": "pcb_with_battery"
+}

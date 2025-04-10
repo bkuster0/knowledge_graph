@@ -1,0 +1,22 @@
+[
+    {
+        "Q": "Which object is shown?",
+        "A": "heat_cost_allocator_kalo"
+    },
+    {
+        "Q": "What was the previous disassembly step?",
+        "A": "flip"
+    },
+    {
+        "Q": "What is the next disassembly step?",
+        "A": "Place the object in to the vise"
+    },
+    {
+        "Q": "What is the number of remaining disassembly steps?",
+        "A": "5"
+    },
+    {
+        "Q": "Does this picture show the final disassembly step?",
+        "A": "No."
+    }
+]
