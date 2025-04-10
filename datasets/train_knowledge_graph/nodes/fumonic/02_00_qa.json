@@ -1,10 +1,14 @@
 [
     {
-        "Q": "Which object is shown?",
-        "A": "smoke_detector_fumonic"
+        "Q": "What is the general class of the object shown?",
+        "A": "Smoke detector."
     },
     {
-        "Q": "What was the previous disassembly step?",
+        "Q": "What is the specific type of the object shown?",
+        "A": "Fumonic."
+    },
+    {
+        "Q": "What was the previous step?",
         "A": "place_into_cnc"
     },
     {
@@ -16,7 +20,7 @@
         "A": "2"
     },
     {
-        "Q": "Does this image show the final step?",
+        "Q": "Does this picture show the final disassembly step?",
         "A": "No."
     }
 ]

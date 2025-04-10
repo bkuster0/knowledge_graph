@@ -1,22 +1,26 @@
 [
     {
-        "Q": "Which object is shown?",
-        "A": "heat_cost_allocator_qundis"
+        "Q": "What is the general class of the object shown?",
+        "A": "heat_cost_allocator"
     },
     {
-        "Q": "What was the previous step?",
-        "A": "place_into_waste_plastic_container"
+        "Q": "What is the specific type of the object shown?",
+        "A": "Qundis."
     },
     {
-        "Q": "What is the next disassembly step?",
+        "Q": "What was the previous disassembly step?",
+        "A": "place_into_waste_container"
+    },
+    {
+        "Q": "What is the next step?",
         "A": "Flip the object"
     },
     {
-        "Q": "What is the number of remaining steps?",
+        "Q": "Number of remaining steps?",
         "A": "5"
     },
     {
-        "Q": "Does this picture show the final disassembly step?",
+        "Q": "Is this the final step?",
         "A": "No."
     }
 ]

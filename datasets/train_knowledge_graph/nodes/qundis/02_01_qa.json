@@ -1,10 +1,14 @@
 [
     {
-        "Q": "Which object is shown?",
-        "A": "heat_cost_allocator_qundis"
+        "Q": "What is the general class of the object shown?",
+        "A": "heat_cost_allocator"
     },
     {
-        "Q": "What was the previous disassembly step?",
+        "Q": "What is the specific type of the object shown?",
+        "A": "Qundis."
+    },
+    {
+        "Q": "What was the previous step?",
         "A": "place_into_vise"
     },
     {
@@ -16,7 +20,7 @@
         "A": "3"
     },
     {
-        "Q": "Does this image show the final disassembly step?",
+        "Q": "Does this picture show the final disassembly step?",
         "A": "No."
     }
 ]

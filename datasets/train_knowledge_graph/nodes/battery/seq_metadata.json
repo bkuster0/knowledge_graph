@@ -2,5 +2,5 @@
     "image_sequences": ["0_0.png"],
     "steps": ["place_into_waste_container"],
     "object_general_class": "battery",
-    "object_specific_subclass": "battery",
+    "object_specific_subclass": "battery"
 }

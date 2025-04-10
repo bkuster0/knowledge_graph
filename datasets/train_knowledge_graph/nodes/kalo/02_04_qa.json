@@ -1,22 +1,26 @@
 [
     {
-        "Q": "Which object is shown?",
-        "A": "heat_cost_allocator_kalo"
+        "Q": "What is the general class of the object shown?",
+        "A": "heat_cost_allocator"
     },
     {
-        "Q": "What was the previous step?",
+        "Q": "What is the specific type of the object shown?",
+        "A": "Kalo."
+    },
+    {
+        "Q": "What was the previous disassembly step?",
         "A": "place_into_vise"
     },
     {
-        "Q": "What is the next disassembly step?",
+        "Q": "What is the next step?",
         "A": "Perform levering to dislodge a component"
     },
     {
-        "Q": "Number of remaining steps?",
-        "A": "4"
+        "Q": "What is the number of remaining disassembly steps?",
+        "A": "3"
     },
     {
-        "Q": "Is this the final disassembly step?",
+        "Q": "Does this image show the final disassembly step?",
         "A": "No."
     }
 ]

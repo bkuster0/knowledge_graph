@@ -14,7 +14,8 @@ class EvaluationDatapoint:
     full_image_path: str = '/knowledge_graph/example_single_node_dataset/smoke_detector/0_0.jpg'
     full_metadata_path: str = '/knowledge_graph/example_single_node_dataset/smoke_detector/seq_metadata.json'
 
-    centered_object: str = "heat_cost_allocator_kalo"
+    object_general_class: str = "heat_cost_allocator"
+    object_specific_subclass: str = "kalo"
     previous_step: str = "move"
     next_step: str = "flip"
     number_of_remaining_steps: int = 1
@@ -216,7 +217,10 @@ def convert_sequence_metadata_to_evaluation_datapoints(folder, output_json_full_
 
         # Load metadata
         with open(full_metadata_path, 'r') as f:
-            metadata_dict = json.load(f)
+            try:
+                metadata_dict = json.load(f)
+            except Exception as e:
+                raise ValueError(f"Exception {e}. File: {full_metadata_path}")
             #print(metadata_dict)
 
         #print("Folder", root)
@@ -232,19 +236,21 @@ def convert_sequence_metadata_to_evaluation_datapoints(folder, output_json_full_
 
             full_image_path = os.path.join(root, full_filename)
 
-            centered_object = metadata_dict["centered_object"]
+            object_general_class = metadata_dict["object_general_class"]
+            object_specific_subclass = metadata_dict["object_specific_subclass"]
             next_step = metadata_dict["steps"][step_n]
             n_remaining_steps = len(metadata_dict["steps"]) - step_n
             is_final_step = True if step_n == len(metadata_dict["steps"]) - 1 else False
             previous_step =  metadata_dict["steps"][step_n - 1] if not is_final_step else "None"
-            print(f"Image: {full_filename}\nn_remaining_steps: {n_remaining_steps}\nCentered object: {centered_object}\nNext step: {next_step}, is_final_step: {is_final_step}")
+            print(f"Image: {full_filename}\nn_remaining_steps: {n_remaining_steps}\nobject_general_class: {object_general_class}\nNext step: {next_step}, is_final_step: {is_final_step}")
             print(f"Previous step: {previous_step}")
 
             evaluation_datapoint = EvaluationDatapoint(step_idx = step_n,
                                                        step_example_idx = example_img_idx,
                                                        full_image_path = full_image_path,
                                                        full_metadata_path = full_metadata_path,
-                                                       centered_object = centered_object,
+                                                       object_general_class = object_general_class,
+                                                       object_specific_subclass = object_specific_subclass,
                                                        previous_step = previous_step,
                                                        next_step = next_step,
                                                        number_of_remaining_steps = n_remaining_steps,

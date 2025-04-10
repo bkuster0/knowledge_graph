@@ -1,22 +1,26 @@
 [
     {
-        "Q": "Which object is shown?",
-        "A": "smoke_detector_hekatron"
+        "Q": "What is the general class of the object shown?",
+        "A": "Smoke detector."
     },
     {
-        "Q": "What was the previous disassembly step?",
-        "A": "cnc_rectangular_cut"
+        "Q": "What is the specific type of the object shown?",
+        "A": "Hekatron."
+    },
+    {
+        "Q": "What was the previous step?",
+        "A": "place_into_cnc"
     },
     {
         "Q": "What is the next disassembly step?",
-        "A": "Remove the battery by grasping and wiggling it"
+        "A": "Perform a rectangular CNC cut"
     },
     {
-        "Q": "How many steps are remaining?",
-        "A": "2"
+        "Q": "How many disassembly steps are remaining?",
+        "A": "3"
     },
     {
-        "Q": "Is this the final disassembly step?",
+        "Q": "Does this image show the final disassembly step?",
         "A": "No."
     }
 ]

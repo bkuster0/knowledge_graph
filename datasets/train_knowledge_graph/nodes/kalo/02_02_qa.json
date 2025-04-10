@@ -1,7 +1,11 @@
 [
     {
-        "Q": "Which object is shown?",
-        "A": "heat_cost_allocator_kalo"
+        "Q": "What is the general class of the object shown?",
+        "A": "heat_cost_allocator"
+    },
+    {
+        "Q": "What is the specific type of the object shown?",
+        "A": "Kalo."
     },
     {
         "Q": "What was the previous disassembly step?",
@@ -12,8 +16,8 @@
         "A": "Perform levering to dislodge a component"
     },
     {
-        "Q": "How many disassembly steps are remaining?",
-        "A": "4"
+        "Q": "How many steps are remaining?",
+        "A": "3"
     },
     {
         "Q": "Does this picture show the final step?",

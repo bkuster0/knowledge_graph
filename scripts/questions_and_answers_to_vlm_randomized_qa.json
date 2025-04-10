@@ -64,7 +64,7 @@
             "cnc_cut_battery_contacts": ["Remove the battery contacts by CNC milling"],
             "wiggling_battery_removal": ["Remove the battery by grasping and wiggling it"],
             "linear_cutter_cut": ["Place the object into a linear cutter and cut it apart."],
-            "place_into_waste_container": ["Place the objects into the waste containers for plastic or batteries."],
+            "place_into_waste_container": ["Place the objects into the waste containers for plastic or batteries."]
         }
     },
     "previous_step": {

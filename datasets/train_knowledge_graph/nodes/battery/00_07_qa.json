@@ -1,6 +1,10 @@
 [
     {
-        "Q": "Which object is shown?",
+        "Q": "What is the general class of the object shown?",
+        "A": "Battery."
+    },
+    {
+        "Q": "What is the specific type of the object shown?",
         "A": "battery"
     },
     {
@@ -9,10 +13,10 @@
     },
     {
         "Q": "What is the next disassembly step?",
-        "A": "Place the object into the waste container for batteries"
+        "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
-        "Q": "What is the number of remaining disassembly steps?",
+        "Q": "Number of remaining steps?",
         "A": "1"
     },
     {

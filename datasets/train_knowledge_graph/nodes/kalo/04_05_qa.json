@@ -1,22 +1,26 @@
 [
     {
-        "Q": "Which object is shown?",
-        "A": "heat_cost_allocator_kalo"
+        "Q": "What is the general class of the object shown?",
+        "A": "heat_cost_allocator"
     },
     {
-        "Q": "What was the previous disassembly step?",
-        "A": "linear_cutter_cut"
+        "Q": "What is the specific type of the object shown?",
+        "A": "Kalo."
     },
     {
-        "Q": "What is the next disassembly step?",
-        "A": "Place the object into the waste container for plastic"
+        "Q": "What was the previous step?",
+        "A": "None"
+    },
+    {
+        "Q": "What is the next step?",
+        "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
         "Q": "What is the number of remaining steps?",
-        "A": "2"
+        "A": "1"
     },
     {
-        "Q": "Is this the final step?",
-        "A": "No."
+        "Q": "Is this the final disassembly step?",
+        "A": "Yes."
     }
 ]

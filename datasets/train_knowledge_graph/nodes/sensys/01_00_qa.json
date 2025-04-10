@@ -1,10 +1,14 @@
 [
     {
-        "Q": "Which object is shown?",
-        "A": "smoke_detector_sensys"
+        "Q": "What is the general class of the object shown?",
+        "A": "Smoke detector."
     },
     {
-        "Q": "What was the previous disassembly step?",
+        "Q": "What is the specific type of the object shown?",
+        "A": "Sensys."
+    },
+    {
+        "Q": "What was the previous step?",
         "A": "None"
     },
     {
@@ -12,11 +16,11 @@
         "A": "Place the object into the CNC mill"
     },
     {
-        "Q": "How many disassembly steps are remaining?",
+        "Q": "Number of remaining steps?",
         "A": "1"
     },
     {
-        "Q": "Does this picture show the final disassembly step?",
+        "Q": "Does this picture show the final step?",
         "A": "Yes."
     }
 ]

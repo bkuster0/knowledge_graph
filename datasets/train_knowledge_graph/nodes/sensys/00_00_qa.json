@@ -1,7 +1,11 @@
 [
     {
-        "Q": "Which object is shown?",
-        "A": "smoke_detector_sensys"
+        "Q": "What is the general class of the object shown?",
+        "A": "Smoke detector."
+    },
+    {
+        "Q": "What is the specific type of the object shown?",
+        "A": "Sensys."
     },
     {
         "Q": "What was the previous disassembly step?",
@@ -12,11 +16,11 @@
         "A": "Flip the object"
     },
     {
-        "Q": "What is the number of remaining steps?",
+        "Q": "How many steps are remaining?",
         "A": "2"
     },
     {
-        "Q": "Does this image show the final step?",
+        "Q": "Does this picture show the final step?",
         "A": "No."
     }
 ]

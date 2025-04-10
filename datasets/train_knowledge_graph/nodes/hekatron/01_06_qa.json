@@ -1,0 +1,26 @@
+[
+    {
+        "Q": "What is the general class of the object shown?",
+        "A": "Smoke detector."
+    },
+    {
+        "Q": "What is the specific type of the object shown?",
+        "A": "Hekatron."
+    },
+    {
+        "Q": "What was the previous disassembly step?",
+        "A": "flip"
+    },
+    {
+        "Q": "What is the next step?",
+        "A": "Place the object into the CNC mill"
+    },
+    {
+        "Q": "How many steps are remaining?",
+        "A": "4"
+    },
+    {
+        "Q": "Does this picture show the final disassembly step?",
+        "A": "No."
+    }
+]

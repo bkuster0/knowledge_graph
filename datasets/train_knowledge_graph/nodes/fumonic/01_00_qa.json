@@ -1,7 +1,11 @@
 [
     {
-        "Q": "Which object is shown?",
-        "A": "smoke_detector_fumonic"
+        "Q": "What is the general class of the object shown?",
+        "A": "Smoke detector."
+    },
+    {
+        "Q": "What is the specific type of the object shown?",
+        "A": "Fumonic."
     },
     {
         "Q": "What was the previous step?",
@@ -12,11 +16,11 @@
         "A": "Place the object into the CNC mill"
     },
     {
-        "Q": "How many disassembly steps are remaining?",
+        "Q": "How many steps are remaining?",
         "A": "3"
     },
     {
-        "Q": "Does this image show the final step?",
+        "Q": "Does this picture show the final step?",
         "A": "No."
     }
 ]

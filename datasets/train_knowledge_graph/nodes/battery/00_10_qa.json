@@ -1,22 +1,26 @@
 [
     {
-        "Q": "Which object is shown?",
+        "Q": "What is the general class of the object shown?",
+        "A": "Battery."
+    },
+    {
+        "Q": "What is the specific type of the object shown?",
         "A": "battery"
     },
     {
-        "Q": "What was the previous disassembly step?",
+        "Q": "What was the previous step?",
         "A": "None"
     },
     {
         "Q": "What is the next step?",
-        "A": "Place the object into the waste container for batteries"
+        "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
-        "Q": "How many steps are remaining?",
+        "Q": "Number of remaining steps?",
         "A": "1"
     },
     {
-        "Q": "Does this picture show the final step?",
+        "Q": "Is this the final disassembly step?",
         "A": "Yes."
     }
 ]
