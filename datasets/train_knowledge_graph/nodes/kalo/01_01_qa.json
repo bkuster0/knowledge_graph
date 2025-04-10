@@ -8,7 +8,7 @@
         "A": "Kalo."
     },
     {
-        "Q": "What was the previous step?",
+        "Q": "What was the previous disassembly step?",
         "A": "flip"
     },
     {
@@ -16,7 +16,7 @@
         "A": "Place the object in to the vise"
     },
     {
-        "Q": "What is the number of remaining steps?",
+        "Q": "Number of remaining disassembly steps?",
         "A": "4"
     },
     {

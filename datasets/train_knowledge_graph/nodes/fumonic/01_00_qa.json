@@ -8,7 +8,7 @@
         "A": "Fumonic."
     },
     {
-        "Q": "What was the previous step?",
+        "Q": "What was the previous disassembly step?",
         "A": "flip"
     },
     {
@@ -16,7 +16,7 @@
         "A": "Place the object into the CNC mill"
     },
     {
-        "Q": "How many steps are remaining?",
+        "Q": "Number of remaining steps?",
         "A": "3"
     },
     {

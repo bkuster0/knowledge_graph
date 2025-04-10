@@ -8,19 +8,19 @@
         "A": "kaloremotus"
     },
     {
-        "Q": "What was the previous step?",
-        "A": "None"
+        "Q": "What was the previous disassembly step?",
+        "A": "place_on_table"
     },
     {
-        "Q": "What is the next disassembly step?",
+        "Q": "What is the next step?",
         "A": "Place the object into the CNC mill"
     },
     {
-        "Q": "What is the number of remaining disassembly steps?",
+        "Q": "What is the number of remaining steps?",
         "A": "1"
     },
     {
-        "Q": "Is this the final disassembly step?",
+        "Q": "Does this picture show the final step?",
         "A": "Yes."
     }
 ]

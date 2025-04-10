@@ -8,19 +8,19 @@
         "A": "Fumonic."
     },
     {
-        "Q": "What was the previous disassembly step?",
+        "Q": "What was the previous step?",
         "A": "flip"
     },
     {
-        "Q": "What is the next disassembly step?",
+        "Q": "What is the next step?",
         "A": "Place the object into the CNC mill"
     },
     {
-        "Q": "Number of remaining disassembly steps?",
+        "Q": "What is the number of remaining disassembly steps?",
         "A": "3"
     },
     {
-        "Q": "Is this the final disassembly step?",
+        "Q": "Does this picture show the final step?",
         "A": "No."
     }
 ]

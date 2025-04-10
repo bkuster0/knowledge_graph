@@ -8,7 +8,7 @@
         "A": "Qundis."
     },
     {
-        "Q": "What was the previous disassembly step?",
+        "Q": "What was the previous step?",
         "A": "place_into_waste_container"
     },
     {
@@ -16,7 +16,7 @@
         "A": "Flip the object"
     },
     {
-        "Q": "Number of remaining steps?",
+        "Q": "How many steps are remaining?",
         "A": "5"
     },
     {

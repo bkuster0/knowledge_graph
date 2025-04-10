@@ -8,8 +8,8 @@
         "A": "pcb_with_battery"
     },
     {
-        "Q": "What was the previous step?",
-        "A": "None"
+        "Q": "What was the previous disassembly step?",
+        "A": "place_on_table"
     },
     {
         "Q": "What is the next disassembly step?",
@@ -20,7 +20,7 @@
         "A": "1"
     },
     {
-        "Q": "Does this picture show the final disassembly step?",
+        "Q": "Is this the final step?",
         "A": "Yes."
     }
 ]
