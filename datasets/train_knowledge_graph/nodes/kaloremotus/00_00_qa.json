@@ -8,7 +8,7 @@
         "A": "kaloremotus"
     },
     {
-        "Q": "What was the previous step?",
+        "Q": "What was the previous disassembly step?",
         "A": "place_into_cnc"
     },
     {
@@ -17,10 +17,10 @@
     },
     {
         "Q": "How many steps are remaining?",
-        "A": "2"
+        "A": "1"
     },
     {
-        "Q": "Does this image show the final disassembly step?",
+        "Q": "Does this picture show the final disassembly step?",
         "A": "No."
     }
 ]

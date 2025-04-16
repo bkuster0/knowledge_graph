@@ -245,8 +245,8 @@ def convert_sequence_metadata_to_evaluation_datapoints(folder,
             object_general_class = metadata_dict["object_general_class"]
             object_specific_subclass = metadata_dict["object_specific_subclass"]
             next_step = metadata_dict["steps"][step_n]
-            n_remaining_steps = len(metadata_dict["steps"]) - step_n
-            remaining_steps = metadata_dict["steps"][step_n:]
+            n_remaining_steps = len(metadata_dict["steps"]) - step_n - 1
+            remaining_steps = metadata_dict["steps"][step_n+1:] if len(metadata_dict["steps"])>step_n else []
             is_final_step = True if step_n == len(metadata_dict["steps"]) - 1 else False
             previous_step =  metadata_dict["steps"][step_n - 1] if not is_final_step else metadata_dict["initial_step"]
             #print(f"Image: {full_filename}\nn_remaining_steps: {n_remaining_steps}\nobject_general_class: {object_general_class}\nNext step: {next_step}, is_final_step: {is_final_step}")

@@ -12,12 +12,12 @@
         "A": "place_on_table"
     },
     {
-        "Q": "What is the next disassembly step?",
+        "Q": "What is the next step?",
         "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
-        "Q": "How many disassembly steps are remaining?",
-        "A": "1"
+        "Q": "What is the number of remaining steps?",
+        "A": "0"
     },
     {
         "Q": "Does this image show the final disassembly step?",

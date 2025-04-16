@@ -16,11 +16,11 @@
         "A": "Remove the battery by grasping and wiggling it"
     },
     {
-        "Q": "How many steps are remaining?",
-        "A": "2"
+        "Q": "Number of remaining steps?",
+        "A": "1"
     },
     {
-        "Q": "Is this the final step?",
+        "Q": "Does this picture show the final disassembly step?",
         "A": "No."
     }
 ]

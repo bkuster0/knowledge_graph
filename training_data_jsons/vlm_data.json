@@ -27,7 +27,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -35,15 +35,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>How many steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -74,7 +74,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -82,7 +82,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -90,15 +90,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final disassembly step?"
+                "content": "<image>Is this the final step?"
             },
             {
                 "role": "assistant",
@@ -145,15 +145,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining disassembly steps?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Does this picture show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -200,15 +200,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Does this picture show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -239,7 +239,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -247,7 +247,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -255,11 +255,11 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining disassembly steps?"
+                "content": "<image>How many steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
@@ -310,15 +310,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>What is the number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "5"
+                "content": "4"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -349,7 +349,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -365,15 +365,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>What is the number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Does this picture show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -404,7 +404,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -412,7 +412,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -420,15 +420,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining disassembly steps?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Is this the final step?"
             },
             {
                 "role": "assistant",
@@ -459,7 +459,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -467,7 +467,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -479,7 +479,7 @@
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
@@ -530,15 +530,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining steps?"
+                "content": "<image>What is the number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Is this the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -569,7 +569,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -577,7 +577,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -589,11 +589,11 @@
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Is this the final step?"
             },
             {
                 "role": "assistant",
@@ -640,15 +640,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining steps?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final disassembly step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -695,15 +695,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many disassembly steps are remaining?"
+                "content": "<image>What is the number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -734,7 +734,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -750,15 +750,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining disassembly steps?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final step?"
+                "content": "<image>Is this the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -789,7 +789,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -797,7 +797,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -805,15 +805,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -852,7 +852,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -860,15 +860,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining disassembly steps?"
+                "content": "<image>What is the number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -899,7 +899,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -907,7 +907,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -915,15 +915,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Does this image show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -962,7 +962,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -970,15 +970,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final step?"
+                "content": "<image>Does this image show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -1025,15 +1025,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Does this image show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -1072,7 +1072,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -1080,11 +1080,11 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
@@ -1119,7 +1119,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -1135,11 +1135,11 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining disassembly steps?"
+                "content": "<image>How many disassembly steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
@@ -1190,11 +1190,11 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many disassembly steps are remaining?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
@@ -1245,15 +1245,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many disassembly steps are remaining?"
+                "content": "<image>What is the number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Does this picture show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -1304,11 +1304,11 @@
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final step?"
+                "content": "<image>Is this the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -1339,7 +1339,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -1359,11 +1359,11 @@
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Is this the final step?"
             },
             {
                 "role": "assistant",
@@ -1402,7 +1402,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -1410,15 +1410,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>What is the number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final step?"
+                "content": "<image>Is this the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -1449,7 +1449,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -1469,7 +1469,7 @@
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
@@ -1520,15 +1520,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining disassembly steps?"
+                "content": "<image>How many steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Is this the final step?"
             },
             {
                 "role": "assistant",
@@ -1537,61 +1537,6 @@
         ],
         "images": [
             "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/04_03.jpg"
-        ]
-    },
-    {
-        "messages": [
-            {
-                "role": "user",
-                "content": "<image>What is the general class of the object shown?"
-            },
-            {
-                "role": "assistant",
-                "content": "Smoke detector."
-            },
-            {
-                "role": "user",
-                "content": "<image>What is the specific type of the object shown?"
-            },
-            {
-                "role": "assistant",
-                "content": "Hekatron."
-            },
-            {
-                "role": "user",
-                "content": "<image>What was the previous step?"
-            },
-            {
-                "role": "assistant",
-                "content": "flip"
-            },
-            {
-                "role": "user",
-                "content": "<image>What is the next disassembly step?"
-            },
-            {
-                "role": "assistant",
-                "content": "Place the object into the CNC mill"
-            },
-            {
-                "role": "user",
-                "content": "<image>What is the number of remaining steps?"
-            },
-            {
-                "role": "assistant",
-                "content": "4"
-            },
-            {
-                "role": "user",
-                "content": "<image>Is this the final step?"
-            },
-            {
-                "role": "assistant",
-                "content": "No."
-            }
-        ],
-        "images": [
-            "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_02.jpg"
         ]
     },
     {
@@ -1630,15 +1575,70 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining disassembly steps?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_02.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>What is the general class of the object shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "Smoke detector."
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the specific type of the object shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "Hekatron."
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "flip"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "3"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -1677,7 +1677,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -1685,15 +1685,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining disassembly steps?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final step?"
+                "content": "<image>Is this the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -1724,7 +1724,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -1732,7 +1732,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -1740,15 +1740,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining steps?"
+                "content": "<image>What is the number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "5"
+                "content": "4"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Does this picture show the final step?"
             },
             {
                 "role": "assistant",
@@ -1779,7 +1779,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -1795,11 +1795,11 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>How many disassembly steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
@@ -1834,7 +1834,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -1850,15 +1850,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many disassembly steps are remaining?"
+                "content": "<image>How many steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Does this picture show the final step?"
             },
             {
                 "role": "assistant",
@@ -1889,7 +1889,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -1905,15 +1905,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining steps?"
+                "content": "<image>How many disassembly steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Is this the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -1952,7 +1952,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -1960,15 +1960,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final disassembly step?"
+                "content": "<image>Is this the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -1999,7 +1999,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -2007,7 +2007,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -2015,15 +2015,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>How many disassembly steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final disassembly step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -2054,7 +2054,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -2074,7 +2074,7 @@
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
@@ -2117,7 +2117,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -2125,15 +2125,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining steps?"
+                "content": "<image>How many steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -2180,15 +2180,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many disassembly steps are remaining?"
+                "content": "<image>What is the number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Is this the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -2219,7 +2219,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -2227,7 +2227,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -2239,11 +2239,11 @@
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Does this picture show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -2274,7 +2274,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -2282,7 +2282,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -2290,15 +2290,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many disassembly steps are remaining?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final disassembly step?"
+                "content": "<image>Does this image show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -2337,7 +2337,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -2349,11 +2349,11 @@
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Is this the final step?"
             },
             {
                 "role": "assistant",
@@ -2400,15 +2400,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final step?"
+                "content": "<image>Does this picture show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -2447,7 +2447,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -2455,15 +2455,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -2494,7 +2494,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -2502,7 +2502,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -2510,11 +2510,11 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>What is the number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
@@ -2527,6 +2527,61 @@
         ],
         "images": [
             "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/00_01.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>What is the general class of the object shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "A PCB without a battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the specific type of the object shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "pcb_no_battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_on_table"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the objects into the waste containers for plastic or batteries."
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "0"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/00_00.jpg"
         ]
     },
     {
@@ -2565,70 +2620,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining disassembly steps?"
+                "content": "<image>What is the number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
-            },
-            {
-                "role": "assistant",
-                "content": "Yes."
-            }
-        ],
-        "images": [
-            "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/00_00.jpg"
-        ]
-    },
-    {
-        "messages": [
-            {
-                "role": "user",
-                "content": "<image>What is the general class of the object shown?"
-            },
-            {
-                "role": "assistant",
-                "content": "A PCB without a battery"
-            },
-            {
-                "role": "user",
-                "content": "<image>What is the specific type of the object shown?"
-            },
-            {
-                "role": "assistant",
-                "content": "pcb_no_battery"
-            },
-            {
-                "role": "user",
-                "content": "<image>What was the previous disassembly step?"
-            },
-            {
-                "role": "assistant",
-                "content": "place_on_table"
-            },
-            {
-                "role": "user",
-                "content": "<image>What is the next step?"
-            },
-            {
-                "role": "assistant",
-                "content": "Place the objects into the waste containers for plastic or batteries."
-            },
-            {
-                "role": "user",
-                "content": "<image>Number of remaining steps?"
-            },
-            {
-                "role": "assistant",
-                "content": "1"
-            },
-            {
-                "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Is this the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -2675,11 +2675,11 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining disassembly steps?"
+                "content": "<image>How many steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
@@ -2730,11 +2730,11 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
@@ -2769,7 +2769,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -2785,15 +2785,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>How many disassembly steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Is this the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -2840,15 +2840,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining steps?"
+                "content": "<image>How many disassembly steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Does this picture show the final step?"
             },
             {
                 "role": "assistant",
@@ -2879,7 +2879,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -2895,15 +2895,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining steps?"
+                "content": "<image>How many steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Is this the final step?"
             },
             {
                 "role": "assistant",
@@ -2950,11 +2950,11 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining disassembly steps?"
+                "content": "<image>How many steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
@@ -3005,11 +3005,66 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>What is the general class of the object shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "heat_cost_allocator"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the specific type of the object shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "Kalo."
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "levering"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into a linear cutter and cut it apart."
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "1"
             },
             {
                 "role": "user",
@@ -3021,7 +3076,7 @@
             }
         ],
         "images": [
-            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_01.jpg"
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_03.jpg"
         ]
     },
     {
@@ -3060,70 +3115,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining steps?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final step?"
-            },
-            {
-                "role": "assistant",
-                "content": "No."
-            }
-        ],
-        "images": [
-            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_03.jpg"
-        ]
-    },
-    {
-        "messages": [
-            {
-                "role": "user",
-                "content": "<image>What is the general class of the object shown?"
-            },
-            {
-                "role": "assistant",
-                "content": "heat_cost_allocator"
-            },
-            {
-                "role": "user",
-                "content": "<image>What is the specific type of the object shown?"
-            },
-            {
-                "role": "assistant",
-                "content": "Kalo."
-            },
-            {
-                "role": "user",
-                "content": "<image>What was the previous step?"
-            },
-            {
-                "role": "assistant",
-                "content": "levering"
-            },
-            {
-                "role": "user",
-                "content": "<image>What is the next step?"
-            },
-            {
-                "role": "assistant",
-                "content": "Place the object into a linear cutter and cut it apart."
-            },
-            {
-                "role": "user",
-                "content": "<image>How many disassembly steps are remaining?"
-            },
-            {
-                "role": "assistant",
-                "content": "2"
-            },
-            {
-                "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Does this image show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3162,7 +3162,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -3174,11 +3174,11 @@
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final step?"
+                "content": "<image>Is this the final step?"
             },
             {
                 "role": "assistant",
@@ -3229,11 +3229,11 @@
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final step?"
+                "content": "<image>Does this image show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3272,7 +3272,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3280,15 +3280,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining disassembly steps?"
+                "content": "<image>How many disassembly steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final step?"
+                "content": "<image>Is this the final step?"
             },
             {
                 "role": "assistant",
@@ -3319,7 +3319,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3327,7 +3327,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3335,15 +3335,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining disassembly steps?"
+                "content": "<image>How many steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final disassembly step?"
+                "content": "<image>Does this image show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3374,7 +3374,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3390,15 +3390,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>How many steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -3429,7 +3429,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3437,7 +3437,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -3445,15 +3445,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>How many steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final disassembly step?"
+                "content": "<image>Is this the final step?"
             },
             {
                 "role": "assistant",
@@ -3484,7 +3484,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3492,7 +3492,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3500,15 +3500,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many disassembly steps are remaining?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Does this picture show the final step?"
             },
             {
                 "role": "assistant",
@@ -3539,7 +3539,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3555,15 +3555,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining steps?"
+                "content": "<image>What is the number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Is this the final step?"
             },
             {
                 "role": "assistant",
@@ -3602,7 +3602,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3610,15 +3610,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>What is the number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final step?"
+                "content": "<image>Does this picture show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3657,7 +3657,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3665,15 +3665,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Is this the final step?"
             },
             {
                 "role": "assistant",
@@ -3704,7 +3704,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3720,15 +3720,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Does this picture show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3779,11 +3779,11 @@
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final step?"
+                "content": "<image>Does this image show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3814,7 +3814,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3830,15 +3830,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining disassembly steps?"
+                "content": "<image>What is the number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "5"
+                "content": "4"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final disassembly step?"
+                "content": "<image>Does this image show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3885,15 +3885,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "5"
+                "content": "4"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Does this picture show the final step?"
             },
             {
                 "role": "assistant",
@@ -3944,7 +3944,7 @@
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
@@ -3979,7 +3979,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -3995,15 +3995,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining disassembly steps?"
+                "content": "<image>What is the number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "5"
+                "content": "4"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Is this the final step?"
             },
             {
                 "role": "assistant",
@@ -4034,7 +4034,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -4050,15 +4050,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final step?"
+                "content": "<image>Is this the final step?"
             },
             {
                 "role": "assistant",
@@ -4089,7 +4089,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -4097,7 +4097,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -4105,15 +4105,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining steps?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Is this the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -4144,7 +4144,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -4152,7 +4152,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -4160,15 +4160,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining steps?"
+                "content": "<image>How many disassembly steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Does this picture show the final step?"
             },
             {
                 "role": "assistant",
@@ -4219,11 +4219,11 @@
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Does this image show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -4262,7 +4262,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -4270,15 +4270,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining steps?"
+                "content": "<image>What is the number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final step?"
+                "content": "<image>Does this picture show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -4309,7 +4309,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -4317,7 +4317,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -4325,15 +4325,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>How many disassembly steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final step?"
+                "content": "<image>Does this picture show the final step?"
             },
             {
                 "role": "assistant",
@@ -4372,7 +4372,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -4380,15 +4380,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -4419,7 +4419,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -4427,7 +4427,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -4435,15 +4435,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>What is the number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Does this image show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -4474,7 +4474,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -4490,15 +4490,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>What is the number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final disassembly step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -4537,7 +4537,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -4545,15 +4545,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining disassembly steps?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Is this the final step?"
             },
             {
                 "role": "assistant",
@@ -4584,7 +4584,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -4600,15 +4600,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining disassembly steps?"
+                "content": "<image>How many steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final disassembly step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -4647,7 +4647,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -4655,11 +4655,11 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many disassembly steps are remaining?"
+                "content": "<image>What is the number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
@@ -4694,7 +4694,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -4710,15 +4710,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many disassembly steps are remaining?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -4765,15 +4765,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>How many steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final step?"
+                "content": "<image>Does this picture show the final step?"
             },
             {
                 "role": "assistant",
@@ -4804,7 +4804,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -4820,11 +4820,11 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining disassembly steps?"
+                "content": "<image>How many steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
@@ -4867,7 +4867,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -4875,15 +4875,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining disassembly steps?"
+                "content": "<image>How many steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Is this the final step?"
             },
             {
                 "role": "assistant",
@@ -4914,7 +4914,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -4930,15 +4930,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many disassembly steps are remaining?"
+                "content": "<image>What is the number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Does this picture show the final step?"
             },
             {
                 "role": "assistant",
@@ -4969,7 +4969,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -4985,15 +4985,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining disassembly steps?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -5032,7 +5032,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -5044,62 +5044,7 @@
             },
             {
                 "role": "assistant",
-                "content": "1"
-            },
-            {
-                "role": "user",
-                "content": "<image>Does this picture show the final step?"
-            },
-            {
-                "role": "assistant",
-                "content": "Yes."
-            }
-        ],
-        "images": [
-            "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_with_battery/00_02.jpg"
-        ]
-    },
-    {
-        "messages": [
-            {
-                "role": "user",
-                "content": "<image>What is the general class of the object shown?"
-            },
-            {
-                "role": "assistant",
-                "content": "Smoke detector."
-            },
-            {
-                "role": "user",
-                "content": "<image>What is the specific type of the object shown?"
-            },
-            {
-                "role": "assistant",
-                "content": "kaloremotus"
-            },
-            {
-                "role": "user",
-                "content": "<image>What was the previous disassembly step?"
-            },
-            {
-                "role": "assistant",
-                "content": "place_on_table"
-            },
-            {
-                "role": "user",
-                "content": "<image>What is the next step?"
-            },
-            {
-                "role": "assistant",
-                "content": "Place the object into the CNC mill"
-            },
-            {
-                "role": "user",
-                "content": "<image>What is the number of remaining steps?"
-            },
-            {
-                "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
@@ -5111,62 +5056,7 @@
             }
         ],
         "images": [
-            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/01_01.jpg"
-        ]
-    },
-    {
-        "messages": [
-            {
-                "role": "user",
-                "content": "<image>What is the general class of the object shown?"
-            },
-            {
-                "role": "assistant",
-                "content": "Smoke detector."
-            },
-            {
-                "role": "user",
-                "content": "<image>What is the specific type of the object shown?"
-            },
-            {
-                "role": "assistant",
-                "content": "kaloremotus"
-            },
-            {
-                "role": "user",
-                "content": "<image>What was the previous disassembly step?"
-            },
-            {
-                "role": "assistant",
-                "content": "place_into_cnc"
-            },
-            {
-                "role": "user",
-                "content": "<image>What is the next disassembly step?"
-            },
-            {
-                "role": "assistant",
-                "content": "Flip the object"
-            },
-            {
-                "role": "user",
-                "content": "<image>How many steps are remaining?"
-            },
-            {
-                "role": "assistant",
-                "content": "2"
-            },
-            {
-                "role": "user",
-                "content": "<image>Does this image show the final step?"
-            },
-            {
-                "role": "assistant",
-                "content": "No."
-            }
-        ],
-        "images": [
-            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/00_03.jpg"
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_with_battery/00_02.jpg"
         ]
     },
     {
@@ -5205,11 +5095,121 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many disassembly steps are remaining?"
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "0"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/01_01.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>What is the general class of the object shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "Smoke detector."
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the specific type of the object shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "kaloremotus"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_into_cnc"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Flip the object"
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
                 "content": "1"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "No."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/00_03.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>What is the general class of the object shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "Smoke detector."
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the specific type of the object shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "kaloremotus"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_on_table"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the object into the CNC mill"
+            },
+            {
+                "role": "user",
+                "content": "<image>How many disassembly steps are remaining?"
+            },
+            {
+                "role": "assistant",
+                "content": "0"
             },
             {
                 "role": "user",
@@ -5244,7 +5244,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -5264,11 +5264,11 @@
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Does this picture show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -5315,15 +5315,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining disassembly steps?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -5354,7 +5354,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -5362,7 +5362,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -5370,11 +5370,11 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
@@ -5429,11 +5429,11 @@
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final step?"
+                "content": "<image>Does this image show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -5464,7 +5464,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -5472,7 +5472,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -5484,11 +5484,11 @@
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Is this the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -5535,15 +5535,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining disassembly steps?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -5574,7 +5574,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -5590,15 +5590,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining steps?"
+                "content": "<image>How many disassembly steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Does this picture show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -5637,62 +5637,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
-            },
-            {
-                "role": "assistant",
-                "content": "Place the objects into the waste containers for plastic or batteries."
-            },
-            {
-                "role": "user",
-                "content": "<image>How many disassembly steps are remaining?"
-            },
-            {
-                "role": "assistant",
-                "content": "1"
-            },
-            {
-                "role": "user",
-                "content": "<image>Is this the final step?"
-            },
-            {
-                "role": "assistant",
-                "content": "Yes."
-            }
-        ],
-        "images": [
-            "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_05.jpg"
-        ]
-    },
-    {
-        "messages": [
-            {
-                "role": "user",
-                "content": "<image>What is the general class of the object shown?"
-            },
-            {
-                "role": "assistant",
-                "content": "Battery."
-            },
-            {
-                "role": "user",
-                "content": "<image>What is the specific type of the object shown?"
-            },
-            {
-                "role": "assistant",
-                "content": "battery"
-            },
-            {
-                "role": "user",
-                "content": "<image>What was the previous step?"
-            },
-            {
-                "role": "assistant",
-                "content": "place_on_table"
-            },
-            {
-                "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -5704,11 +5649,11 @@
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final step?"
+                "content": "<image>Does this picture show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -5716,62 +5661,7 @@
             }
         ],
         "images": [
-            "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_03.jpg"
-        ]
-    },
-    {
-        "messages": [
-            {
-                "role": "user",
-                "content": "<image>What is the general class of the object shown?"
-            },
-            {
-                "role": "assistant",
-                "content": "Battery."
-            },
-            {
-                "role": "user",
-                "content": "<image>What is the specific type of the object shown?"
-            },
-            {
-                "role": "assistant",
-                "content": "battery"
-            },
-            {
-                "role": "user",
-                "content": "<image>What was the previous disassembly step?"
-            },
-            {
-                "role": "assistant",
-                "content": "place_on_table"
-            },
-            {
-                "role": "user",
-                "content": "<image>What is the next step?"
-            },
-            {
-                "role": "assistant",
-                "content": "Place the objects into the waste containers for plastic or batteries."
-            },
-            {
-                "role": "user",
-                "content": "<image>How many disassembly steps are remaining?"
-            },
-            {
-                "role": "assistant",
-                "content": "1"
-            },
-            {
-                "role": "user",
-                "content": "<image>Does this picture show the final step?"
-            },
-            {
-                "role": "assistant",
-                "content": "Yes."
-            }
-        ],
-        "images": [
-            "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_15.jpg"
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_05.jpg"
         ]
     },
     {
@@ -5810,11 +5700,121 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>What is the number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
+            },
+            {
+                "role": "user",
+                "content": "<image>Does this image show the final step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_03.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>What is the general class of the object shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "Battery."
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the specific type of the object shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_on_table"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the objects into the waste containers for plastic or batteries."
+            },
+            {
+                "role": "user",
+                "content": "<image>Number of remaining steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "0"
+            },
+            {
+                "role": "user",
+                "content": "<image>Is this the final disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes."
+            }
+        ],
+        "images": [
+            "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_15.jpg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "<image>What is the general class of the object shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "Battery."
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the specific type of the object shown?"
+            },
+            {
+                "role": "assistant",
+                "content": "battery"
+            },
+            {
+                "role": "user",
+                "content": "<image>What was the previous step?"
+            },
+            {
+                "role": "assistant",
+                "content": "place_on_table"
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the next disassembly step?"
+            },
+            {
+                "role": "assistant",
+                "content": "Place the objects into the waste containers for plastic or batteries."
+            },
+            {
+                "role": "user",
+                "content": "<image>What is the number of remaining disassembly steps?"
+            },
+            {
+                "role": "assistant",
+                "content": "0"
             },
             {
                 "role": "user",
@@ -5865,15 +5865,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>What is the number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Is this the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -5912,7 +5912,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -5924,11 +5924,11 @@
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final step?"
+                "content": "<image>Does this image show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -5959,7 +5959,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -5975,11 +5975,11 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
@@ -6022,7 +6022,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -6030,15 +6030,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining disassembly steps?"
+                "content": "<image>What is the number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Does this image show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -6089,7 +6089,7 @@
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
@@ -6124,7 +6124,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -6140,15 +6140,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining steps?"
+                "content": "<image>How many disassembly steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final step?"
+                "content": "<image>Does this picture show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -6195,15 +6195,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining disassembly steps?"
+                "content": "<image>How many disassembly steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Does this picture show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -6250,15 +6250,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining disassembly steps?"
+                "content": "<image>How many steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Does this picture show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -6305,15 +6305,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining steps?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -6344,7 +6344,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -6360,15 +6360,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>How many disassembly steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final disassembly step?"
+                "content": "<image>Is this the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -6407,7 +6407,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -6415,11 +6415,11 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many disassembly steps are remaining?"
+                "content": "<image>What is the number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
@@ -6454,7 +6454,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -6470,15 +6470,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining disassembly steps?"
+                "content": "<image>What is the number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final disassembly step?"
+                "content": "<image>Is this the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -6517,7 +6517,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -6525,15 +6525,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining disassembly steps?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final disassembly step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -6580,15 +6580,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining disassembly steps?"
+                "content": "<image>How many disassembly steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "4"
+                "content": "3"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final step?"
+                "content": "<image>Does this picture show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -6619,7 +6619,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -6627,7 +6627,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -6635,15 +6635,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining steps?"
+                "content": "<image>What is the number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -6674,7 +6674,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -6682,7 +6682,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -6690,11 +6690,11 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>Number of remaining steps?"
             },
             {
                 "role": "assistant",
-                "content": "3"
+                "content": "2"
             },
             {
                 "role": "user",
@@ -6745,15 +6745,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>How many steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "2"
+                "content": "1"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Does this image show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -6784,7 +6784,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -6800,15 +6800,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>Number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final step?"
+                "content": "<image>Is this the final step?"
             },
             {
                 "role": "assistant",
@@ -6847,7 +6847,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -6855,15 +6855,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>How many steps are remaining?"
+                "content": "<image>How many disassembly steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this picture show the final disassembly step?"
+                "content": "<image>Does this picture show the final step?"
             },
             {
                 "role": "assistant",
@@ -6902,7 +6902,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -6910,15 +6910,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining steps?"
+                "content": "<image>What is the number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Does this image show the final step?"
             },
             {
                 "role": "assistant",
@@ -6949,7 +6949,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous disassembly step?"
+                "content": "<image>What was the previous step?"
             },
             {
                 "role": "assistant",
@@ -6957,7 +6957,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next disassembly step?"
+                "content": "<image>What is the next step?"
             },
             {
                 "role": "assistant",
@@ -6965,15 +6965,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>Number of remaining disassembly steps?"
+                "content": "<image>What is the number of remaining disassembly steps?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Does this picture show the final step?"
             },
             {
                 "role": "assistant",
@@ -7024,11 +7024,11 @@
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final step?"
+                "content": "<image>Does this picture show the final disassembly step?"
             },
             {
                 "role": "assistant",
@@ -7075,15 +7075,15 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the number of remaining steps?"
+                "content": "<image>How many steps are remaining?"
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Does this image show the final step?"
+                "content": "<image>Does this picture show the final step?"
             },
             {
                 "role": "assistant",
@@ -7114,7 +7114,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What was the previous step?"
+                "content": "<image>What was the previous disassembly step?"
             },
             {
                 "role": "assistant",
@@ -7122,7 +7122,7 @@
             },
             {
                 "role": "user",
-                "content": "<image>What is the next step?"
+                "content": "<image>What is the next disassembly step?"
             },
             {
                 "role": "assistant",
@@ -7134,11 +7134,11 @@
             },
             {
                 "role": "assistant",
-                "content": "1"
+                "content": "0"
             },
             {
                 "role": "user",
-                "content": "<image>Is this the final disassembly step?"
+                "content": "<image>Is this the final step?"
             },
             {
                 "role": "assistant",
