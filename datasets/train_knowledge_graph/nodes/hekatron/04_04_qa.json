@@ -8,7 +8,7 @@
         "A": "Hekatron."
     },
     {
-        "Q": "What was the previous step?",
+        "Q": "What was the previous disassembly step?",
         "A": "place_on_table"
     },
     {
@@ -16,11 +16,11 @@
         "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
-        "Q": "How many steps are remaining?",
+        "Q": "How many disassembly steps are remaining?",
         "A": "1"
     },
     {
-        "Q": "Does this image show the final disassembly step?",
+        "Q": "Does this picture show the final disassembly step?",
         "A": "Yes."
     }
 ]

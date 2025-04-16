@@ -12,15 +12,15 @@
         "A": "place_on_table"
     },
     {
-        "Q": "What is the next step?",
+        "Q": "What is the next disassembly step?",
         "A": "Place the object into a linear cutter and cut it apart."
     },
     {
-        "Q": "What is the number of remaining steps?",
+        "Q": "How many disassembly steps are remaining?",
         "A": "1"
     },
     {
-        "Q": "Does this picture show the final step?",
+        "Q": "Does this image show the final disassembly step?",
         "A": "Yes."
     }
 ]

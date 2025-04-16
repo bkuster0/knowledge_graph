@@ -16,11 +16,11 @@
         "A": "Perform levering to dislodge a component"
     },
     {
-        "Q": "Number of remaining disassembly steps?",
+        "Q": "How many disassembly steps are remaining?",
         "A": "3"
     },
     {
-        "Q": "Does this image show the final disassembly step?",
+        "Q": "Does this image show the final step?",
         "A": "No."
     }
 ]

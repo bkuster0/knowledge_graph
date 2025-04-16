@@ -1,6 +1,6 @@
 {
     "object_general_class": {
-        "system_prompt": "You are an AI agent controlling a robotic workcell for disassembly of waste electronics.",
+        "system_prompt": "",
         "questions": ["What is the general class of the object shown?"
         ],
         "answers": {"smoke_detector": "Smoke detector.",
@@ -10,7 +10,7 @@
                     "pcb_battery": "A PCB with a battery attached"}
     },
     "object_specific_subclass": {
-        "system_prompt": "You are an AI agent controlling a robotic workcell for disassembly of waste electronics.",
+        "system_prompt": "",
         "questions": ["What is the specific type of the object shown?"
         ],
         "answers": {"kalo": "Kalo.",
@@ -20,7 +20,7 @@
                     "sensys": "Sensys."}
     },
     "number_of_remaining_steps": {
-        "system_prompt": "You are an AI agent controlling a robotic workcell for disassembly of waste electronics. Disassembly is complete when there is no battery remaining in the device.",
+        "system_prompt": "Disassembly is complete when there is no battery remaining in the device.",
         "questions": ["How many steps are remaining?",
                      "How many disassembly steps are remaining?",
                      "What is the number of remaining steps?",
@@ -31,7 +31,7 @@
         "answers": {"0": "0"}
     },
     "is_final_step": {
-    	"system_prompt": "You are an AI agent controlling a robotic workcell for disassembly of waste electronics. Disassembly is complete (final step) when there is no battery remaining in the device, or when there is only a battery on the image.",
+    	"system_prompt": "Disassembly is complete (final step) when there is no battery remaining in the device, or when there is only a battery on the image.",
         "questions": [
             "Does this image show the final step?",
             "Does this image show the final disassembly step?",
@@ -48,7 +48,7 @@
         }
     },
     "next_step": {
-    	"system_prompt": "You are an AI agent controlling a robotic workcell for disassembly of waste electronics. Disassembly is complete when there is no battery remaining in the device.",
+    	"system_prompt": "Disassembly is complete when there is no battery remaining in the device.",
         "questions": [
             "What is the next step?",
             "What is the next disassembly step?"
@@ -68,7 +68,7 @@
         }
     },
     "previous_step": {
-        "system_prompt": "You are an AI agent controlling a robotic workcell for disassembly of waste electronics. Disassembly is complete when there is no battery remaining in the device.",
+        "system_prompt": "Disassembly is complete when there is no battery remaining in the device.",
         "questions": [
             "What was the previous step?",
             "What was the previous disassembly step?"

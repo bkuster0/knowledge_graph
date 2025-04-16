@@ -16,7 +16,7 @@
         "A": "Perform a rectangular CNC cut"
     },
     {
-        "Q": "Number of remaining steps?",
+        "Q": "Number of remaining disassembly steps?",
         "A": "3"
     },
     {

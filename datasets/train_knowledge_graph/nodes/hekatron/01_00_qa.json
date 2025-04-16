@@ -12,7 +12,7 @@
         "A": "flip"
     },
     {
-        "Q": "What is the next step?",
+        "Q": "What is the next disassembly step?",
         "A": "Place the object into the CNC mill"
     },
     {
@@ -20,7 +20,7 @@
         "A": "4"
     },
     {
-        "Q": "Is this the final step?",
+        "Q": "Does this picture show the final step?",
         "A": "No."
     }
 ]

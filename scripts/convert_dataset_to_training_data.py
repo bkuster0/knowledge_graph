@@ -9,6 +9,8 @@ import random
 
 @dataclass
 class EvaluationDatapoint:
+    """ Stuff that gets saved into classification_data.json"""
+
     step_idx: int = 0 # The index of step (0 - first step e.g. "flip", 1- second step e.g. "move_to_cnc")
     step_example_idx: int = 0 # Img example of single step (in case of more images, e.g. step 0, img 0; step 0, img 1)
     full_image_path: str = '/knowledge_graph/example_single_node_dataset/smoke_detector/0_0.jpg'
@@ -19,6 +21,7 @@ class EvaluationDatapoint:
     previous_step: str = "move"
     next_step: str = "flip"
     number_of_remaining_steps: int = 1
+    remaining_steps: List[str] = field(default_factory=lambda: ["flip", "cnc_cut"])
     is_final_step: int = 0
 
     def to_dict(self):
@@ -126,14 +129,15 @@ def convert_dataset_to_evaluation_datapoints(folder, output_json_full_path = Non
 
 
 def convert_qa_datapoints_to_vlm_training_json(qa_datapoints: List[QADatapoint],
-                                               output_json_full_path = None):
-    ADDITIONAL_IMAGE_TOKEN = "<image>"
+                                               output_json_full_path = None,
+                                               start_image_token_prefix = "<image>",
+                                               end_image_token_suffix = None):
     out_json = []
 
     for datapoint in qa_datapoints:
         img_path = datapoint.full_image_path
         qa_pairs = datapoint.list_of_qa_pairs
-        tmp_image_token = ADDITIONAL_IMAGE_TOKEN if img_path is not None else ''
+        tmp_image_token = start_image_token_prefix if ((start_image_token_prefix is not None) and (img_path is not None)) else ''
         tmp_dict = {"messages": []}
 
         # Add questions and answers
@@ -179,7 +183,9 @@ def filter_files_by_regex_extension(extension_regex_pattern: re.Pattern = re.com
     return list_of_regex_matches
 
 
-def convert_sequence_metadata_to_evaluation_datapoints(folder, output_json_full_path = None) -> List[EvaluationDatapoint]:
+def convert_sequence_metadata_to_evaluation_datapoints(folder,
+                                                       output_json_full_path = None,
+                                                       seq_metadata_filename = 'seq_metadata.json') -> List[EvaluationDatapoint]:
     """
     Read a dataset or single node (walks all folders within folder) to output evaluation datapoints.
     (Finds matches between images and metadata and packs them into EvaluationDatapoint class).
@@ -196,7 +202,6 @@ def convert_sequence_metadata_to_evaluation_datapoints(folder, output_json_full_
     """
 
     IMAGE_EXTENSION_REGEX = '\.(png|jpg|jpeg)'
-    metadata_fn = 'seq_metadata.json'
 
     image_extension_re = re.compile(IMAGE_EXTENSION_REGEX)
 
@@ -210,7 +215,7 @@ def convert_sequence_metadata_to_evaluation_datapoints(folder, output_json_full_
                                                               list_of_strings = files)
 
         # Find metadata file. Continue if not exists
-        full_metadata_path = os.path.join(root, metadata_fn)
+        full_metadata_path = os.path.join(root, seq_metadata_filename)
         if not os.path.exists(full_metadata_path):
             #print(f"seq_metadata.json not found in folder {folder}")
             continue
@@ -235,15 +240,17 @@ def convert_sequence_metadata_to_evaluation_datapoints(folder, output_json_full_
             example_img_idx = int(idx_str.split('_')[1]) # index of image showing step e.g. 0 - image 0, image 1, ...
 
             full_image_path = os.path.join(root, full_filename)
+            print("metadata dict:", metadata_dict)
 
             object_general_class = metadata_dict["object_general_class"]
             object_specific_subclass = metadata_dict["object_specific_subclass"]
             next_step = metadata_dict["steps"][step_n]
             n_remaining_steps = len(metadata_dict["steps"]) - step_n
+            remaining_steps = metadata_dict["steps"][step_n:]
             is_final_step = True if step_n == len(metadata_dict["steps"]) - 1 else False
             previous_step =  metadata_dict["steps"][step_n - 1] if not is_final_step else metadata_dict["initial_step"]
-            print(f"Image: {full_filename}\nn_remaining_steps: {n_remaining_steps}\nobject_general_class: {object_general_class}\nNext step: {next_step}, is_final_step: {is_final_step}")
-            print(f"Previous step: {previous_step}")
+            #print(f"Image: {full_filename}\nn_remaining_steps: {n_remaining_steps}\nobject_general_class: {object_general_class}\nNext step: {next_step}, is_final_step: {is_final_step}")
+            #print(f"Previous step: {previous_step}")
 
             evaluation_datapoint = EvaluationDatapoint(step_idx = step_n,
                                                        step_example_idx = example_img_idx,
@@ -254,6 +261,7 @@ def convert_sequence_metadata_to_evaluation_datapoints(folder, output_json_full_
                                                        previous_step = previous_step,
                                                        next_step = next_step,
                                                        number_of_remaining_steps = n_remaining_steps,
+                                                       remaining_steps = remaining_steps,
                                                        is_final_step = is_final_step)
 
             evaluation_datapoints.append(evaluation_datapoint)
@@ -294,7 +302,7 @@ def convert_evaluation_datapoints_to_qa_datapoints(evaluation_datapoints = List[
 
             # Randomize answer
             answer = str(getattr(eval_datapoint, q))
-            print(q, answer)
+            #print(q, answer)
             #if not (isinstance(answer, str) or isinstance(answer, int)):
             #    raise ValueError(f"Unsupported answer type, neither string not integer. Answer is: {answer}")
 
@@ -310,7 +318,8 @@ def convert_evaluation_datapoints_to_qa_datapoints(evaluation_datapoints = List[
                     randomized_answer = answer_to_randomized_answer[random.randint(0, n_possible_answers -1)]
                     answer = randomized_answer
             else:
-                print(f"Did not find answer mapping for q: {q}, answer: {answer}")
+                0
+                #print(f"Did not find answer mapping for q: {q}, answer: {answer}")
 
             # Convert answer to string if it's integer
             #if isinstance(answer, int):
@@ -382,9 +391,15 @@ if __name__ == '__main__':
 
     args_cli = parser.parse_args()
 
+    # For Classifier training (and used for VLM training downstream)
+    # Read per-folder sequence metadata and convert it to evaluation datapoints
     eval_datapoints = convert_sequence_metadata_to_evaluation_datapoints(folder = args_cli.folder_to_parse, output_json_full_path = args_cli.output_classification_json_full_path)
+    
+    # For VLM training:
+    # Convert metadata-only evaluation datapoints to textual QA datapoints for VLM
     qa_datapoints = convert_evaluation_datapoints_to_qa_datapoints(evaluation_datapoints = eval_datapoints)
-
     convert_qa_datapoints_to_vlm_training_json(qa_datapoints = qa_datapoints, output_json_full_path = args_cli.output_vlm_json_full_path)
 
+    # For RAG:
+    # Generate per-image JSON with same filename and suffix _qa.json, which includes questions and answers
     out = convert_qa_datapoints_to_rag_json(qa_datapoints = qa_datapoints, save_json = True)
