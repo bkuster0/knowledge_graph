@@ -16,11 +16,11 @@
         "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
-        "Q": "Number of remaining steps?",
+        "Q": "How many disassembly steps are remaining?",
         "A": "0"
     },
     {
-        "Q": "Is this the final step?",
+        "Q": "Is this the final disassembly step?",
         "A": "Yes."
     }
 ]

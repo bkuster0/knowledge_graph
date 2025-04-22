@@ -8,7 +8,7 @@
         "A": "Fumonic."
     },
     {
-        "Q": "What was the previous step?",
+        "Q": "What was the previous disassembly step?",
         "A": "flip"
     },
     {
@@ -20,7 +20,7 @@
         "A": "2"
     },
     {
-        "Q": "Does this image show the final step?",
+        "Q": "Does this picture show the final step?",
         "A": "No."
     }
 ]

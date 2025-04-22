@@ -16,11 +16,11 @@
         "A": "Place the object in to the vise"
     },
     {
-        "Q": "What is the number of remaining steps?",
+        "Q": "How many disassembly steps are remaining?",
         "A": "3"
     },
     {
-        "Q": "Is this the final step?",
+        "Q": "Is this the final disassembly step?",
         "A": "No."
     }
 ]

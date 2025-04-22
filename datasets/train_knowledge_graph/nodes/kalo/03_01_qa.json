@@ -8,19 +8,19 @@
         "A": "Kalo."
     },
     {
-        "Q": "What was the previous step?",
+        "Q": "What was the previous disassembly step?",
         "A": "levering"
     },
     {
-        "Q": "What is the next disassembly step?",
+        "Q": "What is the next step?",
         "A": "Place the object into a linear cutter and cut it apart."
     },
     {
-        "Q": "Number of remaining steps?",
+        "Q": "How many steps are remaining?",
         "A": "1"
     },
     {
-        "Q": "Does this image show the final step?",
+        "Q": "Does this image show the final disassembly step?",
         "A": "No."
     }
 ]

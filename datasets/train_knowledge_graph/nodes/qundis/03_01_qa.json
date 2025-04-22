@@ -12,11 +12,11 @@
         "A": "levering"
     },
     {
-        "Q": "What is the next disassembly step?",
+        "Q": "What is the next step?",
         "A": "Place the object into a linear cutter and cut it apart."
     },
     {
-        "Q": "Number of remaining steps?",
+        "Q": "What is the number of remaining disassembly steps?",
         "A": "1"
     },
     {
