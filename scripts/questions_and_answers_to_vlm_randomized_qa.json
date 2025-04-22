@@ -86,6 +86,6 @@
         "cnc_cut_battery_contacts": "Effect: CNC cutting is performed on the battery contacts which keep the battery attached to the PCB, allowing later removal using wiggling. Precondition: The object must be clamped within a CNC machine and the battery must be visible.",
         "wiggling_battery_removal": "Effect: Removes the battery by grasping and wiggling it. Precondition: The object must be clamped within the CNC machine and the battery must be visible.",
         "linear_cutter_cut": "Effect: The object (usually PCB with a battery attached) is placed into a linear cutter and the battery is cut off from the PCB. Precondition: The target object must be a PCB with the battery still attached.",
-        "place_into_waste_container": "Effect: The object are place into a waste container for plastic or batteries. Precondition: The target object must be separated into only plastic parts or only batteries. I.e. a battery must NOT be attached to the PCB, but previously separated."
+        "place_into_waste_container": "Effect: The objects are placed into a waste container for plastic or batteries. Precondition: The target object must be separated into only plastic parts or only batteries. I.e. a battery must NOT be attached to the PCB, but previously separated."
     }
 }
