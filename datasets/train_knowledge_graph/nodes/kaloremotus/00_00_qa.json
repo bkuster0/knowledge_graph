@@ -9,18 +9,18 @@
     },
     {
         "Q": "What was the previous step?",
-        "A": "place_into_cnc"
+        "A": "place_on_flat_table"
     },
     {
-        "Q": "What is the next step?",
+        "Q": "What is the next disassembly step?",
         "A": "Flip the object"
     },
     {
-        "Q": "Number of remaining steps?",
+        "Q": "Number of remaining disassembly steps?",
         "A": "1"
     },
     {
-        "Q": "Does this image show the final disassembly step?",
+        "Q": "Does this image show the final step?",
         "A": "No."
     }
 ]

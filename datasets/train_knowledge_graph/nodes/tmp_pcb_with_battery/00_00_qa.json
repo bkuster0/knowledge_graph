@@ -8,15 +8,15 @@
         "A": "pcb_with_battery"
     },
     {
-        "Q": "What was the previous disassembly step?",
-        "A": "place_on_table"
+        "Q": "What was the previous step?",
+        "A": "place_on_flat_table"
     },
     {
         "Q": "What is the next step?",
         "A": "Place the object into a linear cutter and cut it apart."
     },
     {
-        "Q": "What is the number of remaining steps?",
+        "Q": "Number of remaining disassembly steps?",
         "A": "0"
     },
     {

@@ -8,19 +8,19 @@
         "A": "Kalo."
     },
     {
-        "Q": "What was the previous step?",
-        "A": "place_on_table"
+        "Q": "What was the previous disassembly step?",
+        "A": "linear_cutter_cut"
     },
     {
-        "Q": "What is the next step?",
+        "Q": "What is the next disassembly step?",
         "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
-        "Q": "Number of remaining disassembly steps?",
+        "Q": "What is the number of remaining steps?",
         "A": "0"
     },
     {
-        "Q": "Is this the final step?",
+        "Q": "Is this the final disassembly step?",
         "A": "Yes."
     }
 ]

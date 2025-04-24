@@ -8,15 +8,15 @@
         "A": "Kalo."
     },
     {
-        "Q": "What was the previous step?",
+        "Q": "What was the previous disassembly step?",
         "A": "place_into_vise"
     },
     {
-        "Q": "What is the next step?",
+        "Q": "What is the next disassembly step?",
         "A": "Perform levering to dislodge a component"
     },
     {
-        "Q": "How many steps are remaining?",
+        "Q": "How many disassembly steps are remaining?",
         "A": "2"
     },
     {

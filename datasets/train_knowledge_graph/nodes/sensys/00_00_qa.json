@@ -8,15 +8,15 @@
         "A": "Sensys."
     },
     {
-        "Q": "What was the previous step?",
-        "A": "place_into_cnc"
+        "Q": "What was the previous disassembly step?",
+        "A": "place_on_flat_table"
     },
     {
-        "Q": "What is the next step?",
+        "Q": "What is the next disassembly step?",
         "A": "Flip the object"
     },
     {
-        "Q": "Number of remaining disassembly steps?",
+        "Q": "What is the number of remaining steps?",
         "A": "1"
     },
     {

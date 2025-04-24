@@ -9,14 +9,14 @@
     },
     {
         "Q": "What was the previous step?",
-        "A": "place_on_table"
+        "A": "place_on_flat_table"
     },
     {
-        "Q": "What is the next step?",
+        "Q": "What is the next disassembly step?",
         "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
-        "Q": "Number of remaining disassembly steps?",
+        "Q": "How many disassembly steps are remaining?",
         "A": "0"
     },
     {

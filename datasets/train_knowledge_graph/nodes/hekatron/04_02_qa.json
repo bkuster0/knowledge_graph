@@ -9,18 +9,18 @@
     },
     {
         "Q": "What was the previous step?",
-        "A": "place_on_table"
+        "A": "wiggling_battery_removal"
     },
     {
-        "Q": "What is the next disassembly step?",
+        "Q": "What is the next step?",
         "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
-        "Q": "How many steps are remaining?",
+        "Q": "What is the number of remaining disassembly steps?",
         "A": "0"
     },
     {
-        "Q": "Does this image show the final step?",
+        "Q": "Does this picture show the final disassembly step?",
         "A": "Yes."
     }
 ]

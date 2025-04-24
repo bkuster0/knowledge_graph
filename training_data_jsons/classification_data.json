@@ -1,139 +1,121 @@
 [
     {
-        "step_idx": 0,
+        "step_idx": 3,
         "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/sensys/00_00.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/sensys/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "sensys",
-        "previous_step": "place_into_cnc",
-        "next_step": "flip",
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/03_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "qundis",
+        "previous_step": "levering",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering"
+        ],
+        "next_step": "linear_cutter_cut",
         "number_of_remaining_steps": 1,
         "remaining_steps": [
-            "place_into_cnc"
+            "place_into_waste_container"
         ],
         "is_final_step": false
     },
     {
-        "step_idx": 1,
-        "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/sensys/01_00.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/sensys/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "sensys",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_cnc",
+        "step_idx": 4,
+        "step_example_idx": 6,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_06.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "qundis",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
         "is_final_step": true
     },
     {
-        "step_idx": 0,
-        "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/00_00.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "kaloremotus",
-        "previous_step": "place_into_cnc",
-        "next_step": "flip",
-        "number_of_remaining_steps": 1,
-        "remaining_steps": [
-            "place_into_cnc"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 1,
-        "step_example_idx": 1,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/01_01.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "kaloremotus",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 1,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/00_01.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "kaloremotus",
-        "previous_step": "place_into_cnc",
-        "next_step": "flip",
-        "number_of_remaining_steps": 1,
-        "remaining_steps": [
-            "place_into_cnc"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 3,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/00_03.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "kaloremotus",
-        "previous_step": "place_into_cnc",
-        "next_step": "flip",
-        "number_of_remaining_steps": 1,
-        "remaining_steps": [
-            "place_into_cnc"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 1,
+        "step_idx": 3,
         "step_example_idx": 2,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/01_02.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "kaloremotus",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 2,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/00_02.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "kaloremotus",
-        "previous_step": "place_into_cnc",
-        "next_step": "flip",
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/03_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "qundis",
+        "previous_step": "levering",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering"
+        ],
+        "next_step": "linear_cutter_cut",
         "number_of_remaining_steps": 1,
         "remaining_steps": [
-            "place_into_cnc"
+            "place_into_waste_container"
         ],
         "is_final_step": false
     },
     {
-        "step_idx": 1,
+        "step_idx": 4,
         "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/01_00.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "kaloremotus",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_cnc",
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "qundis",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
         "is_final_step": true
     },
     {
         "step_idx": 4,
-        "step_example_idx": 15,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_15.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "step_example_idx": 1,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_01.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
         "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_on_table",
+        "object_specific_subclass": "qundis",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 2,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "qundis",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
         "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
@@ -141,12 +123,17 @@
     },
     {
         "step_idx": 2,
-        "step_example_idx": 9,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_09.png",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "step_example_idx": 1,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/02_01.png",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
         "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
+        "object_specific_subclass": "qundis",
         "previous_step": "place_into_vise",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise"
+        ],
         "next_step": "levering",
         "number_of_remaining_steps": 2,
         "remaining_steps": [
@@ -156,16 +143,42 @@
         "is_final_step": false
     },
     {
-        "step_idx": 3,
-        "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_00.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "step_idx": 4,
+        "step_example_idx": 3,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_03.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
         "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "levering",
-        "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
+        "object_specific_subclass": "qundis",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 2,
+        "step_example_idx": 2,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/02_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "qundis",
+        "previous_step": "place_into_vise",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise"
+        ],
+        "next_step": "levering",
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "linear_cutter_cut",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -173,11 +186,14 @@
     {
         "step_idx": 0,
         "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/00_00.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/00_00.png",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
         "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_into_waste_container",
+        "object_specific_subclass": "qundis",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
         "next_step": "flip",
         "number_of_remaining_steps": 4,
         "remaining_steps": [
@@ -190,199 +206,40 @@
     },
     {
         "step_idx": 4,
-        "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_00.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "step_example_idx": 5,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_05.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
         "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 2,
-        "step_example_idx": 10,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_10.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_into_vise",
-        "next_step": "levering",
-        "number_of_remaining_steps": 2,
-        "remaining_steps": [
-            "linear_cutter_cut",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 3,
-        "step_example_idx": 3,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_03.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "levering",
-        "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
-        "remaining_steps": [
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 1,
-        "step_example_idx": 3,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/01_03.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "flip",
-        "next_step": "place_into_vise",
-        "number_of_remaining_steps": 3,
-        "remaining_steps": [
-            "levering",
-            "linear_cutter_cut",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 11,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_11.png",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 1,
-        "step_example_idx": 4,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/01_04.png",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "flip",
-        "next_step": "place_into_vise",
-        "number_of_remaining_steps": 3,
-        "remaining_steps": [
-            "levering",
-            "linear_cutter_cut",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 2,
-        "step_example_idx": 7,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_07.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_into_vise",
-        "next_step": "levering",
-        "number_of_remaining_steps": 2,
-        "remaining_steps": [
-            "linear_cutter_cut",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 3,
-        "step_example_idx": 6,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_06.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "levering",
-        "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
-        "remaining_steps": [
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 3,
-        "step_example_idx": 8,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_08.png",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "levering",
-        "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
-        "remaining_steps": [
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 1,
-        "step_example_idx": 1,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/01_01.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "flip",
-        "next_step": "place_into_vise",
-        "number_of_remaining_steps": 3,
-        "remaining_steps": [
-            "levering",
-            "linear_cutter_cut",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 2,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_02.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 3,
-        "step_example_idx": 1,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_01.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "levering",
-        "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
-        "remaining_steps": [
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 2,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/00_02.png",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_into_waste_container",
-        "next_step": "flip",
-        "number_of_remaining_steps": 4,
-        "remaining_steps": [
+        "object_specific_subclass": "qundis",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
             "place_into_vise",
             "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 1,
+        "step_example_idx": 0,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/01_00.png",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "qundis",
+        "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
+        "next_step": "place_into_vise",
+        "number_of_remaining_steps": 3,
+        "remaining_steps": [
+            "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
         ],
@@ -390,69 +247,19 @@
     },
     {
         "step_idx": 4,
-        "step_example_idx": 12,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_12.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "step_example_idx": 8,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_08.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
         "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 9,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_09.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 17,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_17.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 1,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/00_01.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_into_waste_container",
-        "next_step": "flip",
-        "number_of_remaining_steps": 4,
-        "remaining_steps": [
+        "object_specific_subclass": "qundis",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
             "place_into_vise",
             "levering",
-            "linear_cutter_cut",
-            "place_into_waste_container"
+            "linear_cutter_cut"
         ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 14,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_14.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_on_table",
         "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
@@ -460,248 +267,19 @@
     },
     {
         "step_idx": 4,
-        "step_example_idx": 5,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_05.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 3,
-        "step_example_idx": 2,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_02.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "levering",
-        "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
-        "remaining_steps": [
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 2,
-        "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_00.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_into_vise",
-        "next_step": "levering",
-        "number_of_remaining_steps": 2,
-        "remaining_steps": [
-            "linear_cutter_cut",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 2,
-        "step_example_idx": 3,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_03.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_into_vise",
-        "next_step": "levering",
-        "number_of_remaining_steps": 2,
-        "remaining_steps": [
-            "linear_cutter_cut",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 2,
-        "step_example_idx": 11,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_11.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_into_vise",
-        "next_step": "levering",
-        "number_of_remaining_steps": 2,
-        "remaining_steps": [
-            "linear_cutter_cut",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 2,
-        "step_example_idx": 6,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_06.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_into_vise",
-        "next_step": "levering",
-        "number_of_remaining_steps": 2,
-        "remaining_steps": [
-            "linear_cutter_cut",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 7,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_07.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 3,
-        "step_example_idx": 5,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_05.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "levering",
-        "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
-        "remaining_steps": [
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 2,
-        "step_example_idx": 1,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_01.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_into_vise",
-        "next_step": "levering",
-        "number_of_remaining_steps": 2,
-        "remaining_steps": [
-            "linear_cutter_cut",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 6,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_06.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 3,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_03.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 3,
         "step_example_idx": 4,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_04.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_04.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
         "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "levering",
-        "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
-        "remaining_steps": [
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 10,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_10.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 2,
-        "step_example_idx": 5,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_05.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_into_vise",
-        "next_step": "levering",
-        "number_of_remaining_steps": 2,
-        "remaining_steps": [
-            "linear_cutter_cut",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 1,
-        "step_example_idx": 2,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/01_02.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "flip",
-        "next_step": "place_into_vise",
-        "number_of_remaining_steps": 3,
-        "remaining_steps": [
+        "object_specific_subclass": "qundis",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
             "levering",
-            "linear_cutter_cut",
-            "place_into_waste_container"
+            "linear_cutter_cut"
         ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 13,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_13.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 16,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_16.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_on_table",
         "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
@@ -709,12 +287,18 @@
     },
     {
         "step_idx": 3,
-        "step_example_idx": 7,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_07.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "step_example_idx": 1,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/03_01.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
         "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
+        "object_specific_subclass": "qundis",
         "previous_step": "levering",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering"
+        ],
         "next_step": "linear_cutter_cut",
         "number_of_remaining_steps": 1,
         "remaining_steps": [
@@ -723,338 +307,41 @@
         "is_final_step": false
     },
     {
-        "step_idx": 4,
-        "step_example_idx": 4,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_04.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
         "step_idx": 2,
-        "step_example_idx": 2,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_02.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_into_vise",
-        "next_step": "levering",
-        "number_of_remaining_steps": 2,
-        "remaining_steps": [
-            "linear_cutter_cut",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 1,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_01.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 2,
-        "step_example_idx": 4,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_04.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_into_vise",
-        "next_step": "levering",
-        "number_of_remaining_steps": 2,
-        "remaining_steps": [
-            "linear_cutter_cut",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 2,
-        "step_example_idx": 8,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_08.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_into_vise",
-        "next_step": "levering",
-        "number_of_remaining_steps": 2,
-        "remaining_steps": [
-            "linear_cutter_cut",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 8,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_08.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 1,
         "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/01_00.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/02_00.png",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
         "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "kalo",
-        "previous_step": "flip",
-        "next_step": "place_into_vise",
-        "number_of_remaining_steps": 3,
+        "object_specific_subclass": "qundis",
+        "previous_step": "place_into_vise",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise"
+        ],
+        "next_step": "levering",
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
-            "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
         ],
         "is_final_step": false
     },
     {
-        "step_idx": 0,
-        "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_00.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
-        "object_general_class": "battery",
-        "object_specific_subclass": "battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 11,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_11.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
-        "object_general_class": "battery",
-        "object_specific_subclass": "battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 16,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_16.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
-        "object_general_class": "battery",
-        "object_specific_subclass": "battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 6,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_06.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
-        "object_general_class": "battery",
-        "object_specific_subclass": "battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 13,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_13.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
-        "object_general_class": "battery",
-        "object_specific_subclass": "battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 15,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_15.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
-        "object_general_class": "battery",
-        "object_specific_subclass": "battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 14,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_14.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
-        "object_general_class": "battery",
-        "object_specific_subclass": "battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 1,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_01.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
-        "object_general_class": "battery",
-        "object_specific_subclass": "battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 12,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_12.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
-        "object_general_class": "battery",
-        "object_specific_subclass": "battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 8,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_08.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
-        "object_general_class": "battery",
-        "object_specific_subclass": "battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 17,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_17.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
-        "object_general_class": "battery",
-        "object_specific_subclass": "battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 10,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_10.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
-        "object_general_class": "battery",
-        "object_specific_subclass": "battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 4,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_04.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
-        "object_general_class": "battery",
-        "object_specific_subclass": "battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 5,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_05.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
-        "object_general_class": "battery",
-        "object_specific_subclass": "battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 3,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_03.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
-        "object_general_class": "battery",
-        "object_specific_subclass": "battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
+        "step_idx": 4,
         "step_example_idx": 7,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_07.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
-        "object_general_class": "battery",
-        "object_specific_subclass": "battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 2,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_02.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
-        "object_general_class": "battery",
-        "object_specific_subclass": "battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 9,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_09.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
-        "object_general_class": "battery",
-        "object_specific_subclass": "battery",
-        "previous_step": "place_on_table",
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_07.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "qundis",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
         "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
@@ -1068,6 +355,10 @@
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "hekatron",
         "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
         "next_step": "place_into_cnc",
         "number_of_remaining_steps": 3,
         "remaining_steps": [
@@ -1078,17 +369,21 @@
         "is_final_step": false
     },
     {
-        "step_idx": 1,
-        "step_example_idx": 4,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_04.jpg",
+        "step_idx": 2,
+        "step_example_idx": 3,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/02_03.jpg",
         "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "hekatron",
-        "previous_step": "flip",
-        "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 3,
+        "previous_step": "place_into_cnc",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc"
+        ],
+        "next_step": "cnc_rectangular_cut",
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
-            "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -1102,72 +397,15 @@
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "hekatron",
         "previous_step": "cnc_rectangular_cut",
-        "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
-        "remaining_steps": [
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/00_00.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "hekatron",
-        "previous_step": "place_into_waste_container",
-        "next_step": "flip",
-        "number_of_remaining_steps": 4,
-        "remaining_steps": [
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
             "place_into_cnc",
-            "cnc_rectangular_cut",
-            "wiggling_battery_removal",
-            "place_into_waste_container"
+            "cnc_rectangular_cut"
         ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/04_00.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "hekatron",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 3,
-        "step_example_idx": 3,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_03.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "hekatron",
-        "previous_step": "cnc_rectangular_cut",
         "next_step": "wiggling_battery_removal",
         "number_of_remaining_steps": 1,
         "remaining_steps": [
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 1,
-        "step_example_idx": 3,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_03.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "hekatron",
-        "previous_step": "flip",
-        "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 3,
-        "remaining_steps": [
-            "cnc_rectangular_cut",
-            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -1180,6 +418,95 @@
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "hekatron",
         "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 2,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 0,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/04_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "wiggling_battery_removal",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut",
+            "wiggling_battery_removal"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 2,
+        "step_example_idx": 1,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/02_01.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "place_into_cnc",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc"
+        ],
+        "next_step": "cnc_rectangular_cut",
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 3,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_03.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
         "next_step": "wiggling_battery_removal",
         "number_of_remaining_steps": 1,
         "remaining_steps": [
@@ -1195,6 +522,10 @@
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "hekatron",
         "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
         "next_step": "place_into_cnc",
         "number_of_remaining_steps": 3,
         "remaining_steps": [
@@ -1203,36 +534,6 @@
             "place_into_waste_container"
         ],
         "is_final_step": false
-    },
-    {
-        "step_idx": 1,
-        "step_example_idx": 8,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_08.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "hekatron",
-        "previous_step": "flip",
-        "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 3,
-        "remaining_steps": [
-            "cnc_rectangular_cut",
-            "wiggling_battery_removal",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 2,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/04_02.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "hekatron",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
     },
     {
         "step_idx": 1,
@@ -1242,6 +543,31 @@
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "hekatron",
         "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
+        "next_step": "place_into_cnc",
+        "number_of_remaining_steps": 3,
+        "remaining_steps": [
+            "cnc_rectangular_cut",
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 1,
+        "step_example_idx": 11,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_11.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
         "next_step": "place_into_cnc",
         "number_of_remaining_steps": 3,
         "remaining_steps": [
@@ -1259,6 +585,10 @@
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "hekatron",
         "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
         "next_step": "place_into_cnc",
         "number_of_remaining_steps": 3,
         "remaining_steps": [
@@ -1269,28 +599,78 @@
         "is_final_step": false
     },
     {
-        "step_idx": 3,
-        "step_example_idx": 1,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_01.jpg",
+        "step_idx": 1,
+        "step_example_idx": 4,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_04.jpg",
         "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "hekatron",
-        "previous_step": "cnc_rectangular_cut",
-        "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
+        "next_step": "place_into_cnc",
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_rectangular_cut",
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
     },
     {
+        "step_idx": 4,
+        "step_example_idx": 1,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/04_01.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "wiggling_battery_removal",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut",
+            "wiggling_battery_removal"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 2,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/04_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "wiggling_battery_removal",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut",
+            "wiggling_battery_removal"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
         "step_idx": 1,
-        "step_example_idx": 11,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_11.jpg",
+        "step_example_idx": 8,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_08.jpg",
         "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "hekatron",
         "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
         "next_step": "place_into_cnc",
         "number_of_remaining_steps": 3,
         "remaining_steps": [
@@ -1308,6 +688,200 @@
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "hekatron",
         "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 1,
+        "step_example_idx": 3,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_03.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
+        "next_step": "place_into_cnc",
+        "number_of_remaining_steps": 3,
+        "remaining_steps": [
+            "cnc_rectangular_cut",
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 3,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/04_03.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "wiggling_battery_removal",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut",
+            "wiggling_battery_removal"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 1,
+        "step_example_idx": 2,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
+        "next_step": "place_into_cnc",
+        "number_of_remaining_steps": 3,
+        "remaining_steps": [
+            "cnc_rectangular_cut",
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 1,
+        "step_example_idx": 12,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_12.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
+        "next_step": "place_into_cnc",
+        "number_of_remaining_steps": 3,
+        "remaining_steps": [
+            "cnc_rectangular_cut",
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 2,
+        "step_example_idx": 2,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/02_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "place_into_cnc",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc"
+        ],
+        "next_step": "cnc_rectangular_cut",
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 0,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/00_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "flip",
+        "number_of_remaining_steps": 4,
+        "remaining_steps": [
+            "place_into_cnc",
+            "cnc_rectangular_cut",
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 1,
+        "step_example_idx": 10,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_10.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
+        "next_step": "place_into_cnc",
+        "number_of_remaining_steps": 3,
+        "remaining_steps": [
+            "cnc_rectangular_cut",
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 9,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_09.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 4,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_04.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
         "next_step": "wiggling_battery_removal",
         "number_of_remaining_steps": 1,
         "remaining_steps": [
@@ -1322,7 +896,14 @@
         "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "hekatron",
-        "previous_step": "place_on_table",
+        "previous_step": "wiggling_battery_removal",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut",
+            "wiggling_battery_removal"
+        ],
         "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
@@ -1330,12 +911,39 @@
     },
     {
         "step_idx": 3,
-        "step_example_idx": 2,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_02.jpg",
+        "step_example_idx": 7,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_07.jpg",
         "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "hekatron",
         "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 5,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_05.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
         "next_step": "wiggling_battery_removal",
         "number_of_remaining_steps": 1,
         "remaining_steps": [
@@ -1351,97 +959,31 @@
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "hekatron",
         "previous_step": "place_into_cnc",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc"
+        ],
         "next_step": "cnc_rectangular_cut",
         "number_of_remaining_steps": 2,
         "remaining_steps": [
             "wiggling_battery_removal",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 2,
-        "step_example_idx": 3,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/02_03.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "hekatron",
-        "previous_step": "place_into_cnc",
-        "next_step": "cnc_rectangular_cut",
-        "number_of_remaining_steps": 2,
-        "remaining_steps": [
-            "wiggling_battery_removal",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 3,
-        "step_example_idx": 5,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_05.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "hekatron",
-        "previous_step": "cnc_rectangular_cut",
-        "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
-        "remaining_steps": [
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 2,
-        "step_example_idx": 1,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/02_01.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "hekatron",
-        "previous_step": "place_into_cnc",
-        "next_step": "cnc_rectangular_cut",
-        "number_of_remaining_steps": 2,
-        "remaining_steps": [
-            "wiggling_battery_removal",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 3,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/04_03.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "hekatron",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 3,
-        "step_example_idx": 4,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_04.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "hekatron",
-        "previous_step": "cnc_rectangular_cut",
-        "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
-        "remaining_steps": [
             "place_into_waste_container"
         ],
         "is_final_step": false
     },
     {
         "step_idx": 1,
-        "step_example_idx": 2,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_02.jpg",
+        "step_example_idx": 7,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_07.jpg",
         "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "hekatron",
         "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
         "next_step": "place_into_cnc",
         "number_of_remaining_steps": 3,
         "remaining_steps": [
@@ -1452,28 +994,17 @@
         "is_final_step": false
     },
     {
-        "step_idx": 3,
-        "step_example_idx": 7,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_07.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "hekatron",
-        "previous_step": "cnc_rectangular_cut",
-        "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
-        "remaining_steps": [
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
         "step_idx": 1,
-        "step_example_idx": 12,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_12.jpg",
+        "step_example_idx": 0,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_00.jpg",
         "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "hekatron",
         "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
         "next_step": "place_into_cnc",
         "number_of_remaining_steps": 3,
         "remaining_steps": [
@@ -1490,55 +1021,18 @@
         "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "hekatron",
-        "previous_step": "place_on_table",
+        "previous_step": "wiggling_battery_removal",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut",
+            "wiggling_battery_removal"
+        ],
         "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
         "is_final_step": true
-    },
-    {
-        "step_idx": 2,
-        "step_example_idx": 2,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/02_02.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "hekatron",
-        "previous_step": "place_into_cnc",
-        "next_step": "cnc_rectangular_cut",
-        "number_of_remaining_steps": 2,
-        "remaining_steps": [
-            "wiggling_battery_removal",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 1,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/04_01.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "hekatron",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 3,
-        "step_example_idx": 9,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_09.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "hekatron",
-        "previous_step": "cnc_rectangular_cut",
-        "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
-        "remaining_steps": [
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
     },
     {
         "step_idx": 2,
@@ -1548,6 +1042,11 @@
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "hekatron",
         "previous_step": "place_into_cnc",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc"
+        ],
         "next_step": "cnc_rectangular_cut",
         "number_of_remaining_steps": 2,
         "remaining_steps": [
@@ -1557,52 +1056,623 @@
         "is_final_step": false
     },
     {
-        "step_idx": 1,
+        "step_idx": 3,
+        "step_example_idx": 1,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_01.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 3,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/00_03.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/seq_metadata.json",
+        "object_general_class": "pcb_no_battery",
+        "object_specific_subclass": "pcb_no_battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 1,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/00_01.png",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/seq_metadata.json",
+        "object_general_class": "pcb_no_battery",
+        "object_specific_subclass": "pcb_no_battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
         "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_00.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "hekatron",
-        "previous_step": "flip",
-        "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 3,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/00_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/seq_metadata.json",
+        "object_general_class": "pcb_no_battery",
+        "object_specific_subclass": "pcb_no_battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 2,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/00_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/seq_metadata.json",
+        "object_general_class": "pcb_no_battery",
+        "object_specific_subclass": "pcb_no_battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 12,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_12.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 2,
+        "step_example_idx": 3,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_03.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "place_into_vise",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise"
+        ],
+        "next_step": "levering",
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
-            "cnc_rectangular_cut",
-            "wiggling_battery_removal",
+            "linear_cutter_cut",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 0,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "levering",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering"
+        ],
+        "next_step": "linear_cutter_cut",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 6,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_06.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "levering",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering"
+        ],
+        "next_step": "linear_cutter_cut",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 6,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_06.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 2,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "levering",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering"
+        ],
+        "next_step": "linear_cutter_cut",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 0,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 2,
+        "step_example_idx": 1,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_01.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "place_into_vise",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise"
+        ],
+        "next_step": "levering",
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "linear_cutter_cut",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 3,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_03.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "levering",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering"
+        ],
+        "next_step": "linear_cutter_cut",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 8,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_08.png",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "levering",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering"
+        ],
+        "next_step": "linear_cutter_cut",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
             "place_into_waste_container"
         ],
         "is_final_step": false
     },
     {
         "step_idx": 1,
-        "step_example_idx": 10,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_10.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "hekatron",
+        "step_example_idx": 1,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/01_01.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
         "previous_step": "flip",
-        "next_step": "place_into_cnc",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
+        "next_step": "place_into_vise",
         "number_of_remaining_steps": 3,
         "remaining_steps": [
-            "cnc_rectangular_cut",
-            "wiggling_battery_removal",
+            "levering",
+            "linear_cutter_cut",
             "place_into_waste_container"
         ],
         "is_final_step": false
     },
     {
-        "step_idx": 1,
+        "step_idx": 2,
         "step_example_idx": 7,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_07.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "hekatron",
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_07.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "place_into_vise",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise"
+        ],
+        "next_step": "levering",
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "linear_cutter_cut",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 1,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_01.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 2,
+        "step_example_idx": 10,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_10.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "place_into_vise",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise"
+        ],
+        "next_step": "levering",
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "linear_cutter_cut",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 2,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 17,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_17.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 2,
+        "step_example_idx": 8,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_08.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "place_into_vise",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise"
+        ],
+        "next_step": "levering",
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "linear_cutter_cut",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 1,
+        "step_example_idx": 3,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/01_03.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
         "previous_step": "flip",
-        "next_step": "place_into_cnc",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
+        "next_step": "place_into_vise",
         "number_of_remaining_steps": 3,
         "remaining_steps": [
-            "cnc_rectangular_cut",
-            "wiggling_battery_removal",
+            "levering",
+            "linear_cutter_cut",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 13,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_13.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 3,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_03.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 1,
+        "step_example_idx": 2,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/01_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
+        "next_step": "place_into_vise",
+        "number_of_remaining_steps": 3,
+        "remaining_steps": [
+            "levering",
+            "linear_cutter_cut",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 1,
+        "step_example_idx": 4,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/01_04.png",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
+        "next_step": "place_into_vise",
+        "number_of_remaining_steps": 3,
+        "remaining_steps": [
+            "levering",
+            "linear_cutter_cut",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 16,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_16.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 2,
+        "step_example_idx": 6,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_06.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "place_into_vise",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise"
+        ],
+        "next_step": "levering",
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "linear_cutter_cut",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 2,
+        "step_example_idx": 2,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "place_into_vise",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise"
+        ],
+        "next_step": "levering",
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "linear_cutter_cut",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 2,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/00_02.png",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "flip",
+        "number_of_remaining_steps": 4,
+        "remaining_steps": [
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -1610,11 +1680,446 @@
     {
         "step_idx": 0,
         "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_with_battery/00_00.jpg",
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/00_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "flip",
+        "number_of_remaining_steps": 4,
+        "remaining_steps": [
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 2,
+        "step_example_idx": 11,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_11.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "place_into_vise",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise"
+        ],
+        "next_step": "levering",
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "linear_cutter_cut",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 2,
+        "step_example_idx": 5,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_05.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "place_into_vise",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise"
+        ],
+        "next_step": "levering",
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "linear_cutter_cut",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 1,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/00_01.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "flip",
+        "number_of_remaining_steps": 4,
+        "remaining_steps": [
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 15,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_15.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 4,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_04.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "levering",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering"
+        ],
+        "next_step": "linear_cutter_cut",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 5,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_05.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 7,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_07.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "levering",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering"
+        ],
+        "next_step": "linear_cutter_cut",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 8,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_08.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 5,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_05.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "levering",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering"
+        ],
+        "next_step": "linear_cutter_cut",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 14,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_14.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 2,
+        "step_example_idx": 0,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "place_into_vise",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise"
+        ],
+        "next_step": "levering",
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "linear_cutter_cut",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 1,
+        "step_example_idx": 0,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/01_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
+        "next_step": "place_into_vise",
+        "number_of_remaining_steps": 3,
+        "remaining_steps": [
+            "levering",
+            "linear_cutter_cut",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 11,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_11.png",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 4,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_04.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 2,
+        "step_example_idx": 4,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_04.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "place_into_vise",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise"
+        ],
+        "next_step": "levering",
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "linear_cutter_cut",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 2,
+        "step_example_idx": 9,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/02_09.png",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "place_into_vise",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise"
+        ],
+        "next_step": "levering",
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "linear_cutter_cut",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 10,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_10.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 1,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/03_01.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "levering",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering"
+        ],
+        "next_step": "linear_cutter_cut",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 7,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_07.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 9,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/04_09.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kalo/seq_metadata.json",
+        "object_general_class": "heat_cost_allocator",
+        "object_specific_subclass": "kalo",
+        "previous_step": "linear_cutter_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_vise",
+            "levering",
+            "linear_cutter_cut"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 3,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_with_battery/00_03.jpg",
         "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_with_battery/seq_metadata.json",
         "object_general_class": "pcb_with_battery",
         "object_specific_subclass": "pcb_with_battery",
-        "previous_step": "place_on_table",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
         "next_step": "linear_cutter_cut",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
@@ -1627,7 +2132,10 @@
         "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_with_battery/seq_metadata.json",
         "object_general_class": "pcb_with_battery",
         "object_specific_subclass": "pcb_with_battery",
-        "previous_step": "place_on_table",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
         "next_step": "linear_cutter_cut",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
@@ -1635,12 +2143,15 @@
     },
     {
         "step_idx": 0,
-        "step_example_idx": 3,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_with_battery/00_03.jpg",
+        "step_example_idx": 0,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_with_battery/00_00.jpg",
         "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_with_battery/seq_metadata.json",
         "object_general_class": "pcb_with_battery",
         "object_specific_subclass": "pcb_with_battery",
-        "previous_step": "place_on_table",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
         "next_step": "linear_cutter_cut",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
@@ -1653,8 +2164,63 @@
         "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_with_battery/seq_metadata.json",
         "object_general_class": "pcb_with_battery",
         "object_specific_subclass": "pcb_with_battery",
-        "previous_step": "place_on_table",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
         "next_step": "linear_cutter_cut",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 1,
+        "step_example_idx": 1,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/01_01.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "kaloremotus",
+        "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
+        "next_step": "place_into_cnc",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 3,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/00_03.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "kaloremotus",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "flip",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_cnc"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 1,
+        "step_example_idx": 2,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/01_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "kaloremotus",
+        "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
+        "next_step": "place_into_cnc",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
         "is_final_step": true
@@ -1662,11 +2228,85 @@
     {
         "step_idx": 0,
         "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/00_00.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/seq_metadata.json",
-        "object_general_class": "waste_plastic",
-        "object_specific_subclass": "waste_plastic",
-        "previous_step": "place_on_table",
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/00_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "kaloremotus",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "flip",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_cnc"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 1,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/00_01.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "kaloremotus",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "flip",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_cnc"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 2,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/00_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "kaloremotus",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "flip",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_cnc"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 1,
+        "step_example_idx": 0,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/01_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/kaloremotus/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "kaloremotus",
+        "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
+        "next_step": "place_into_cnc",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 10,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_10.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
+        "object_general_class": "battery",
+        "object_specific_subclass": "battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
         "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
@@ -1674,12 +2314,31 @@
     },
     {
         "step_idx": 0,
-        "step_example_idx": 1,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/00_01.png",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/seq_metadata.json",
-        "object_general_class": "waste_plastic",
-        "object_specific_subclass": "waste_plastic",
-        "previous_step": "place_on_table",
+        "step_example_idx": 8,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_08.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
+        "object_general_class": "battery",
+        "object_specific_subclass": "battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 16,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_16.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
+        "object_general_class": "battery",
+        "object_specific_subclass": "battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
         "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
@@ -1688,24 +2347,14 @@
     {
         "step_idx": 0,
         "step_example_idx": 5,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/00_05.png",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/seq_metadata.json",
-        "object_general_class": "waste_plastic",
-        "object_specific_subclass": "waste_plastic",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 4,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/00_04.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/seq_metadata.json",
-        "object_general_class": "waste_plastic",
-        "object_specific_subclass": "waste_plastic",
-        "previous_step": "place_on_table",
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_05.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
+        "object_general_class": "battery",
+        "object_specific_subclass": "battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
         "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
@@ -1714,11 +2363,142 @@
     {
         "step_idx": 0,
         "step_example_idx": 3,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/00_03.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/seq_metadata.json",
-        "object_general_class": "waste_plastic",
-        "object_specific_subclass": "waste_plastic",
-        "previous_step": "place_on_table",
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_03.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
+        "object_general_class": "battery",
+        "object_specific_subclass": "battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 15,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_15.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
+        "object_general_class": "battery",
+        "object_specific_subclass": "battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 12,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_12.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
+        "object_general_class": "battery",
+        "object_specific_subclass": "battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 7,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_07.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
+        "object_general_class": "battery",
+        "object_specific_subclass": "battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 14,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_14.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
+        "object_general_class": "battery",
+        "object_specific_subclass": "battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 13,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_13.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
+        "object_general_class": "battery",
+        "object_specific_subclass": "battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 17,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_17.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
+        "object_general_class": "battery",
+        "object_specific_subclass": "battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 0,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
+        "object_general_class": "battery",
+        "object_specific_subclass": "battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 1,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_01.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
+        "object_general_class": "battery",
+        "object_specific_subclass": "battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
         "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
@@ -1727,11 +2507,78 @@
     {
         "step_idx": 0,
         "step_example_idx": 2,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/00_02.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/seq_metadata.json",
-        "object_general_class": "waste_plastic",
-        "object_specific_subclass": "waste_plastic",
-        "previous_step": "place_on_table",
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
+        "object_general_class": "battery",
+        "object_specific_subclass": "battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 4,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_04.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
+        "object_general_class": "battery",
+        "object_specific_subclass": "battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 6,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_06.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
+        "object_general_class": "battery",
+        "object_specific_subclass": "battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 11,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_11.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
+        "object_general_class": "battery",
+        "object_specific_subclass": "battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 9,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/00_09.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/battery/seq_metadata.json",
+        "object_general_class": "battery",
+        "object_specific_subclass": "battery",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
         "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
@@ -1744,28 +2591,17 @@
         "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "fumonic",
-        "previous_step": "place_on_table",
+        "previous_step": "cnc_circular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut"
+        ],
         "next_step": "cnc_cut_battery_contacts",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
         "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/00_00.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
-        "object_general_class": "smoke_detector",
-        "object_specific_subclass": "fumonic",
-        "previous_step": "cnc_cut_battery_contacts",
-        "next_step": "flip",
-        "number_of_remaining_steps": 3,
-        "remaining_steps": [
-            "place_into_cnc",
-            "cnc_circular_cut",
-            "cnc_cut_battery_contacts"
-        ],
-        "is_final_step": false
     },
     {
         "step_idx": 1,
@@ -1775,9 +2611,33 @@
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "fumonic",
         "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
         "next_step": "place_into_cnc",
         "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 0,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/00_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "flip",
+        "number_of_remaining_steps": 3,
+        "remaining_steps": [
+            "place_into_cnc",
             "cnc_circular_cut",
             "cnc_cut_battery_contacts"
         ],
@@ -1791,6 +2651,11 @@
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "fumonic",
         "previous_step": "place_into_cnc",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc"
+        ],
         "next_step": "cnc_circular_cut",
         "number_of_remaining_steps": 1,
         "remaining_steps": [
@@ -1806,6 +2671,10 @@
         "object_general_class": "smoke_detector",
         "object_specific_subclass": "fumonic",
         "previous_step": "flip",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
+        ],
         "next_step": "place_into_cnc",
         "number_of_remaining_steps": 2,
         "remaining_steps": [
@@ -1817,295 +2686,129 @@
     {
         "step_idx": 0,
         "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/00_00.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/seq_metadata.json",
-        "object_general_class": "pcb_no_battery",
-        "object_specific_subclass": "pcb_no_battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 1,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/00_01.png",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/seq_metadata.json",
-        "object_general_class": "pcb_no_battery",
-        "object_specific_subclass": "pcb_no_battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 3,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/00_03.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/seq_metadata.json",
-        "object_general_class": "pcb_no_battery",
-        "object_specific_subclass": "pcb_no_battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 2,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/00_02.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_pcb_no_battery/seq_metadata.json",
-        "object_general_class": "pcb_no_battery",
-        "object_specific_subclass": "pcb_no_battery",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 3,
-        "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/03_00.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "qundis",
-        "previous_step": "levering",
-        "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
-        "remaining_steps": [
-            "place_into_waste_container"
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/sensys/00_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/sensys/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "sensys",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
         ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 2,
-        "step_example_idx": 1,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/02_01.png",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "qundis",
-        "previous_step": "place_into_vise",
-        "next_step": "levering",
-        "number_of_remaining_steps": 2,
-        "remaining_steps": [
-            "linear_cutter_cut",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_00.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "qundis",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 2,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_02.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "qundis",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 3,
-        "step_example_idx": 1,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/03_01.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "qundis",
-        "previous_step": "levering",
-        "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
-        "remaining_steps": [
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 0,
-        "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/00_00.png",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "qundis",
-        "previous_step": "place_into_waste_container",
         "next_step": "flip",
-        "number_of_remaining_steps": 4,
+        "number_of_remaining_steps": 1,
         "remaining_steps": [
-            "place_into_vise",
-            "levering",
-            "linear_cutter_cut",
-            "place_into_waste_container"
+            "place_into_cnc"
         ],
         "is_final_step": false
     },
     {
         "step_idx": 1,
         "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/01_00.png",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "qundis",
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/sensys/01_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/sensys/seq_metadata.json",
+        "object_general_class": "smoke_detector",
+        "object_specific_subclass": "sensys",
         "previous_step": "flip",
-        "next_step": "place_into_vise",
-        "number_of_remaining_steps": 3,
-        "remaining_steps": [
-            "levering",
-            "linear_cutter_cut",
-            "place_into_waste_container"
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip"
         ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 5,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_05.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "qundis",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
+        "next_step": "place_into_cnc",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
         "is_final_step": true
     },
     {
-        "step_idx": 3,
-        "step_example_idx": 2,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/03_02.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "qundis",
-        "previous_step": "levering",
-        "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
-        "remaining_steps": [
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 7,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_07.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "qundis",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 6,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_06.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "qundis",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 4,
+        "step_idx": 0,
         "step_example_idx": 3,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_03.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "qundis",
-        "previous_step": "place_on_table",
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/00_03.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/seq_metadata.json",
+        "object_general_class": "waste_plastic",
+        "object_specific_subclass": "waste_plastic",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
         "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
         "is_final_step": true
     },
     {
-        "step_idx": 2,
-        "step_example_idx": 0,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/02_00.png",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "qundis",
-        "previous_step": "place_into_vise",
-        "next_step": "levering",
-        "number_of_remaining_steps": 2,
-        "remaining_steps": [
-            "linear_cutter_cut",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 4,
-        "step_example_idx": 4,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_04.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "qundis",
-        "previous_step": "place_on_table",
-        "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
-    },
-    {
-        "step_idx": 2,
-        "step_example_idx": 2,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/02_02.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "qundis",
-        "previous_step": "place_into_vise",
-        "next_step": "levering",
-        "number_of_remaining_steps": 2,
-        "remaining_steps": [
-            "linear_cutter_cut",
-            "place_into_waste_container"
-        ],
-        "is_final_step": false
-    },
-    {
-        "step_idx": 4,
+        "step_idx": 0,
         "step_example_idx": 1,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_01.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "qundis",
-        "previous_step": "place_on_table",
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/00_01.png",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/seq_metadata.json",
+        "object_general_class": "waste_plastic",
+        "object_specific_subclass": "waste_plastic",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
         "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
         "is_final_step": true
     },
     {
-        "step_idx": 4,
-        "step_example_idx": 8,
-        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/04_08.jpg",
-        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/qundis/seq_metadata.json",
-        "object_general_class": "heat_cost_allocator",
-        "object_specific_subclass": "qundis",
-        "previous_step": "place_on_table",
+        "step_idx": 0,
+        "step_example_idx": 0,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/00_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/seq_metadata.json",
+        "object_general_class": "waste_plastic",
+        "object_specific_subclass": "waste_plastic",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 2,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/00_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/seq_metadata.json",
+        "object_general_class": "waste_plastic",
+        "object_specific_subclass": "waste_plastic",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 4,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/00_04.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/seq_metadata.json",
+        "object_general_class": "waste_plastic",
+        "object_specific_subclass": "waste_plastic",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 0,
+        "step_example_idx": 5,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/00_05.png",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/tmp_waste_plastic/seq_metadata.json",
+        "object_general_class": "waste_plastic",
+        "object_specific_subclass": "waste_plastic",
+        "previous_step": "place_on_flat_table",
+        "list_of_previous_steps": [
+            "place_on_flat_table"
+        ],
         "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],

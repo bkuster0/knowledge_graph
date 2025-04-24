@@ -19,6 +19,7 @@ class EvaluationDatapoint:
     object_general_class: str = "heat_cost_allocator"
     object_specific_subclass: str = "kalo"
     previous_step: str = "move"
+    list_of_previous_steps: List[str] = field(default_factory=lambda: ["flip", "cnc_cut"])
     next_step: str = "flip"
     number_of_remaining_steps: int = 1
     remaining_steps: List[str] = field(default_factory=lambda: ["flip", "cnc_cut"])
@@ -248,8 +249,9 @@ def convert_sequence_metadata_to_evaluation_datapoints(folder,
             n_remaining_steps = len(metadata_dict["steps"]) - step_n - 1
             remaining_steps = metadata_dict["steps"][step_n+1:] if len(metadata_dict["steps"])>step_n else []
             is_final_step = True if step_n == len(metadata_dict["steps"]) - 1 else False
-            previous_step =  metadata_dict["steps"][step_n - 1] if not is_final_step else metadata_dict["initial_step"]
-            #print(f"Image: {full_filename}\nn_remaining_steps: {n_remaining_steps}\nobject_general_class: {object_general_class}\nNext step: {next_step}, is_final_step: {is_final_step}")
+            previous_step =  metadata_dict["steps"][step_n - 1] if step_n > 0 else metadata_dict["initial_step"]
+            list_of_previous_steps = [metadata_dict["initial_step"]] + metadata_dict["steps"][0: step_n]
+                        #print(f"Image: {full_filename}\nn_remaining_steps: {n_remaining_steps}\nobject_general_class: {object_general_class}\nNext step: {next_step}, is_final_step: {is_final_step}")
             #print(f"Previous step: {previous_step}")
 
             evaluation_datapoint = EvaluationDatapoint(step_idx = step_n,
@@ -259,6 +261,7 @@ def convert_sequence_metadata_to_evaluation_datapoints(folder,
                                                        object_general_class = object_general_class,
                                                        object_specific_subclass = object_specific_subclass,
                                                        previous_step = previous_step,
+                                                       list_of_previous_steps = list_of_previous_steps,
                                                        next_step = next_step,
                                                        number_of_remaining_steps = n_remaining_steps,
                                                        remaining_steps = remaining_steps,

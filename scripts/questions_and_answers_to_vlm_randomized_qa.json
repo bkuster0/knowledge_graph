@@ -56,7 +56,7 @@
         "answers": {"0":"0"}
     },
     "next_step": {
-    	"system_prompt": "Disassembly is complete when there is no battery remaining in the device.",
+    	"system_prompt": "You are an AI agent controlling a robotic workcell for disassembly of waste electronics. Disassembly is complete when there is no battery remaining in the device.",
         "questions": [
             "What is the next step?",
             "What is the next disassembly step?"
@@ -76,16 +76,15 @@
         }
     },
     "action_descriptions": {
-        "flip": "Effect: Object is flipped around to reveal the other side where more operations may be performed. Precondition: Object must be on flat table." ,   
-        "place_into_cnc": "Effect: Object is placed into the CNC mill where cutting operations or battery removal using wiggling, or levering, may be performed. Precondition: Object must be on flat table.",
-        "place_into_vise": "Effect: Object is placed into a vise and clamped, which subsequently allows levering to be performed. Precondition: Object must be on flat table.",
-        "remove_pin": "Effect: Remove the holding pin which retains the PCB within the device. Subsequently, levering is possible. Precondition: Object must be clamped within a vise.",
-        "levering": "Effect: Levering is performed using the robot end effector, to dislodge a component, such as a PCB within a device. Precondition: Object must be clamped within a vise or a CNC machine.",
-        "cnc_circular_cut": "Effect: A circular cut is made using a CNC machine, possibly revealing the battery. Precondition: Object must be clamped within the CNC machine and the battery outline must NOT be visible (otherwise do a rectangular cut).",
-        "cnc_rectangular_cut": "Effect: A rectangular CNC cut is performed using a CNC machine, potentially revaling the battery. Preconditions: Object must be clamped within the CNC machine and the rectangular battery outline must be visible (otherwise perform a circular CNC cut)",
-        "cnc_cut_battery_contacts": "Effect: CNC cutting is performed on the battery contacts which keep the battery attached to the PCB, allowing later removal using wiggling. Precondition: The object must be clamped within a CNC machine and the battery must be visible.",
-        "wiggling_battery_removal": "Effect: Removes the battery by grasping and wiggling it. Precondition: The object must be clamped within the CNC machine and the battery must be visible.",
-        "linear_cutter_cut": "Effect: The object (usually PCB with a battery attached) is placed into a linear cutter and the battery is cut off from the PCB. Precondition: The target object must be a PCB with the battery still attached.",
-        "place_into_waste_container": "Effect: The objects are placed into a waste container for plastic or batteries. Precondition: The target object must be separated into only plastic parts or only batteries. I.e. a battery must NOT be attached to the PCB, but previously separated."
+        "flip": "Effect: Object is flipped around to reveal the other side where more operations may be performed. Precondition: Object must be placed on flat table." ,   
+        "place_into_cnc": "Effect: Object is placed into the CNC mill where cutting operations and subsequent battery removal using wiggling, may be performed. Precondition: Object must be placed on flat table. Object must be round.",
+        "place_into_vise": "Effect: Object (usually rectangular heat cost allocator) is placed into a vise and clamped, which subsequently allows levering to be performed. Precondition: Object must be placed on flat table. Object must be of rectangular shape.",
+        "levering": "Effect: Levering is performed (e.g. on heat cost allocators) using the robot end effector, to dislodge a component, such as a PCB within a device. Precondition: Object must be placed into a vise.",
+        "cnc_circular_cut": "Effect: A circular cut is made using a CNC machine, possibly revealing the battery. Precondition: Object must be placed within the CNC machine and the battery outline must NOT be visible (otherwise do a rectangular cut).",
+        "cnc_rectangular_cut": "Effect: A rectangular CNC cut is performed using a CNC machine, potentially revealing the battery. Preconditions: Object must be placed into the CNC machine and the rectangular battery outline must be visible (otherwise perform a circular CNC cut)",
+        "cnc_cut_battery_contacts": "Effect: CNC cutting is performed on the battery contacts which keep the battery attached to the PCB, allowing later removal using wiggling. Precondition: The object must be placed into a CNC machine and the battery must be visible, e.g. CNC cutting for cover removal had to be performed beforehand.",
+        "wiggling_battery_removal": "Effect: Removes the battery by grasping and wiggling it. Precondition: The object must be placed into a CNC machine and the battery must be visible.",
+        "linear_cutter_cut": "Effect: The object (usually PCB with a battery attached) is placed into a linear cutter and the battery is cut off from the PCB. Precondition: The PCB should've been previously removed from the device frame, e.g. using levering. The target object must be a PCB with the battery still attached.",
+        "place_into_waste_container": "Effect: The objects are placed into a waste container for plastic or batteries. Precondition: The target object must be separated into only plastic parts or only batteries. I.e. a battery must NOT be attached to the PCB, but previously separated, e.g. by using the linear cutter or cnc cutting. The object can be located anywhere."
     }
 }

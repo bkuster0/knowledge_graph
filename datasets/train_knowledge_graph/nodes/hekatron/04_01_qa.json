@@ -8,19 +8,19 @@
         "A": "Hekatron."
     },
     {
-        "Q": "What was the previous step?",
-        "A": "place_on_table"
+        "Q": "What was the previous disassembly step?",
+        "A": "wiggling_battery_removal"
     },
     {
         "Q": "What is the next step?",
         "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
-        "Q": "What is the number of remaining disassembly steps?",
+        "Q": "What is the number of remaining steps?",
         "A": "0"
     },
     {
-        "Q": "Does this picture show the final step?",
+        "Q": "Does this picture show the final disassembly step?",
         "A": "Yes."
     }
 ]

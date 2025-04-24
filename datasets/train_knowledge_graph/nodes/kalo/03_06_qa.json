@@ -8,7 +8,7 @@
         "A": "Kalo."
     },
     {
-        "Q": "What was the previous step?",
+        "Q": "What was the previous disassembly step?",
         "A": "levering"
     },
     {
@@ -20,7 +20,7 @@
         "A": "1"
     },
     {
-        "Q": "Does this image show the final step?",
+        "Q": "Is this the final disassembly step?",
         "A": "No."
     }
 ]

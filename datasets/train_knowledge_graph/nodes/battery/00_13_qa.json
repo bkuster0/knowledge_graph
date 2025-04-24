@@ -9,7 +9,7 @@
     },
     {
         "Q": "What was the previous disassembly step?",
-        "A": "place_on_table"
+        "A": "place_on_flat_table"
     },
     {
         "Q": "What is the next disassembly step?",
@@ -20,7 +20,7 @@
         "A": "0"
     },
     {
-        "Q": "Is this the final disassembly step?",
+        "Q": "Does this picture show the final disassembly step?",
         "A": "Yes."
     }
 ]

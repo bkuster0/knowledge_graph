@@ -8,11 +8,11 @@
         "A": "Qundis."
     },
     {
-        "Q": "What was the previous step?",
-        "A": "place_on_table"
+        "Q": "What was the previous disassembly step?",
+        "A": "linear_cutter_cut"
     },
     {
-        "Q": "What is the next disassembly step?",
+        "Q": "What is the next step?",
         "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
@@ -20,7 +20,7 @@
         "A": "0"
     },
     {
-        "Q": "Does this image show the final disassembly step?",
+        "Q": "Is this the final disassembly step?",
         "A": "Yes."
     }
 ]

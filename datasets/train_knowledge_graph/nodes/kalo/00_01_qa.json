@@ -8,15 +8,15 @@
         "A": "Kalo."
     },
     {
-        "Q": "What was the previous step?",
-        "A": "place_into_waste_container"
+        "Q": "What was the previous disassembly step?",
+        "A": "place_on_flat_table"
     },
     {
         "Q": "What is the next disassembly step?",
         "A": "Flip the object"
     },
     {
-        "Q": "What is the number of remaining disassembly steps?",
+        "Q": "How many steps are remaining?",
         "A": "4"
     },
     {

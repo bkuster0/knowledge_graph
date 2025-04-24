@@ -9,18 +9,18 @@
     },
     {
         "Q": "What was the previous step?",
-        "A": "place_on_table"
+        "A": "linear_cutter_cut"
     },
     {
         "Q": "What is the next disassembly step?",
         "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
-        "Q": "Number of remaining disassembly steps?",
+        "Q": "How many steps are remaining?",
         "A": "0"
     },
     {
-        "Q": "Is this the final disassembly step?",
+        "Q": "Does this picture show the final step?",
         "A": "Yes."
     }
 ]
