@@ -2,6 +2,7 @@
     "image_sequences": ["0_0.png"],
     "initial_step": "place_on_flat_table",
     "steps": ["flip", "place_into_vise", "levering", "linear_cutter_cut", "place_into_waste_container"],
-    "object_general_class": "heat_cost_allocator",
-    "object_specific_subclass": "qundis"
+    "object_general_class_initial_step": "heat_cost_allocator",
+    "object_specific_subclass": "qundis",
+    "object_general_class_per_step": ["heat_cost_allocator", "heat_cost_allocator", "heat_cost_allocator", "pcb_with_battery", "waste_plastic"]
 }

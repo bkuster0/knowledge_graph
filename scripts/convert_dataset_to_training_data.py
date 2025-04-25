@@ -16,6 +16,7 @@ class EvaluationDatapoint:
     full_image_path: str = '/knowledge_graph/example_single_node_dataset/smoke_detector/0_0.jpg'
     full_metadata_path: str = '/knowledge_graph/example_single_node_dataset/smoke_detector/seq_metadata.json'
 
+    object_general_class_initial_step: str = "heat_cost_allocator"
     object_general_class: str = "heat_cost_allocator"
     object_specific_subclass: str = "kalo"
     previous_step: str = "move"
@@ -243,7 +244,8 @@ def convert_sequence_metadata_to_evaluation_datapoints(folder,
             full_image_path = os.path.join(root, full_filename)
             print("metadata dict:", metadata_dict)
 
-            object_general_class = metadata_dict["object_general_class"]
+            object_general_class = metadata_dict["object_general_class_per_step"][step_n]
+            object_general_class_initial_step = metadata_dict["object_general_class_per_step"][0]
             object_specific_subclass = metadata_dict["object_specific_subclass"]
             next_step = metadata_dict["steps"][step_n]
             n_remaining_steps = len(metadata_dict["steps"]) - step_n - 1
@@ -258,6 +260,7 @@ def convert_sequence_metadata_to_evaluation_datapoints(folder,
                                                        step_example_idx = example_img_idx,
                                                        full_image_path = full_image_path,
                                                        full_metadata_path = full_metadata_path,
+                                                       object_general_class_initial_step = object_general_class_initial_step,
                                                        object_general_class = object_general_class,
                                                        object_specific_subclass = object_specific_subclass,
                                                        previous_step = previous_step,

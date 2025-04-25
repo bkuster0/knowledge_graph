@@ -2,6 +2,7 @@
     "image_sequences": ["0_0.png"],
     "initial_step": "place_on_flat_table",
     "steps": ["place_into_waste_container"],
-    "object_general_class": "pcb_no_battery",
-    "object_specific_subclass": "pcb_no_battery"
+    "object_general_class_initial_step": "pcb_no_battery",
+    "object_specific_subclass": "pcb_no_battery",
+    "object_general_class_per_step": ["pcb_without_battery"]
 }

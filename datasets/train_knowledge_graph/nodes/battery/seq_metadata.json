@@ -2,6 +2,7 @@
     "image_sequences": ["0_0.png"],
     "initial_step": "place_on_flat_table",
     "steps": ["place_into_waste_container"],
-    "object_general_class": "battery",
-    "object_specific_subclass": "battery"
+    "object_general_class_initial_step": "waste_battery",
+    "object_specific_subclass": "battery",
+    "object_general_class_per_step": ["waste_battery"]
 }

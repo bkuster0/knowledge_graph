@@ -56,7 +56,7 @@
         "answers": {"0":"0"}
     },
     "next_step": {
-    	"system_prompt": "You are an AI agent controlling a robotic workcell for disassembly of waste electronics.",
+    	"system_prompt": "You are an AI agent controlling a robotic workcell for disassembly of waste electronics. If you see an object on a flat table, flip it. After flipping, place smoke detectors into the CNC machine and do cnc cutting, then battery contact removal, and afterwards place them into the waste container. For heat cost allocators, place them into the vise, do levering, then linear cutting, lastly place the stuff into the waste container.",
         "questions": [
             "What is the next step?",
             "What is the next disassembly step?"

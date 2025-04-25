@@ -1,7 +1,7 @@
 [
     {
         "Q": "What is the general class of the object shown?",
-        "A": "A PCB without a battery"
+        "A": "pcb_without_battery"
     },
     {
         "Q": "What is the specific type of the object shown?",
@@ -16,11 +16,11 @@
         "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
-        "Q": "What is the number of remaining disassembly steps?",
+        "Q": "What is the number of remaining steps?",
         "A": "0"
     },
     {
-        "Q": "Does this picture show the final disassembly step?",
+        "Q": "Does this image show the final step?",
         "A": "Yes."
     }
 ]

@@ -1,26 +1,26 @@
 [
     {
         "Q": "What is the general class of the object shown?",
-        "A": "heat_cost_allocator"
+        "A": "waste_plastic"
     },
     {
         "Q": "What is the specific type of the object shown?",
         "A": "Qundis."
     },
     {
-        "Q": "What was the previous step?",
+        "Q": "What was the previous disassembly step?",
         "A": "linear_cutter_cut"
     },
     {
-        "Q": "What is the next disassembly step?",
+        "Q": "What is the next step?",
         "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
-        "Q": "How many disassembly steps are remaining?",
+        "Q": "How many steps are remaining?",
         "A": "0"
     },
     {
-        "Q": "Does this picture show the final disassembly step?",
+        "Q": "Is this the final disassembly step?",
         "A": "Yes."
     }
 ]

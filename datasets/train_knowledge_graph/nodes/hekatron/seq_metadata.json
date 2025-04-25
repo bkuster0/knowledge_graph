@@ -2,6 +2,7 @@
     "image_sequences": ["0_0.png"],
     "initial_step": "place_on_flat_table",
     "steps": ["flip", "place_into_cnc", "cnc_rectangular_cut", "wiggling_battery_removal", "place_into_waste_container"],
-    "object_general_class": "smoke_detector",
-    "object_specific_subclass": "hekatron"
+    "object_general_class_initial_step": "smoke_detector",
+    "object_specific_subclass": "hekatron",
+    "object_general_class_per_step": ["smoke_detector", "smoke_detector", "smoke_detector", "smoke_detector_with_battery", "waste_plastic"]
 }

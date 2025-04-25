@@ -12,11 +12,11 @@
         "A": "place_into_cnc"
     },
     {
-        "Q": "What is the next disassembly step?",
+        "Q": "What is the next step?",
         "A": "Perform a rectangular CNC cut"
     },
     {
-        "Q": "Number of remaining steps?",
+        "Q": "How many disassembly steps are remaining?",
         "A": "2"
     },
     {

@@ -8,19 +8,19 @@
         "A": "waste_plastic"
     },
     {
-        "Q": "What was the previous step?",
+        "Q": "What was the previous disassembly step?",
         "A": "place_on_flat_table"
     },
     {
-        "Q": "What is the next step?",
+        "Q": "What is the next disassembly step?",
         "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
-        "Q": "Number of remaining disassembly steps?",
+        "Q": "Number of remaining steps?",
         "A": "0"
     },
     {
-        "Q": "Does this picture show the final disassembly step?",
+        "Q": "Is this the final step?",
         "A": "Yes."
     }
 ]
