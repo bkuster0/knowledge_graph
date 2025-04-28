@@ -1,0 +1,26 @@
+[
+    {
+        "Q": "What is the general class of the object shown?",
+        "A": "smoke_detector_with_battery"
+    },
+    {
+        "Q": "What is the specific type of the object shown?",
+        "A": "Hekatron."
+    },
+    {
+        "Q": "What was the previous step?",
+        "A": "cnc_rectangular_cut"
+    },
+    {
+        "Q": "What is the next disassembly step?",
+        "A": "Remove the battery by grasping and wiggling it"
+    },
+    {
+        "Q": "How many steps are remaining?",
+        "A": "1"
+    },
+    {
+        "Q": "Does this image show the final disassembly step?",
+        "A": "No."
+    }
+]

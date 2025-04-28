@@ -8,7 +8,7 @@
         "A": "Hekatron."
     },
     {
-        "Q": "What was the previous step?",
+        "Q": "What was the previous disassembly step?",
         "A": "cnc_rectangular_cut"
     },
     {
@@ -16,7 +16,7 @@
         "A": "Remove the battery by grasping and wiggling it"
     },
     {
-        "Q": "What is the number of remaining steps?",
+        "Q": "What is the number of remaining disassembly steps?",
         "A": "1"
     },
     {

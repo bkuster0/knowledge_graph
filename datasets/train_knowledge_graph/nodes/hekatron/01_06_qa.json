@@ -8,7 +8,7 @@
         "A": "Hekatron."
     },
     {
-        "Q": "What was the previous disassembly step?",
+        "Q": "What was the previous step?",
         "A": "flip"
     },
     {
@@ -16,7 +16,7 @@
         "A": "Place the object into the CNC mill"
     },
     {
-        "Q": "How many disassembly steps are remaining?",
+        "Q": "How many steps are remaining?",
         "A": "3"
     },
     {

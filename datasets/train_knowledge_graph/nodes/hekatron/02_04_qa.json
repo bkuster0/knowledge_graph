@@ -8,7 +8,7 @@
         "A": "Hekatron."
     },
     {
-        "Q": "What was the previous disassembly step?",
+        "Q": "What was the previous step?",
         "A": "place_into_cnc"
     },
     {
@@ -16,11 +16,11 @@
         "A": "Perform a rectangular CNC cut"
     },
     {
-        "Q": "Number of remaining steps?",
+        "Q": "What is the number of remaining disassembly steps?",
         "A": "2"
     },
     {
-        "Q": "Does this picture show the final step?",
+        "Q": "Is this the final step?",
         "A": "No."
     }
 ]

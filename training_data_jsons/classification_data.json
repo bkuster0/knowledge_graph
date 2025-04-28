@@ -454,6 +454,28 @@
     },
     {
         "step_idx": 3,
+        "step_example_idx": 13,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_13.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 3,
         "step_example_idx": 2,
         "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_02.jpg",
         "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
@@ -496,6 +518,28 @@
         "is_final_step": true
     },
     {
+        "step_idx": 3,
+        "step_example_idx": 14,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_14.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
         "step_idx": 2,
         "step_example_idx": 1,
         "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/02_01.jpg",
@@ -519,8 +563,52 @@
     },
     {
         "step_idx": 3,
+        "step_example_idx": 11,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_11.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 3,
         "step_example_idx": 3,
         "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_03.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 17,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_17.jpg",
         "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
         "object_general_class_initial_step": "smoke_detector",
         "object_general_class": "smoke_detector_with_battery",
@@ -606,6 +694,28 @@
         "is_final_step": false
     },
     {
+        "step_idx": 3,
+        "step_example_idx": 12,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_12.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
         "step_idx": 1,
         "step_example_idx": 9,
         "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/01_09.jpg",
@@ -669,6 +779,28 @@
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
         "is_final_step": true
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 16,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_16.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
     },
     {
         "step_idx": 4,
@@ -977,6 +1109,72 @@
     },
     {
         "step_idx": 3,
+        "step_example_idx": 15,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_15.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 18,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_18.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 19,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_19.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 3,
         "step_example_idx": 5,
         "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_05.jpg",
         "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
@@ -1110,6 +1308,28 @@
         "step_idx": 3,
         "step_example_idx": 1,
         "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_01.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery",
+        "object_specific_subclass": "hekatron",
+        "previous_step": "cnc_rectangular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_rectangular_cut"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 10,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/03_10.jpg",
         "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/hekatron/seq_metadata.json",
         "object_general_class_initial_step": "smoke_detector",
         "object_general_class": "smoke_detector_with_battery",
@@ -2737,6 +2957,126 @@
         "is_final_step": true
     },
     {
+        "step_idx": 3,
+        "step_example_idx": 6,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/03_06.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_circular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut"
+        ],
+        "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 13,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/03_13.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_circular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut"
+        ],
+        "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 2,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/03_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_circular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut"
+        ],
+        "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 14,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/03_14.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_circular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut"
+        ],
+        "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 11,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/03_11.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_circular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut"
+        ],
+        "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 3,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/03_03.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_circular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut"
+        ],
+        "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
         "step_idx": 1,
         "step_example_idx": 1,
         "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/01_01.jpg",
@@ -2758,6 +3098,46 @@
         "is_final_step": false
     },
     {
+        "step_idx": 3,
+        "step_example_idx": 12,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/03_12.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_circular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut"
+        ],
+        "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 8,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/03_08.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_circular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut"
+        ],
+        "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
         "step_idx": 0,
         "step_example_idx": 0,
         "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/00_00.jpg",
@@ -2777,6 +3157,106 @@
             "cnc_cut_battery_contacts"
         ],
         "is_final_step": false
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 9,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/03_09.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_circular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut"
+        ],
+        "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 4,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/03_04.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_circular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut"
+        ],
+        "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 7,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/03_07.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_circular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut"
+        ],
+        "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 15,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/03_15.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_circular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut"
+        ],
+        "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 5,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/03_05.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_circular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut"
+        ],
+        "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
     },
     {
         "step_idx": 2,
@@ -2819,6 +3299,46 @@
             "cnc_cut_battery_contacts"
         ],
         "is_final_step": false
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 1,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/03_01.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_circular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut"
+        ],
+        "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 3,
+        "step_example_idx": 10,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/03_10.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_circular_cut",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut"
+        ],
+        "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
     },
     {
         "step_idx": 0,

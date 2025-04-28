@@ -12,11 +12,11 @@
         "A": "wiggling_battery_removal"
     },
     {
-        "Q": "What is the next step?",
+        "Q": "What is the next disassembly step?",
         "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
-        "Q": "How many disassembly steps are remaining?",
+        "Q": "What is the number of remaining disassembly steps?",
         "A": "0"
     },
     {
