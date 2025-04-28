@@ -2937,6 +2937,29 @@
         "is_final_step": true
     },
     {
+        "step_idx": 4,
+        "step_example_idx": 12,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/04_12.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered_and_contacts_cut",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_cut_battery_contacts",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
         "step_idx": 3,
         "step_example_idx": 0,
         "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/03_00.jpg",
@@ -2952,9 +2975,12 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
     },
     {
         "step_idx": 3,
@@ -2972,9 +2998,35 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 6,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/04_06.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered_and_contacts_cut",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_cut_battery_contacts",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
     },
     {
         "step_idx": 3,
@@ -2992,9 +3044,12 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
     },
     {
         "step_idx": 3,
@@ -3012,9 +3067,35 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 0,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/04_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered_and_contacts_cut",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_cut_battery_contacts",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
     },
     {
         "step_idx": 3,
@@ -3032,9 +3113,12 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
     },
     {
         "step_idx": 3,
@@ -3052,6 +3136,31 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 5,
+        "step_example_idx": 9,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/05_09.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "waste_plastic",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "wiggling_battery_removal",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts",
+            "wiggling_battery_removal"
+        ],
+        "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
         "is_final_step": true
@@ -3072,9 +3181,35 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 11,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/04_11.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered_and_contacts_cut",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_cut_battery_contacts",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
     },
     {
         "step_idx": 1,
@@ -3090,10 +3225,12 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
             "cnc_circular_cut",
-            "cnc_cut_battery_contacts"
+            "cnc_cut_battery_contacts",
+            "wiggling_battery_removal",
+            "place_into_waste_container"
         ],
         "is_final_step": false
     },
@@ -3113,9 +3250,58 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 1,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/04_01.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered_and_contacts_cut",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_cut_battery_contacts",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 2,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/04_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered_and_contacts_cut",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_cut_battery_contacts",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
     },
     {
         "step_idx": 3,
@@ -3133,6 +3319,165 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 5,
+        "step_example_idx": 5,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/05_05.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "waste_plastic",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "wiggling_battery_removal",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts",
+            "wiggling_battery_removal"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 5,
+        "step_example_idx": 1,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/05_01.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "waste_plastic",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "wiggling_battery_removal",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts",
+            "wiggling_battery_removal"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 13,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/04_13.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered_and_contacts_cut",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_cut_battery_contacts",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 3,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/04_03.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered_and_contacts_cut",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_cut_battery_contacts",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 5,
+        "step_example_idx": 8,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/05_08.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "waste_plastic",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "wiggling_battery_removal",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts",
+            "wiggling_battery_removal"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 5,
+        "step_example_idx": 4,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/05_04.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "waste_plastic",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "wiggling_battery_removal",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts",
+            "wiggling_battery_removal"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 5,
+        "step_example_idx": 6,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/05_06.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "waste_plastic",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "wiggling_battery_removal",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts",
+            "wiggling_battery_removal"
+        ],
+        "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
         "is_final_step": true
@@ -3150,11 +3495,13 @@
             "place_on_flat_table"
         ],
         "next_step": "flip",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 5,
         "remaining_steps": [
             "place_into_cnc",
             "cnc_circular_cut",
-            "cnc_cut_battery_contacts"
+            "cnc_cut_battery_contacts",
+            "wiggling_battery_removal",
+            "place_into_waste_container"
         ],
         "is_final_step": false
     },
@@ -3174,9 +3521,35 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 15,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/04_15.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered_and_contacts_cut",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_cut_battery_contacts",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
     },
     {
         "step_idx": 3,
@@ -3194,9 +3567,57 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 5,
+        "step_example_idx": 7,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/05_07.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "waste_plastic",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "wiggling_battery_removal",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts",
+            "wiggling_battery_removal"
+        ],
+        "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
         "is_final_step": true
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 5,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/04_05.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered_and_contacts_cut",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_cut_battery_contacts",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
     },
     {
         "step_idx": 3,
@@ -3214,9 +3635,12 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
     },
     {
         "step_idx": 3,
@@ -3234,6 +3658,54 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 8,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/04_08.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered_and_contacts_cut",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_cut_battery_contacts",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 5,
+        "step_example_idx": 0,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/05_00.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "waste_plastic",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "wiggling_battery_removal",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts",
+            "wiggling_battery_removal"
+        ],
+        "next_step": "place_into_waste_container",
         "number_of_remaining_steps": 0,
         "remaining_steps": [],
         "is_final_step": true
@@ -3254,9 +3726,35 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 14,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/04_14.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered_and_contacts_cut",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_cut_battery_contacts",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
     },
     {
         "step_idx": 2,
@@ -3273,11 +3771,35 @@
             "place_into_cnc"
         ],
         "next_step": "cnc_circular_cut",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
-            "cnc_cut_battery_contacts"
+            "cnc_cut_battery_contacts",
+            "wiggling_battery_removal",
+            "place_into_waste_container"
         ],
         "is_final_step": false
+    },
+    {
+        "step_idx": 5,
+        "step_example_idx": 2,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/05_02.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "waste_plastic",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "wiggling_battery_removal",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts",
+            "wiggling_battery_removal"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
     },
     {
         "step_idx": 1,
@@ -3293,10 +3815,80 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
             "cnc_circular_cut",
+            "cnc_cut_battery_contacts",
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 5,
+        "step_example_idx": 3,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/05_03.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "waste_plastic",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "wiggling_battery_removal",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts",
+            "wiggling_battery_removal"
+        ],
+        "next_step": "place_into_waste_container",
+        "number_of_remaining_steps": 0,
+        "remaining_steps": [],
+        "is_final_step": true
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 4,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/04_04.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered_and_contacts_cut",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_cut_battery_contacts",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
             "cnc_cut_battery_contacts"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 10,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/04_10.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered_and_contacts_cut",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_cut_battery_contacts",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
         ],
         "is_final_step": false
     },
@@ -3316,9 +3908,58 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 7,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/04_07.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered_and_contacts_cut",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_cut_battery_contacts",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
+    },
+    {
+        "step_idx": 4,
+        "step_example_idx": 9,
+        "full_image_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/04_09.jpg",
+        "full_metadata_path": "/knowledge_graph/datasets/train_knowledge_graph/nodes/fumonic/seq_metadata.json",
+        "object_general_class_initial_step": "smoke_detector",
+        "object_general_class": "smoke_detector_with_battery_uncovered_and_contacts_cut",
+        "object_specific_subclass": "fumonic",
+        "previous_step": "cnc_cut_battery_contacts",
+        "list_of_previous_steps": [
+            "place_on_flat_table",
+            "flip",
+            "place_into_cnc",
+            "cnc_circular_cut",
+            "cnc_cut_battery_contacts"
+        ],
+        "next_step": "wiggling_battery_removal",
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
     },
     {
         "step_idx": 3,
@@ -3336,9 +3977,12 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
-        "is_final_step": true
+        "number_of_remaining_steps": 2,
+        "remaining_steps": [
+            "wiggling_battery_removal",
+            "place_into_waste_container"
+        ],
+        "is_final_step": false
     },
     {
         "step_idx": 0,

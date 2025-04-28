@@ -8,7 +8,7 @@
         "A": "Kalo."
     },
     {
-        "Q": "What was the previous disassembly step?",
+        "Q": "What was the previous step?",
         "A": "linear_cutter_cut"
     },
     {
@@ -20,7 +20,7 @@
         "A": "0"
     },
     {
-        "Q": "Does this picture show the final step?",
+        "Q": "Does this image show the final disassembly step?",
         "A": "Yes."
     }
 ]

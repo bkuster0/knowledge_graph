@@ -8,7 +8,7 @@
         "A": "Sensys."
     },
     {
-        "Q": "What was the previous disassembly step?",
+        "Q": "What was the previous step?",
         "A": "flip"
     },
     {
@@ -16,11 +16,11 @@
         "A": "Place the object into the CNC mill"
     },
     {
-        "Q": "Number of remaining steps?",
+        "Q": "What is the number of remaining disassembly steps?",
         "A": "0"
     },
     {
-        "Q": "Is this the final disassembly step?",
+        "Q": "Does this image show the final step?",
         "A": "Yes."
     }
 ]

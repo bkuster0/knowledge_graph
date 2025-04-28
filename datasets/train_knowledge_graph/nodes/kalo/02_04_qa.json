@@ -8,7 +8,7 @@
         "A": "Kalo."
     },
     {
-        "Q": "What was the previous step?",
+        "Q": "What was the previous disassembly step?",
         "A": "place_into_vise"
     },
     {
@@ -16,11 +16,11 @@
         "A": "Perform levering to dislodge a component"
     },
     {
-        "Q": "How many steps are remaining?",
+        "Q": "What is the number of remaining steps?",
         "A": "2"
     },
     {
-        "Q": "Does this image show the final disassembly step?",
+        "Q": "Does this image show the final step?",
         "A": "No."
     }
 ]

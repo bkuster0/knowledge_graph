@@ -8,19 +8,19 @@
         "A": "Fumonic."
     },
     {
-        "Q": "What was the previous step?",
+        "Q": "What was the previous disassembly step?",
         "A": "cnc_circular_cut"
     },
     {
-        "Q": "What is the next disassembly step?",
+        "Q": "What is the next step?",
         "A": "Remove the battery contacts by CNC milling"
     },
     {
-        "Q": "What is the number of remaining disassembly steps?",
-        "A": "0"
+        "Q": "How many steps are remaining?",
+        "A": "2"
     },
     {
-        "Q": "Does this image show the final disassembly step?",
-        "A": "Yes."
+        "Q": "Does this image show the final step?",
+        "A": "No."
     }
 ]

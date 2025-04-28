@@ -12,11 +12,11 @@
         "A": "place_into_vise"
     },
     {
-        "Q": "What is the next step?",
+        "Q": "What is the next disassembly step?",
         "A": "Perform levering to dislodge a component"
     },
     {
-        "Q": "What is the number of remaining disassembly steps?",
+        "Q": "Number of remaining steps?",
         "A": "2"
     },
     {

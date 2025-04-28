@@ -17,10 +17,10 @@
     },
     {
         "Q": "Number of remaining disassembly steps?",
-        "A": "0"
+        "A": "2"
     },
     {
-        "Q": "Is this the final step?",
-        "A": "Yes."
+        "Q": "Is this the final disassembly step?",
+        "A": "No."
     }
 ]
