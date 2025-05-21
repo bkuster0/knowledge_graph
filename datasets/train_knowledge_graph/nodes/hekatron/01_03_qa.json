@@ -1,15 +1,15 @@
 [
     {
         "Q": "What is the general class of the object shown?",
-        "A": "Smoke detector."
+        "A": "Smoke detector of type Hekatron."
     },
     {
         "Q": "What is the specific type of the object shown?",
         "A": "Hekatron."
     },
     {
-        "Q": "What was the previous disassembly step?",
-        "A": "flip"
+        "Q": "What was the previous disassembly step which led to the current state?",
+        "A": "Flip the object"
     },
     {
         "Q": "What is the next step?",

@@ -2,7 +2,7 @@
     "image_sequences": ["0_0.png"],
     "initial_step": "place_on_flat_table",
     "steps": ["flip", "place_into_cnc"],
-    "object_general_class_initial_step": "smoke_detector",
+    "object_general_class_initial_step": "smoke_detector_kaloremotus",
     "object_specific_subclass": "kaloremotus",
-    "object_general_class_per_step": ["smoke_detector", "smoke_detector"]
+    "object_general_class_per_step": ["smoke_detector_kaloremotus", "smoke_detector_kaloremotus"]
 }

@@ -1,26 +1,26 @@
 [
     {
         "Q": "What is the general class of the object shown?",
-        "A": "pcb_with_battery"
+        "A": "A PCB with a battery attached"
     },
     {
         "Q": "What is the specific type of the object shown?",
         "A": "Kalo."
     },
     {
-        "Q": "What was the previous disassembly step?",
-        "A": "levering"
+        "Q": "What was the previous disassembly step which led to the current state?",
+        "A": "Perform levering to dislodge a component"
     },
     {
         "Q": "What is the next disassembly step?",
         "A": "Place the object into a linear cutter and cut it apart."
     },
     {
-        "Q": "What is the number of remaining disassembly steps?",
+        "Q": "How many disassembly steps are remaining?",
         "A": "1"
     },
     {
-        "Q": "Is this the final step?",
+        "Q": "Does this picture show the final disassembly step?",
         "A": "No."
     }
 ]

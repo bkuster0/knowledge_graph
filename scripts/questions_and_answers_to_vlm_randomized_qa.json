@@ -1,15 +1,24 @@
 {
     "object_general_class": {
+        "task_type": "classification",
         "system_prompt": "",
         "questions": ["What is the general class of the object shown?"
         ],
-        "answers": {"smoke_detector": "Smoke detector.",
-                    "hca": "Heat Cost Allocator.",
-                    "battery": "Battery.",
+        "answers": {"smoke_detector_fumonic": "Smoke detector of type Fumonic.",
+                    "smoke_detector_hekatron": "Smoke detector of type Hekatron.",
+                    "smoke_detector_kaloremotus": "Smoke detector of type Kaloremotus.",
+                    "smoke_detector_sensys": "Smoke detector of type Sensys.",
+                    "smoke_detector_with_battery_uncovered": "Smoke detector with cover removed where battery can be seen.",
+                    "heat_cost_allocator_kalo": "Heat Cost Allocator of type Kalo.",
+                    "heat_cost_allocator_qundis": "Heat Cost Allocator of type Qundis.",
+                    "waste_battery": "Battery without any other components.",
                     "pcb_no_battery": "A PCB without a battery",
-                    "pcb_battery": "A PCB with a battery attached"}
+                    "pcb_with_battery": "A PCB with a battery attached",
+                    "waste_plastic": "Waste plastic where a separated battery may or may not be present."
+                    }
     },
     "object_specific_subclass": {
+        "task_type": "classification",
         "system_prompt": "",
         "questions": ["What is the specific type of the object shown?"
         ],
@@ -20,6 +29,7 @@
                     "sensys": "Sensys."}
     },
     "number_of_remaining_steps": {
+        "task_type": "regression",
         "system_prompt": "Disassembly is complete when there is no battery remaining in the device.",
         "questions": ["How many steps are remaining?",
                      "How many disassembly steps are remaining?",
@@ -28,9 +38,17 @@
                      "Number of remaining steps?",
                      "Number of remaining disassembly steps?"
         ],
-        "answers": {"0": "0"}
+        "answers": {"0": "0",
+                    "1": "1",
+                    "2": "2",
+                    "3": "3",
+                    "4": "4",
+                    "5": "5",
+                    "6": "6",
+                    "7": "7"}
     },
     "is_final_step": {
+        "task_type": "classification",
     	"system_prompt": "Disassembly is complete (final step) when there is no battery remaining in the device, or when there is only a battery on the image.",
         "questions": [
             "Does this image show the final step?",
@@ -48,14 +66,29 @@
         }
     },
     "previous_step": {
+        "task_type": "classification",
         "system_prompt": "Disassembly is complete when there is no battery remaining in the device.",
         "questions": [
-            "What was the previous step?",
-            "What was the previous disassembly step?"
+            "What was the previous step which led to the current state?",
+            "What was the previous disassembly step which led to the current state?"
         ],
-        "answers": {"0":"0"}
+        "answers": {
+            "flip": ["Flip the object"],
+            "place_on_flat_table": "Place the object on a flat table.",
+            "place_into_cnc": ["Place the object into the CNC mill"],
+            "place_into_vise": ["Place the object in to the vise"],
+            "remove_pin": ["Remove the holding pin"],
+            "levering": ["Perform levering to dislodge a component"],
+            "cnc_circular_cut": ["Perform a circular CNC cut"],
+            "cnc_rectangular_cut": ["Perform a rectangular CNC cut"],
+            "cnc_cut_battery_contacts": ["Remove the battery contacts by CNC milling"],
+            "wiggling_battery_removal": ["Remove the battery by grasping and wiggling it"],
+            "linear_cutter_cut": ["Place the object into a linear cutter and cut it apart."],
+            "place_into_waste_container": ["Place the objects into the waste containers for plastic or batteries."]
+        }
     },
     "next_step": {
+        "task_type": "classification",
     	"system_prompt": "You are an AI agent controlling a robotic workcell for disassembly of waste electronics.",
         "questions": [
             "What is the next step?",

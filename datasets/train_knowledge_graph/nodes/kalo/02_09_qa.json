@@ -1,22 +1,22 @@
 [
     {
         "Q": "What is the general class of the object shown?",
-        "A": "heat_cost_allocator"
+        "A": "Heat Cost Allocator of type Kalo."
     },
     {
         "Q": "What is the specific type of the object shown?",
         "A": "Kalo."
     },
     {
-        "Q": "What was the previous disassembly step?",
-        "A": "place_into_vise"
+        "Q": "What was the previous step which led to the current state?",
+        "A": "Place the object in to the vise"
     },
     {
-        "Q": "What is the next step?",
+        "Q": "What is the next disassembly step?",
         "A": "Perform levering to dislodge a component"
     },
     {
-        "Q": "Number of remaining steps?",
+        "Q": "What is the number of remaining steps?",
         "A": "2"
     },
     {

@@ -1,22 +1,22 @@
 [
     {
         "Q": "What is the general class of the object shown?",
-        "A": "Smoke detector."
+        "A": "Smoke detector of type Kaloremotus."
     },
     {
         "Q": "What is the specific type of the object shown?",
         "A": "kaloremotus"
     },
     {
-        "Q": "What was the previous disassembly step?",
-        "A": "flip"
+        "Q": "What was the previous step which led to the current state?",
+        "A": "Flip the object"
     },
     {
         "Q": "What is the next disassembly step?",
         "A": "Place the object into the CNC mill"
     },
     {
-        "Q": "Number of remaining steps?",
+        "Q": "What is the number of remaining steps?",
         "A": "0"
     },
     {

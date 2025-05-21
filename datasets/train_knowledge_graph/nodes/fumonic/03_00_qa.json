@@ -1,26 +1,26 @@
 [
     {
         "Q": "What is the general class of the object shown?",
-        "A": "smoke_detector_with_battery_uncovered"
+        "A": "Smoke detector with cover removed where battery can be seen."
     },
     {
         "Q": "What is the specific type of the object shown?",
         "A": "Fumonic."
     },
     {
-        "Q": "What was the previous disassembly step?",
-        "A": "cnc_circular_cut"
+        "Q": "What was the previous step which led to the current state?",
+        "A": "Perform a circular CNC cut"
     },
     {
         "Q": "What is the next step?",
         "A": "Remove the battery contacts by CNC milling"
     },
     {
-        "Q": "What is the number of remaining steps?",
+        "Q": "What is the number of remaining disassembly steps?",
         "A": "2"
     },
     {
-        "Q": "Is this the final disassembly step?",
+        "Q": "Does this picture show the final step?",
         "A": "No."
     }
 ]

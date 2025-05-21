@@ -1,15 +1,15 @@
 [
     {
         "Q": "What is the general class of the object shown?",
-        "A": "waste_plastic"
+        "A": "Waste plastic where a separated battery may or may not be present."
     },
     {
         "Q": "What is the specific type of the object shown?",
         "A": "Kalo."
     },
     {
-        "Q": "What was the previous disassembly step?",
-        "A": "linear_cutter_cut"
+        "Q": "What was the previous step which led to the current state?",
+        "A": "Place the object into a linear cutter and cut it apart."
     },
     {
         "Q": "What is the next step?",
@@ -20,7 +20,7 @@
         "A": "0"
     },
     {
-        "Q": "Is this the final step?",
+        "Q": "Does this picture show the final step?",
         "A": "Yes."
     }
 ]

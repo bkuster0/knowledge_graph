@@ -1,26 +1,26 @@
 [
     {
         "Q": "What is the general class of the object shown?",
-        "A": "heat_cost_allocator"
+        "A": "Heat Cost Allocator of type Qundis."
     },
     {
         "Q": "What is the specific type of the object shown?",
         "A": "Qundis."
     },
     {
-        "Q": "What was the previous disassembly step?",
-        "A": "place_on_flat_table"
+        "Q": "What was the previous step which led to the current state?",
+        "A": "Place the object on a flat table."
     },
     {
-        "Q": "What is the next disassembly step?",
+        "Q": "What is the next step?",
         "A": "Flip the object"
     },
     {
-        "Q": "How many steps are remaining?",
+        "Q": "How many disassembly steps are remaining?",
         "A": "4"
     },
     {
-        "Q": "Does this image show the final disassembly step?",
+        "Q": "Is this the final disassembly step?",
         "A": "No."
     }
 ]
