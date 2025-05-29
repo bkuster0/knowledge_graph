@@ -1,0 +1,65 @@
+[
+    {
+        "iteration": 0,
+        "model_name": "Dummy random classifier",
+        "mean_squared_error": 0,
+        "accuracy_metrics": {
+            "train": {
+                "current_mean": 0.0,
+                "current_std": 0.0,
+                "next_mean": 100.0,
+                "next_std": 0.0,
+                "remaining_mean": 50.0,
+                "remaining_std": 0.0,
+                "remaining_count_mean": 2.5,
+                "remaining_count_std": 0.0,
+                "is_last_mean": 50.0,
+                "is_last_std": 0.0,
+                "object_general_class_mean": 0.0,
+                "object_general_class_std": 0.0
+            },
+            "val": {
+                "current_mean": 0.0,
+                "current_std": 0.0,
+                "next_mean": 0.0,
+                "next_std": 0.0,
+                "remaining_mean": 0.0,
+                "remaining_std": 0.0,
+                "remaining_count_mean": 16.0,
+                "remaining_count_std": 0.0,
+                "is_last_mean": 0.0,
+                "is_last_std": 0.0,
+                "object_general_class_mean": 0.0,
+                "object_general_class_std": 0.0
+            },
+            "test": {
+                "current_mean": 0.0,
+                "current_std": 0.0,
+                "next_mean": 0.0,
+                "next_std": 0.0,
+                "remaining_mean": 0.0,
+                "remaining_std": 0.0,
+                "remaining_count_mean": 8.0,
+                "remaining_count_std": 0.0,
+                "is_last_mean": 100.0,
+                "is_last_std": 0.0,
+                "object_general_class_mean": 0.0,
+                "object_general_class_std": 0.0
+            },
+            "combined": {
+                "current_mean": 0.0,
+                "current_std": 0.0,
+                "next_mean": 40.0,
+                "next_std": 0.0,
+                "remaining_mean": 20.0,
+                "remaining_std": 0.0,
+                "remaining_count_mean": 7.4,
+                "remaining_count_std": 0.0,
+                "is_last_mean": 60.0,
+                "is_last_std": 0.0,
+                "object_general_class_mean": 0.0,
+                "object_general_class_std": 0.0
+            }
+        }
+    }
+]

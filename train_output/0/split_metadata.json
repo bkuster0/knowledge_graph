@@ -1,0 +1,17 @@
+[
+    {
+        "split_type": "train-test-val-split",
+        "split_idx": 0,
+        "train_ids": [
+            4,
+            1
+        ],
+        "val_ids": [
+            2
+        ],
+        "test_ids": [
+            3,
+            0
+        ]
+    }
+]

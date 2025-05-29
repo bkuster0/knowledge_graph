@@ -1,0 +1,41 @@
+[
+    {
+        "iteration": 0,
+        "model_name": "Dummy random classifier",
+        "mean_squared_error": 0,
+        "accuracy_metrics": {
+            "train": {
+                "current": 0.0,
+                "next": 100.0,
+                "remaining": 50.0,
+                "remaining_count": 2.5,
+                "is_last": 50.0,
+                "object_general_class": 0.0
+            },
+            "val": {
+                "current": 0.0,
+                "next": 0.0,
+                "remaining": 0.0,
+                "remaining_count": 16.0,
+                "is_last": 0.0,
+                "object_general_class": 0.0
+            },
+            "test": {
+                "current": 0.0,
+                "next": 0.0,
+                "remaining": 0.0,
+                "remaining_count": 8.0,
+                "is_last": 100.0,
+                "object_general_class": 0.0
+            },
+            "combined": {
+                "current": 0.0,
+                "next": 40.0,
+                "remaining": 20.0,
+                "remaining_count": 7.4,
+                "is_last": 60.0,
+                "object_general_class": 0.0
+            }
+        }
+    }
+]
