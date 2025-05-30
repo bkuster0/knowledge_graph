@@ -8,19 +8,23 @@
         "A": "Fumonic."
     },
     {
-        "Q": "What was the previous disassembly step which led to the current state?",
+        "Q": "What was the previous step which led to the current state?",
         "A": "Perform a circular CNC cut"
     },
     {
-        "Q": "What is the next disassembly step?",
+        "Q": "What is the next step?",
         "A": "Remove the battery contacts by CNC milling"
     },
     {
-        "Q": "Number of remaining steps?",
-        "A": "2"
+        "Q": "Number of remaining disassembly steps?",
+        "A": "3"
     },
     {
-        "Q": "Is this the final step?",
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['cnc_cut_battery_contacts', 'wiggling_battery_removal', 'place_into_waste_container']"
+    },
+    {
+        "Q": "Does this image show the final disassembly step?",
         "A": "No."
     }
 ]

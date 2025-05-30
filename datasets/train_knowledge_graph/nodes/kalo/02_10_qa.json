@@ -17,10 +17,14 @@
     },
     {
         "Q": "How many disassembly steps are remaining?",
-        "A": "2"
+        "A": "3"
     },
     {
-        "Q": "Is this the final disassembly step?",
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['levering', 'linear_cutter_cut', 'place_into_waste_container']"
+    },
+    {
+        "Q": "Does this picture show the final step?",
         "A": "No."
     }
 ]

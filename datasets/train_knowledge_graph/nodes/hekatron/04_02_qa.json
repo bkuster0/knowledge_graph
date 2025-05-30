@@ -8,19 +8,23 @@
         "A": "Hekatron."
     },
     {
-        "Q": "What was the previous disassembly step which led to the current state?",
+        "Q": "What was the previous step which led to the current state?",
         "A": "Remove the battery by grasping and wiggling it"
     },
     {
-        "Q": "What is the next disassembly step?",
+        "Q": "What is the next step?",
         "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
-        "Q": "How many steps are remaining?",
-        "A": "0"
+        "Q": "What is the number of remaining disassembly steps?",
+        "A": "1"
     },
     {
-        "Q": "Does this image show the final step?",
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['place_into_waste_container']"
+    },
+    {
+        "Q": "Is this the final step?",
         "A": "Yes."
     }
 ]

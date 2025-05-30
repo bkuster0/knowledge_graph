@@ -12,12 +12,16 @@
         "A": "Place the object on a flat table."
     },
     {
-        "Q": "What is the next step?",
+        "Q": "What is the next disassembly step?",
         "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
         "Q": "How many disassembly steps are remaining?",
-        "A": "0"
+        "A": "1"
+    },
+    {
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['place_into_waste_container']"
     },
     {
         "Q": "Is this the final disassembly step?",

@@ -16,11 +16,15 @@
         "A": "Perform a rectangular CNC cut"
     },
     {
-        "Q": "Number of remaining disassembly steps?",
-        "A": "2"
+        "Q": "How many steps are remaining?",
+        "A": "3"
     },
     {
-        "Q": "Is this the final step?",
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['cnc_rectangular_cut', 'wiggling_battery_removal', 'place_into_waste_container']"
+    },
+    {
+        "Q": "Does this image show the final disassembly step?",
         "A": "No."
     }
 ]

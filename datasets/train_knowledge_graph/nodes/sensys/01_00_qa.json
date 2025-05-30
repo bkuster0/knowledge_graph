@@ -16,11 +16,15 @@
         "A": "Place the object into the CNC mill"
     },
     {
-        "Q": "What is the number of remaining disassembly steps?",
-        "A": "0"
+        "Q": "What is the number of remaining steps?",
+        "A": "1"
     },
     {
-        "Q": "Is this the final disassembly step?",
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['place_into_cnc']"
+    },
+    {
+        "Q": "Does this picture show the final step?",
         "A": "Yes."
     }
 ]

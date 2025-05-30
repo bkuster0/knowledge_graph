@@ -8,7 +8,7 @@
         "A": "kaloremotus"
     },
     {
-        "Q": "What was the previous disassembly step which led to the current state?",
+        "Q": "What was the previous step which led to the current state?",
         "A": "Place the object on a flat table."
     },
     {
@@ -16,11 +16,15 @@
         "A": "Flip the object"
     },
     {
-        "Q": "Number of remaining steps?",
-        "A": "1"
+        "Q": "How many disassembly steps are remaining?",
+        "A": "2"
     },
     {
-        "Q": "Does this image show the final disassembly step?",
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['flip', 'place_into_cnc']"
+    },
+    {
+        "Q": "Is this the final step?",
         "A": "No."
     }
 ]

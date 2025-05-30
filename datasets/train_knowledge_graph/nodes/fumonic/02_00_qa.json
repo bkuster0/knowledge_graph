@@ -17,10 +17,14 @@
     },
     {
         "Q": "What is the number of remaining steps?",
-        "A": "3"
+        "A": "4"
     },
     {
-        "Q": "Does this picture show the final disassembly step?",
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['cnc_circular_cut', 'cnc_cut_battery_contacts', 'wiggling_battery_removal', 'place_into_waste_container']"
+    },
+    {
+        "Q": "Is this the final disassembly step?",
         "A": "No."
     }
 ]

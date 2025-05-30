@@ -8,7 +8,7 @@
         "A": "Fumonic."
     },
     {
-        "Q": "What was the previous step which led to the current state?",
+        "Q": "What was the previous disassembly step which led to the current state?",
         "A": "Remove the battery by grasping and wiggling it"
     },
     {
@@ -17,10 +17,14 @@
     },
     {
         "Q": "Number of remaining steps?",
-        "A": "0"
+        "A": "1"
     },
     {
-        "Q": "Does this picture show the final disassembly step?",
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['place_into_waste_container']"
+    },
+    {
+        "Q": "Is this the final disassembly step?",
         "A": "Yes."
     }
 ]

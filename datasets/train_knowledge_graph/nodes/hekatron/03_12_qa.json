@@ -12,15 +12,19 @@
         "A": "Perform a rectangular CNC cut"
     },
     {
-        "Q": "What is the next disassembly step?",
+        "Q": "What is the next step?",
         "A": "Remove the battery by grasping and wiggling it"
     },
     {
-        "Q": "What is the number of remaining disassembly steps?",
-        "A": "1"
+        "Q": "How many steps are remaining?",
+        "A": "2"
     },
     {
-        "Q": "Is this the final disassembly step?",
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['wiggling_battery_removal', 'place_into_waste_container']"
+    },
+    {
+        "Q": "Is this the final step?",
         "A": "No."
     }
 ]

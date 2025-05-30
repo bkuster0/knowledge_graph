@@ -15,8 +15,9 @@
             "levering"
         ],
         "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "linear_cutter_cut",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -38,8 +39,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -58,8 +61,9 @@
             "levering"
         ],
         "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "linear_cutter_cut",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -81,8 +85,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -102,8 +108,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -123,8 +131,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -142,8 +152,9 @@
             "place_into_vise"
         ],
         "next_step": "levering",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
         ],
@@ -166,8 +177,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -185,8 +198,9 @@
             "place_into_vise"
         ],
         "next_step": "levering",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
         ],
@@ -205,8 +219,9 @@
             "place_on_flat_table"
         ],
         "next_step": "flip",
-        "number_of_remaining_steps": 4,
+        "number_of_remaining_steps": 5,
         "remaining_steps": [
+            "flip",
             "place_into_vise",
             "levering",
             "linear_cutter_cut",
@@ -231,8 +246,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -249,8 +266,9 @@
             "flip"
         ],
         "next_step": "place_into_vise",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_vise",
             "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
@@ -274,8 +292,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -295,8 +315,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -315,8 +337,9 @@
             "levering"
         ],
         "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "linear_cutter_cut",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -336,8 +359,9 @@
             "place_into_vise"
         ],
         "next_step": "levering",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
         ],
@@ -360,8 +384,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -378,8 +404,9 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_cnc",
             "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
@@ -401,8 +428,9 @@
             "place_into_cnc"
         ],
         "next_step": "cnc_rectangular_cut",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -424,8 +452,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -446,8 +475,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -468,8 +498,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -490,8 +521,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -513,8 +545,10 @@
             "wiggling_battery_removal"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -533,8 +567,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -554,8 +589,9 @@
             "place_into_cnc"
         ],
         "next_step": "cnc_rectangular_cut",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -577,8 +613,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -599,8 +636,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -621,8 +659,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -641,8 +680,9 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_cnc",
             "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
@@ -663,8 +703,9 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_cnc",
             "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
@@ -685,8 +726,9 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_cnc",
             "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
@@ -709,8 +751,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -729,8 +772,9 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_cnc",
             "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
@@ -751,8 +795,9 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_cnc",
             "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
@@ -776,8 +821,10 @@
             "wiggling_battery_removal"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -796,8 +843,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -819,8 +867,10 @@
             "wiggling_battery_removal"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -837,8 +887,9 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_cnc",
             "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
@@ -861,8 +912,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -881,8 +933,9 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_cnc",
             "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
@@ -906,8 +959,10 @@
             "wiggling_battery_removal"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -924,8 +979,9 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_cnc",
             "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
@@ -946,8 +1002,9 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_cnc",
             "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
@@ -969,8 +1026,9 @@
             "place_into_cnc"
         ],
         "next_step": "cnc_rectangular_cut",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -989,8 +1047,9 @@
             "place_on_flat_table"
         ],
         "next_step": "flip",
-        "number_of_remaining_steps": 4,
+        "number_of_remaining_steps": 5,
         "remaining_steps": [
+            "flip",
             "place_into_cnc",
             "cnc_rectangular_cut",
             "wiggling_battery_removal",
@@ -1012,8 +1071,9 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_cnc",
             "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
@@ -1036,8 +1096,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -1058,8 +1119,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -1081,8 +1143,10 @@
             "wiggling_battery_removal"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -1101,8 +1165,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -1123,8 +1188,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -1145,8 +1211,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -1167,8 +1234,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -1189,8 +1257,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -1210,8 +1279,9 @@
             "place_into_cnc"
         ],
         "next_step": "cnc_rectangular_cut",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -1231,8 +1301,9 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_cnc",
             "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
@@ -1253,8 +1324,9 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_cnc",
             "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
@@ -1278,8 +1350,10 @@
             "wiggling_battery_removal"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -1297,8 +1371,9 @@
             "place_into_cnc"
         ],
         "next_step": "cnc_rectangular_cut",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_rectangular_cut",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -1320,8 +1395,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -1342,8 +1418,9 @@
             "cnc_rectangular_cut"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -1361,8 +1438,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -1378,8 +1457,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -1395,8 +1476,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -1412,8 +1495,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -1433,8 +1518,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -1452,8 +1539,9 @@
             "place_into_vise"
         ],
         "next_step": "levering",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
         ],
@@ -1475,8 +1563,9 @@
             "levering"
         ],
         "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "linear_cutter_cut",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -1497,8 +1586,9 @@
             "levering"
         ],
         "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "linear_cutter_cut",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -1520,8 +1610,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -1540,8 +1632,9 @@
             "levering"
         ],
         "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "linear_cutter_cut",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -1563,8 +1656,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -1582,8 +1677,9 @@
             "place_into_vise"
         ],
         "next_step": "levering",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
         ],
@@ -1605,8 +1701,9 @@
             "levering"
         ],
         "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "linear_cutter_cut",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -1627,8 +1724,9 @@
             "levering"
         ],
         "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "linear_cutter_cut",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -1647,8 +1745,9 @@
             "flip"
         ],
         "next_step": "place_into_vise",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_vise",
             "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
@@ -1670,8 +1769,9 @@
             "place_into_vise"
         ],
         "next_step": "levering",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
         ],
@@ -1694,8 +1794,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -1713,8 +1815,9 @@
             "place_into_vise"
         ],
         "next_step": "levering",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
         ],
@@ -1737,8 +1840,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -1758,8 +1863,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -1777,8 +1884,9 @@
             "place_into_vise"
         ],
         "next_step": "levering",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
         ],
@@ -1798,8 +1906,9 @@
             "flip"
         ],
         "next_step": "place_into_vise",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_vise",
             "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
@@ -1823,8 +1932,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -1844,8 +1955,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -1862,8 +1975,9 @@
             "flip"
         ],
         "next_step": "place_into_vise",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_vise",
             "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
@@ -1884,8 +1998,9 @@
             "flip"
         ],
         "next_step": "place_into_vise",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_vise",
             "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
@@ -1909,8 +2024,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -1928,8 +2045,9 @@
             "place_into_vise"
         ],
         "next_step": "levering",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
         ],
@@ -1950,8 +2068,9 @@
             "place_into_vise"
         ],
         "next_step": "levering",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
         ],
@@ -1970,8 +2089,9 @@
             "place_on_flat_table"
         ],
         "next_step": "flip",
-        "number_of_remaining_steps": 4,
+        "number_of_remaining_steps": 5,
         "remaining_steps": [
+            "flip",
             "place_into_vise",
             "levering",
             "linear_cutter_cut",
@@ -1992,8 +2112,9 @@
             "place_on_flat_table"
         ],
         "next_step": "flip",
-        "number_of_remaining_steps": 4,
+        "number_of_remaining_steps": 5,
         "remaining_steps": [
+            "flip",
             "place_into_vise",
             "levering",
             "linear_cutter_cut",
@@ -2016,8 +2137,9 @@
             "place_into_vise"
         ],
         "next_step": "levering",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
         ],
@@ -2038,8 +2160,9 @@
             "place_into_vise"
         ],
         "next_step": "levering",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
         ],
@@ -2058,8 +2181,9 @@
             "place_on_flat_table"
         ],
         "next_step": "flip",
-        "number_of_remaining_steps": 4,
+        "number_of_remaining_steps": 5,
         "remaining_steps": [
+            "flip",
             "place_into_vise",
             "levering",
             "linear_cutter_cut",
@@ -2084,8 +2208,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2104,8 +2230,9 @@
             "levering"
         ],
         "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "linear_cutter_cut",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -2127,8 +2254,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2147,8 +2276,9 @@
             "levering"
         ],
         "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "linear_cutter_cut",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -2170,8 +2300,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2190,8 +2322,9 @@
             "levering"
         ],
         "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "linear_cutter_cut",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -2213,8 +2346,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2232,8 +2367,9 @@
             "place_into_vise"
         ],
         "next_step": "levering",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
         ],
@@ -2253,8 +2389,9 @@
             "flip"
         ],
         "next_step": "place_into_vise",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "place_into_vise",
             "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
@@ -2278,8 +2415,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2299,8 +2438,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2318,8 +2459,9 @@
             "place_into_vise"
         ],
         "next_step": "levering",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
         ],
@@ -2340,8 +2482,9 @@
             "place_into_vise"
         ],
         "next_step": "levering",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "levering",
             "linear_cutter_cut",
             "place_into_waste_container"
         ],
@@ -2364,8 +2507,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2384,8 +2529,9 @@
             "levering"
         ],
         "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "linear_cutter_cut",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -2407,8 +2553,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2428,8 +2576,10 @@
             "linear_cutter_cut"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2445,8 +2595,10 @@
             "place_on_flat_table"
         ],
         "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "linear_cutter_cut"
+        ],
         "is_final_step": true
     },
     {
@@ -2462,8 +2614,10 @@
             "place_on_flat_table"
         ],
         "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "linear_cutter_cut"
+        ],
         "is_final_step": true
     },
     {
@@ -2479,8 +2633,10 @@
             "place_on_flat_table"
         ],
         "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "linear_cutter_cut"
+        ],
         "is_final_step": true
     },
     {
@@ -2496,8 +2652,10 @@
             "place_on_flat_table"
         ],
         "next_step": "linear_cutter_cut",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "linear_cutter_cut"
+        ],
         "is_final_step": true
     },
     {
@@ -2514,8 +2672,10 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_cnc"
+        ],
         "is_final_step": true
     },
     {
@@ -2531,8 +2691,9 @@
             "place_on_flat_table"
         ],
         "next_step": "flip",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "flip",
             "place_into_cnc"
         ],
         "is_final_step": false
@@ -2551,8 +2712,10 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_cnc"
+        ],
         "is_final_step": true
     },
     {
@@ -2568,8 +2731,9 @@
             "place_on_flat_table"
         ],
         "next_step": "flip",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "flip",
             "place_into_cnc"
         ],
         "is_final_step": false
@@ -2587,8 +2751,9 @@
             "place_on_flat_table"
         ],
         "next_step": "flip",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "flip",
             "place_into_cnc"
         ],
         "is_final_step": false
@@ -2606,8 +2771,9 @@
             "place_on_flat_table"
         ],
         "next_step": "flip",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "flip",
             "place_into_cnc"
         ],
         "is_final_step": false
@@ -2626,8 +2792,10 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_cnc"
+        ],
         "is_final_step": true
     },
     {
@@ -2643,8 +2811,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2660,8 +2830,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2677,8 +2849,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2694,8 +2868,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2711,8 +2887,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2728,8 +2906,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2745,8 +2925,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2762,8 +2944,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2779,8 +2963,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2796,8 +2982,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2813,8 +3001,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2830,8 +3020,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2847,8 +3039,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2864,8 +3058,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2881,8 +3077,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2898,8 +3096,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2915,8 +3115,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2932,8 +3134,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -2953,8 +3157,9 @@
             "cnc_cut_battery_contacts"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -2975,8 +3180,9 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -2998,8 +3204,9 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -3022,8 +3229,9 @@
             "cnc_cut_battery_contacts"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -3044,8 +3252,9 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -3067,8 +3276,9 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -3091,8 +3301,9 @@
             "cnc_cut_battery_contacts"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -3113,8 +3324,9 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -3136,8 +3348,9 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -3161,8 +3374,10 @@
             "wiggling_battery_removal"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -3181,8 +3396,9 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -3205,8 +3421,9 @@
             "cnc_cut_battery_contacts"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -3225,8 +3442,9 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 4,
+        "number_of_remaining_steps": 5,
         "remaining_steps": [
+            "place_into_cnc",
             "cnc_circular_cut",
             "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
@@ -3250,8 +3468,9 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -3274,8 +3493,9 @@
             "cnc_cut_battery_contacts"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -3297,8 +3517,9 @@
             "cnc_cut_battery_contacts"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -3319,8 +3540,9 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -3344,8 +3566,10 @@
             "wiggling_battery_removal"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -3366,8 +3590,10 @@
             "wiggling_battery_removal"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -3387,8 +3613,9 @@
             "cnc_cut_battery_contacts"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -3410,8 +3637,9 @@
             "cnc_cut_battery_contacts"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -3434,8 +3662,10 @@
             "wiggling_battery_removal"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -3456,8 +3686,10 @@
             "wiggling_battery_removal"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -3478,8 +3710,10 @@
             "wiggling_battery_removal"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -3495,8 +3729,9 @@
             "place_on_flat_table"
         ],
         "next_step": "flip",
-        "number_of_remaining_steps": 5,
+        "number_of_remaining_steps": 6,
         "remaining_steps": [
+            "flip",
             "place_into_cnc",
             "cnc_circular_cut",
             "cnc_cut_battery_contacts",
@@ -3521,8 +3756,9 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -3545,8 +3781,9 @@
             "cnc_cut_battery_contacts"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -3567,8 +3804,9 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -3592,8 +3830,10 @@
             "wiggling_battery_removal"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -3613,8 +3853,9 @@
             "cnc_cut_battery_contacts"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -3635,8 +3876,9 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -3658,8 +3900,9 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -3682,8 +3925,9 @@
             "cnc_cut_battery_contacts"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -3706,8 +3950,10 @@
             "wiggling_battery_removal"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -3726,8 +3972,9 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -3750,8 +3997,9 @@
             "cnc_cut_battery_contacts"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -3771,8 +4019,9 @@
             "place_into_cnc"
         ],
         "next_step": "cnc_circular_cut",
-        "number_of_remaining_steps": 3,
+        "number_of_remaining_steps": 4,
         "remaining_steps": [
+            "cnc_circular_cut",
             "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
             "place_into_waste_container"
@@ -3797,8 +4046,10 @@
             "wiggling_battery_removal"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -3815,8 +4066,9 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 4,
+        "number_of_remaining_steps": 5,
         "remaining_steps": [
+            "place_into_cnc",
             "cnc_circular_cut",
             "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
@@ -3842,8 +4094,10 @@
             "wiggling_battery_removal"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -3863,8 +4117,9 @@
             "cnc_cut_battery_contacts"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -3886,8 +4141,9 @@
             "cnc_cut_battery_contacts"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -3908,8 +4164,9 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -3932,8 +4189,9 @@
             "cnc_cut_battery_contacts"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -3955,8 +4213,9 @@
             "cnc_cut_battery_contacts"
         ],
         "next_step": "wiggling_battery_removal",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "wiggling_battery_removal",
             "place_into_waste_container"
         ],
         "is_final_step": false
@@ -3977,8 +4236,9 @@
             "cnc_circular_cut"
         ],
         "next_step": "cnc_cut_battery_contacts",
-        "number_of_remaining_steps": 2,
+        "number_of_remaining_steps": 3,
         "remaining_steps": [
+            "cnc_cut_battery_contacts",
             "wiggling_battery_removal",
             "place_into_waste_container"
         ],
@@ -3997,8 +4257,9 @@
             "place_on_flat_table"
         ],
         "next_step": "flip",
-        "number_of_remaining_steps": 1,
+        "number_of_remaining_steps": 2,
         "remaining_steps": [
+            "flip",
             "place_into_cnc"
         ],
         "is_final_step": false
@@ -4017,8 +4278,10 @@
             "flip"
         ],
         "next_step": "place_into_cnc",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_cnc"
+        ],
         "is_final_step": true
     },
     {
@@ -4034,8 +4297,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -4051,8 +4316,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -4068,8 +4335,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -4085,8 +4354,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -4102,8 +4373,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     },
     {
@@ -4119,8 +4392,10 @@
             "place_on_flat_table"
         ],
         "next_step": "place_into_waste_container",
-        "number_of_remaining_steps": 0,
-        "remaining_steps": [],
+        "number_of_remaining_steps": 1,
+        "remaining_steps": [
+            "place_into_waste_container"
+        ],
         "is_final_step": true
     }
 ]

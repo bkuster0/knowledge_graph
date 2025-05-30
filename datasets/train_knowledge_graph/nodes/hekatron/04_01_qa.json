@@ -12,12 +12,16 @@
         "A": "Remove the battery by grasping and wiggling it"
     },
     {
-        "Q": "What is the next step?",
+        "Q": "What is the next disassembly step?",
         "A": "Place the objects into the waste containers for plastic or batteries."
     },
     {
-        "Q": "What is the number of remaining steps?",
-        "A": "0"
+        "Q": "How many disassembly steps are remaining?",
+        "A": "1"
+    },
+    {
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['place_into_waste_container']"
     },
     {
         "Q": "Is this the final step?",

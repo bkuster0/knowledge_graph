@@ -8,7 +8,7 @@
         "A": "Hekatron."
     },
     {
-        "Q": "What was the previous step which led to the current state?",
+        "Q": "What was the previous disassembly step which led to the current state?",
         "A": "Perform a rectangular CNC cut"
     },
     {
@@ -17,10 +17,14 @@
     },
     {
         "Q": "How many disassembly steps are remaining?",
-        "A": "1"
+        "A": "2"
     },
     {
-        "Q": "Does this image show the final step?",
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['wiggling_battery_removal', 'place_into_waste_container']"
+    },
+    {
+        "Q": "Is this the final disassembly step?",
         "A": "No."
     }
 ]

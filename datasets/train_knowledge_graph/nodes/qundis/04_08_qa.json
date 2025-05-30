@@ -17,10 +17,14 @@
     },
     {
         "Q": "How many disassembly steps are remaining?",
-        "A": "0"
+        "A": "1"
     },
     {
-        "Q": "Is this the final disassembly step?",
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['place_into_waste_container']"
+    },
+    {
+        "Q": "Does this picture show the final step?",
         "A": "Yes."
     }
 ]

@@ -8,7 +8,7 @@
         "A": "Fumonic."
     },
     {
-        "Q": "What was the previous step which led to the current state?",
+        "Q": "What was the previous disassembly step which led to the current state?",
         "A": "Place the object on a flat table."
     },
     {
@@ -16,11 +16,15 @@
         "A": "Flip the object"
     },
     {
-        "Q": "Number of remaining steps?",
-        "A": "5"
+        "Q": "Number of remaining disassembly steps?",
+        "A": "6"
     },
     {
-        "Q": "Does this picture show the final disassembly step?",
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['flip', 'place_into_cnc', 'cnc_circular_cut', 'cnc_cut_battery_contacts', 'wiggling_battery_removal', 'place_into_waste_container']"
+    },
+    {
+        "Q": "Is this the final step?",
         "A": "No."
     }
 ]

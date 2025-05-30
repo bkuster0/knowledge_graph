@@ -8,7 +8,7 @@
         "A": "Fumonic."
     },
     {
-        "Q": "What was the previous disassembly step which led to the current state?",
+        "Q": "What was the previous step which led to the current state?",
         "A": "Remove the battery contacts by CNC milling"
     },
     {
@@ -16,11 +16,15 @@
         "A": "Remove the battery by grasping and wiggling it"
     },
     {
-        "Q": "Number of remaining disassembly steps?",
-        "A": "1"
+        "Q": "How many disassembly steps are remaining?",
+        "A": "2"
     },
     {
-        "Q": "Does this picture show the final disassembly step?",
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['wiggling_battery_removal', 'place_into_waste_container']"
+    },
+    {
+        "Q": "Does this image show the final step?",
         "A": "No."
     }
 ]

@@ -16,11 +16,15 @@
         "A": "Place the object into a linear cutter and cut it apart."
     },
     {
-        "Q": "How many disassembly steps are remaining?",
-        "A": "1"
+        "Q": "How many steps are remaining?",
+        "A": "2"
     },
     {
-        "Q": "Does this picture show the final step?",
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['linear_cutter_cut', 'place_into_waste_container']"
+    },
+    {
+        "Q": "Is this the final disassembly step?",
         "A": "No."
     }
 ]

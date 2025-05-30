@@ -16,8 +16,12 @@
         "A": "Perform levering to dislodge a component"
     },
     {
-        "Q": "What is the number of remaining disassembly steps?",
-        "A": "2"
+        "Q": "How many steps are remaining?",
+        "A": "3"
+    },
+    {
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['levering', 'linear_cutter_cut', 'place_into_waste_container']"
     },
     {
         "Q": "Does this picture show the final disassembly step?",

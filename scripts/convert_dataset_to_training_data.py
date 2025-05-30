@@ -248,8 +248,8 @@ def convert_sequence_metadata_to_evaluation_datapoints(folder,
             object_general_class_initial_step = metadata_dict["object_general_class_per_step"][0]
             object_specific_subclass = metadata_dict["object_specific_subclass"]
             next_step = metadata_dict["steps"][step_n]
-            n_remaining_steps = len(metadata_dict["steps"]) - step_n - 1
-            remaining_steps = metadata_dict["steps"][step_n+1:] if len(metadata_dict["steps"])>step_n else []
+            n_remaining_steps = len(metadata_dict["steps"]) - step_n #- 1
+            remaining_steps = metadata_dict["steps"][step_n:] if len(metadata_dict["steps"])>step_n else []
             is_final_step = True if step_n == len(metadata_dict["steps"]) - 1 else False
             previous_step =  metadata_dict["steps"][step_n - 1] if step_n > 0 else metadata_dict["initial_step"]
             list_of_previous_steps = [metadata_dict["initial_step"]] + metadata_dict["steps"][0: step_n]

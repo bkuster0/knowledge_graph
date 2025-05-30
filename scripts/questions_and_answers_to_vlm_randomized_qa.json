@@ -1,4 +1,11 @@
 {
+    "multistep": {
+        "task_type": "classification",
+        "system_prompt": "",
+        "questions": ["Determine all the disassembly parameters, next steps, etc."
+        ],
+        "answers": {}
+    },
     "object_general_class": {
         "task_type": "classification",
         "system_prompt": "",
@@ -46,6 +53,24 @@
                     "5": "5",
                     "6": "6",
                     "7": "7"}
+    },
+     "remaining_steps": {
+        "task_type": "classification",
+        "system_prompt": "Disassembly is complete when there is no battery remaining in the device.",
+        "questions": ["Determine the sequence of remaining disassembly steps."],
+        "answers": {
+            "flip": ["Flip the object"],
+            "place_on_flat_table": ["Place the object on a flat table."],
+            "place_into_cnc": ["Place the object into the CNC mill"],
+            "place_into_vise": ["Place the object in to the vise"],
+            "remove_pin": ["Remove the holding pin"],
+            "levering": ["Perform levering to dislodge a component"],
+            "cnc_circular_cut": ["Perform a circular CNC cut"],
+            "cnc_rectangular_cut": ["Perform a rectangular CNC cut"],
+            "cnc_cut_battery_contacts": ["Remove the battery contacts by CNC milling"],
+            "wiggling_battery_removal": ["Remove the battery by grasping and wiggling it"],
+            "linear_cutter_cut": ["Place the object into a linear cutter and cut it apart."],
+            "place_into_waste_container": ["Place the objects into the waste containers for plastic or batteries."]}
     },
     "is_final_step": {
         "task_type": "classification",

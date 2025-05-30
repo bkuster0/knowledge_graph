@@ -8,7 +8,7 @@
         "A": "Qundis."
     },
     {
-        "Q": "What was the previous step which led to the current state?",
+        "Q": "What was the previous disassembly step which led to the current state?",
         "A": "Place the object on a flat table."
     },
     {
@@ -16,11 +16,15 @@
         "A": "Flip the object"
     },
     {
-        "Q": "How many disassembly steps are remaining?",
-        "A": "4"
+        "Q": "Number of remaining disassembly steps?",
+        "A": "5"
     },
     {
-        "Q": "Is this the final disassembly step?",
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['flip', 'place_into_vise', 'levering', 'linear_cutter_cut', 'place_into_waste_container']"
+    },
+    {
+        "Q": "Is this the final step?",
         "A": "No."
     }
 ]

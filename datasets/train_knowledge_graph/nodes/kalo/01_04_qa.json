@@ -8,7 +8,7 @@
         "A": "Kalo."
     },
     {
-        "Q": "What was the previous step which led to the current state?",
+        "Q": "What was the previous disassembly step which led to the current state?",
         "A": "Flip the object"
     },
     {
@@ -16,11 +16,15 @@
         "A": "Place the object in to the vise"
     },
     {
-        "Q": "How many steps are remaining?",
-        "A": "3"
+        "Q": "How many disassembly steps are remaining?",
+        "A": "4"
     },
     {
-        "Q": "Is this the final disassembly step?",
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['place_into_vise', 'levering', 'linear_cutter_cut', 'place_into_waste_container']"
+    },
+    {
+        "Q": "Does this image show the final disassembly step?",
         "A": "No."
     }
 ]

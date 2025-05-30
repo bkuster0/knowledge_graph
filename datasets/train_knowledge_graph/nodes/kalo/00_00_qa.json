@@ -16,8 +16,12 @@
         "A": "Flip the object"
     },
     {
-        "Q": "What is the number of remaining steps?",
-        "A": "4"
+        "Q": "How many disassembly steps are remaining?",
+        "A": "5"
+    },
+    {
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['flip', 'place_into_vise', 'levering', 'linear_cutter_cut', 'place_into_waste_container']"
     },
     {
         "Q": "Does this image show the final step?",

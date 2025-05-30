@@ -8,7 +8,7 @@
         "A": "battery"
     },
     {
-        "Q": "What was the previous step which led to the current state?",
+        "Q": "What was the previous disassembly step which led to the current state?",
         "A": "Place the object on a flat table."
     },
     {
@@ -17,7 +17,11 @@
     },
     {
         "Q": "How many disassembly steps are remaining?",
-        "A": "0"
+        "A": "1"
+    },
+    {
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['place_into_waste_container']"
     },
     {
         "Q": "Is this the final step?",

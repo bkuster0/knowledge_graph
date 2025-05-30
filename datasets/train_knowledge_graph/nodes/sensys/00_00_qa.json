@@ -12,12 +12,16 @@
         "A": "Place the object on a flat table."
     },
     {
-        "Q": "What is the next step?",
+        "Q": "What is the next disassembly step?",
         "A": "Flip the object"
     },
     {
-        "Q": "Number of remaining steps?",
-        "A": "1"
+        "Q": "Number of remaining disassembly steps?",
+        "A": "2"
+    },
+    {
+        "Q": "Determine the sequence of remaining disassembly steps.",
+        "A": "['flip', 'place_into_cnc']"
     },
     {
         "Q": "Does this picture show the final step?",
