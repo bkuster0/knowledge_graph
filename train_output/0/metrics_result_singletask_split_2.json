@@ -1,0 +1,158 @@
+[
+    {
+        "iteration": 0,
+        "model_name": "Dummy random classifier",
+        "mean_squared_error": 0,
+        "accuracy_metrics": {
+            "train": {
+                "current": 5.673758865248227,
+                "next": 10.638297872340425,
+                "remaining": 7.801418439716312,
+                "remaining_count": 5.382978723404255,
+                "is_last": 42.5531914893617,
+                "object_general_class": 9.219858156028367
+            },
+            "val": {
+                "current": 12.5,
+                "next": 0.0,
+                "remaining": 0.0,
+                "remaining_count": 4.3125,
+                "is_last": 62.5,
+                "object_general_class": 12.5
+            },
+            "test": {
+                "current": 7.6923076923076925,
+                "next": 10.256410256410255,
+                "remaining": 2.564102564102564,
+                "remaining_count": 5.051282051282051,
+                "is_last": 58.97435897435898,
+                "object_general_class": 7.6923076923076925
+            },
+            "combined": {
+                "current": 6.63265306122449,
+                "next": 9.693877551020408,
+                "remaining": 6.122448979591836,
+                "remaining_count": 5.229591836734694,
+                "is_last": 47.44897959183674,
+                "object_general_class": 9.183673469387756
+            }
+        }
+    },
+    {
+        "iteration": 0,
+        "model_name": "CLIP",
+        "mean_squared_error": 0,
+        "accuracy_metrics": {
+            "train": {
+                "current": 90.0709219858156,
+                "next": 59.57446808510638,
+                "remaining": 79.43262411347519,
+                "remaining_count": 0.8865248226950354,
+                "is_last": 78.72340425531915,
+                "object_general_class": 65.24822695035462
+            },
+            "val": {
+                "current": 6.25,
+                "next": 6.25,
+                "remaining": 6.25,
+                "remaining_count": 2.9375,
+                "is_last": 50.0,
+                "object_general_class": 18.75
+            },
+            "test": {
+                "current": 12.82051282051282,
+                "next": 7.6923076923076925,
+                "remaining": 23.076923076923077,
+                "remaining_count": 3.7948717948717947,
+                "is_last": 41.02564102564102,
+                "object_general_class": 0.0
+            },
+            "combined": {
+                "current": 67.85714285714286,
+                "next": 44.89795918367347,
+                "remaining": 62.244897959183675,
+                "remaining_count": 1.6326530612244898,
+                "is_last": 68.87755102040816,
+                "object_general_class": 48.46938775510204
+            }
+        }
+    },
+    {
+        "iteration": 0,
+        "model_name": "ResNet-152",
+        "mean_squared_error": 0,
+        "accuracy_metrics": {
+            "train": {
+                "current": 92.90780141843972,
+                "next": 89.36170212765957,
+                "remaining": 85.81560283687944,
+                "remaining_count": 0.22695035460992907,
+                "is_last": 100.0,
+                "object_general_class": 95.74468085106383
+            },
+            "val": {
+                "current": 0.0,
+                "next": 12.5,
+                "remaining": 18.75,
+                "remaining_count": 3.25,
+                "is_last": 37.5,
+                "object_general_class": 12.5
+            },
+            "test": {
+                "current": 12.82051282051282,
+                "next": 28.205128205128204,
+                "remaining": 28.205128205128204,
+                "remaining_count": 3.076923076923077,
+                "is_last": 53.84615384615385,
+                "object_general_class": 23.076923076923077
+            },
+            "combined": {
+                "current": 69.38775510204081,
+                "next": 70.91836734693877,
+                "remaining": 68.87755102040816,
+                "remaining_count": 1.0408163265306123,
+                "is_last": 85.71428571428571,
+                "object_general_class": 74.48979591836735
+            }
+        }
+    },
+    {
+        "iteration": 0,
+        "model_name": "VisionTransformer",
+        "mean_squared_error": 0,
+        "accuracy_metrics": {
+            "train": {
+                "current": 92.90780141843972,
+                "next": 92.90780141843972,
+                "remaining": 92.90780141843972,
+                "remaining_count": 0.07092198581560284,
+                "is_last": 98.58156028368793,
+                "object_general_class": 100.0
+            },
+            "val": {
+                "current": 6.25,
+                "next": 6.25,
+                "remaining": 12.5,
+                "remaining_count": 3.8125,
+                "is_last": 37.5,
+                "object_general_class": 12.5
+            },
+            "test": {
+                "current": 12.82051282051282,
+                "next": 25.64102564102564,
+                "remaining": 25.64102564102564,
+                "remaining_count": 3.4358974358974357,
+                "is_last": 51.28205128205128,
+                "object_general_class": 23.076923076923077
+            },
+            "combined": {
+                "current": 69.89795918367348,
+                "next": 72.44897959183673,
+                "remaining": 72.95918367346938,
+                "remaining_count": 1.0459183673469388,
+                "is_last": 84.18367346938776,
+                "object_general_class": 77.55102040816327
+            }
+        }
+    }
+]

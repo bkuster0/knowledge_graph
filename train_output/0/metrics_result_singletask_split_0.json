@@ -5,36 +5,153 @@
         "mean_squared_error": 0,
         "accuracy_metrics": {
             "train": {
-                "current": 0.0,
-                "next": 100.0,
-                "remaining": 50.0,
-                "remaining_count": 2.5,
-                "is_last": 50.0,
-                "object_general_class": 0.0
+                "current": 8.571428571428571,
+                "next": 12.142857142857142,
+                "remaining": 6.428571428571428,
+                "remaining_count": 5.628571428571429,
+                "is_last": 52.142857142857146,
+                "object_general_class": 13.571428571428571
             },
             "val": {
-                "current": 0.0,
-                "next": 0.0,
-                "remaining": 0.0,
-                "remaining_count": 16.0,
-                "is_last": 0.0,
-                "object_general_class": 0.0
+                "current": 6.25,
+                "next": 6.25,
+                "remaining": 12.5,
+                "remaining_count": 6.0625,
+                "is_last": 43.75,
+                "object_general_class": 6.25
             },
             "test": {
-                "current": 0.0,
-                "next": 0.0,
-                "remaining": 0.0,
-                "remaining_count": 8.0,
-                "is_last": 100.0,
-                "object_general_class": 0.0
+                "current": 12.5,
+                "next": 7.5,
+                "remaining": 5.0,
+                "remaining_count": 7.225,
+                "is_last": 52.5,
+                "object_general_class": 10.0
             },
             "combined": {
-                "current": 0.0,
-                "next": 40.0,
-                "remaining": 20.0,
-                "remaining_count": 7.4,
-                "is_last": 60.0,
-                "object_general_class": 0.0
+                "current": 9.183673469387756,
+                "next": 10.714285714285714,
+                "remaining": 6.63265306122449,
+                "remaining_count": 5.989795918367347,
+                "is_last": 51.53061224489795,
+                "object_general_class": 12.244897959183673
+            }
+        }
+    },
+    {
+        "iteration": 0,
+        "model_name": "CLIP",
+        "mean_squared_error": 0,
+        "accuracy_metrics": {
+            "train": {
+                "current": 54.285714285714285,
+                "next": 85.0,
+                "remaining": 85.71428571428571,
+                "remaining_count": 1.2214285714285715,
+                "is_last": 91.42857142857143,
+                "object_general_class": 90.0
+            },
+            "val": {
+                "current": 18.75,
+                "next": 25.0,
+                "remaining": 25.0,
+                "remaining_count": 1.6875,
+                "is_last": 50.0,
+                "object_general_class": 37.5
+            },
+            "test": {
+                "current": 7.5,
+                "next": 27.500000000000004,
+                "remaining": 15.0,
+                "remaining_count": 2.2,
+                "is_last": 62.5,
+                "object_general_class": 30.0
+            },
+            "combined": {
+                "current": 41.83673469387755,
+                "next": 68.36734693877551,
+                "remaining": 66.3265306122449,
+                "remaining_count": 1.4591836734693877,
+                "is_last": 82.14285714285714,
+                "object_general_class": 73.46938775510205
+            }
+        }
+    },
+    {
+        "iteration": 0,
+        "model_name": "ResNet-152",
+        "mean_squared_error": 0,
+        "accuracy_metrics": {
+            "train": {
+                "current": 89.28571428571429,
+                "next": 90.0,
+                "remaining": 82.85714285714286,
+                "remaining_count": 0.4857142857142857,
+                "is_last": 100.0,
+                "object_general_class": 98.57142857142858
+            },
+            "val": {
+                "current": 12.5,
+                "next": 37.5,
+                "remaining": 31.25,
+                "remaining_count": 2.0,
+                "is_last": 50.0,
+                "object_general_class": 37.5
+            },
+            "test": {
+                "current": 10.0,
+                "next": 30.0,
+                "remaining": 32.5,
+                "remaining_count": 2.925,
+                "is_last": 52.5,
+                "object_general_class": 30.0
+            },
+            "combined": {
+                "current": 66.83673469387756,
+                "next": 73.46938775510205,
+                "remaining": 68.36734693877551,
+                "remaining_count": 1.1071428571428572,
+                "is_last": 86.22448979591837,
+                "object_general_class": 79.59183673469387
+            }
+        }
+    },
+    {
+        "iteration": 0,
+        "model_name": "VisionTransformer",
+        "mean_squared_error": 0,
+        "accuracy_metrics": {
+            "train": {
+                "current": 90.0,
+                "next": 88.57142857142857,
+                "remaining": 92.14285714285714,
+                "remaining_count": 0.07857142857142857,
+                "is_last": 97.14285714285714,
+                "object_general_class": 100.0
+            },
+            "val": {
+                "current": 6.25,
+                "next": 18.75,
+                "remaining": 31.25,
+                "remaining_count": 1.9375,
+                "is_last": 56.25,
+                "object_general_class": 37.5
+            },
+            "test": {
+                "current": 10.0,
+                "next": 27.500000000000004,
+                "remaining": 30.0,
+                "remaining_count": 2.85,
+                "is_last": 52.5,
+                "object_general_class": 30.0
+            },
+            "combined": {
+                "current": 66.83673469387756,
+                "next": 70.40816326530613,
+                "remaining": 74.48979591836735,
+                "remaining_count": 0.7959183673469388,
+                "is_last": 84.6938775510204,
+                "object_general_class": 80.61224489795919
             }
         }
     }
