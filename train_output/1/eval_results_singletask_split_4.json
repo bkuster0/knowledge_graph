@@ -17,14 +17,7 @@
             "is_last": false,
             "object_general_class": "pcb_with_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "1": {
         "node": "qundis",
@@ -43,14 +36,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "2": {
         "node": "qundis",
@@ -70,14 +56,7 @@
             "is_last": false,
             "object_general_class": "pcb_with_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "wiggling_battery_removal"
-                }
-            }
-        }
+        "predicted": {}
     },
     "3": {
         "node": "qundis",
@@ -96,14 +75,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_circular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "4": {
         "node": "qundis",
@@ -122,14 +94,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "5": {
         "node": "qundis",
@@ -148,14 +113,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "wiggling_battery_removal"
-                }
-            }
-        }
+        "predicted": {}
     },
     "6": {
         "node": "qundis",
@@ -176,14 +134,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_qundis"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "7": {
         "node": "qundis",
@@ -202,14 +153,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "8": {
         "node": "qundis",
@@ -230,14 +174,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_qundis"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "9": {
         "node": "qundis",
@@ -260,14 +197,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_qundis"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_circular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "10": {
         "node": "qundis",
@@ -286,14 +216,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "flip"
-                }
-            }
-        }
+        "predicted": {}
     },
     "11": {
         "node": "qundis",
@@ -315,14 +238,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_qundis"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "12": {
         "node": "qundis",
@@ -341,14 +257,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "13": {
         "node": "qundis",
@@ -367,14 +276,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "14": {
         "node": "qundis",
@@ -394,14 +296,7 @@
             "is_last": false,
             "object_general_class": "pcb_with_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "15": {
         "node": "qundis",
@@ -422,14 +317,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_qundis"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "linear_cutter_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "16": {
         "node": "qundis",
@@ -448,14 +336,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "linear_cutter_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "17": {
         "node": "hekatron",
@@ -477,14 +358,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "18": {
         "node": "hekatron",
@@ -505,14 +379,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "19": {
         "node": "hekatron",
@@ -532,14 +399,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "20": {
         "node": "hekatron",
@@ -559,14 +419,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "flip"
-                }
-            }
-        }
+        "predicted": {}
     },
     "21": {
         "node": "hekatron",
@@ -586,14 +439,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_circular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "22": {
         "node": "hekatron",
@@ -613,14 +459,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "23": {
         "node": "hekatron",
@@ -639,14 +478,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "24": {
         "node": "hekatron",
@@ -666,14 +498,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "linear_cutter_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "25": {
         "node": "hekatron",
@@ -694,14 +519,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "linear_cutter_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "26": {
         "node": "hekatron",
@@ -721,14 +539,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "wiggling_battery_removal"
-                }
-            }
-        }
+        "predicted": {}
     },
     "27": {
         "node": "hekatron",
@@ -748,14 +559,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "28": {
         "node": "hekatron",
@@ -775,14 +579,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "29": {
         "node": "hekatron",
@@ -804,14 +601,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "30": {
         "node": "hekatron",
@@ -833,14 +623,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_circular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "31": {
         "node": "hekatron",
@@ -862,14 +645,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "32": {
         "node": "hekatron",
@@ -889,14 +665,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "33": {
         "node": "hekatron",
@@ -918,14 +687,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "34": {
         "node": "hekatron",
@@ -947,14 +709,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "35": {
         "node": "hekatron",
@@ -973,14 +728,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "36": {
         "node": "hekatron",
@@ -1000,14 +748,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "37": {
         "node": "hekatron",
@@ -1026,14 +767,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "38": {
         "node": "hekatron",
@@ -1055,14 +789,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "39": {
         "node": "hekatron",
@@ -1082,14 +809,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "linear_cutter_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "40": {
         "node": "hekatron",
@@ -1111,14 +831,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "41": {
         "node": "hekatron",
@@ -1137,14 +850,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "wiggling_battery_removal"
-                }
-            }
-        }
+        "predicted": {}
     },
     "42": {
         "node": "hekatron",
@@ -1166,14 +872,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "43": {
         "node": "hekatron",
@@ -1195,14 +894,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "44": {
         "node": "hekatron",
@@ -1223,14 +915,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_circular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "45": {
         "node": "hekatron",
@@ -1253,14 +938,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "46": {
         "node": "hekatron",
@@ -1282,14 +960,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "47": {
         "node": "hekatron",
@@ -1309,14 +980,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "48": {
         "node": "hekatron",
@@ -1336,14 +1000,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_circular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "49": {
         "node": "hekatron",
@@ -1362,14 +1019,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "50": {
         "node": "hekatron",
@@ -1389,14 +1039,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "51": {
         "node": "hekatron",
@@ -1416,14 +1059,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "52": {
         "node": "hekatron",
@@ -1443,14 +1079,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "53": {
         "node": "hekatron",
@@ -1470,14 +1099,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "54": {
         "node": "hekatron",
@@ -1497,14 +1119,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "55": {
         "node": "hekatron",
@@ -1525,14 +1140,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "56": {
         "node": "hekatron",
@@ -1554,14 +1162,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "57": {
         "node": "hekatron",
@@ -1583,14 +1184,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "wiggling_battery_removal"
-                }
-            }
-        }
+        "predicted": {}
     },
     "58": {
         "node": "hekatron",
@@ -1609,14 +1203,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "59": {
         "node": "hekatron",
@@ -1637,14 +1224,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_hekatron"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "60": {
         "node": "hekatron",
@@ -1664,14 +1244,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "61": {
         "node": "hekatron",
@@ -1691,14 +1264,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "62": {
         "node": "tmp_pcb_no_battery",
@@ -1717,14 +1283,7 @@
             "is_last": true,
             "object_general_class": "pcb_no_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "flip"
-                }
-            }
-        }
+        "predicted": {}
     },
     "63": {
         "node": "tmp_pcb_no_battery",
@@ -1743,14 +1302,7 @@
             "is_last": true,
             "object_general_class": "pcb_no_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "64": {
         "node": "tmp_pcb_no_battery",
@@ -1769,14 +1321,7 @@
             "is_last": true,
             "object_general_class": "pcb_no_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "65": {
         "node": "tmp_pcb_no_battery",
@@ -1795,14 +1340,7 @@
             "is_last": true,
             "object_general_class": "pcb_no_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "wiggling_battery_removal"
-                }
-            }
-        }
+        "predicted": {}
     },
     "66": {
         "node": "kalo",
@@ -1821,14 +1359,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "67": {
         "node": "kalo",
@@ -1849,14 +1380,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "flip"
-                }
-            }
-        }
+        "predicted": {}
     },
     "68": {
         "node": "kalo",
@@ -1876,14 +1400,7 @@
             "is_last": false,
             "object_general_class": "pcb_with_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "69": {
         "node": "kalo",
@@ -1903,14 +1420,7 @@
             "is_last": false,
             "object_general_class": "pcb_with_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "70": {
         "node": "kalo",
@@ -1929,14 +1439,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_circular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "71": {
         "node": "kalo",
@@ -1956,14 +1459,7 @@
             "is_last": false,
             "object_general_class": "pcb_with_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "72": {
         "node": "kalo",
@@ -1982,14 +1478,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "flip"
-                }
-            }
-        }
+        "predicted": {}
     },
     "73": {
         "node": "kalo",
@@ -2010,14 +1499,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "74": {
         "node": "kalo",
@@ -2037,14 +1519,7 @@
             "is_last": false,
             "object_general_class": "pcb_with_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "75": {
         "node": "kalo",
@@ -2064,14 +1539,7 @@
             "is_last": false,
             "object_general_class": "pcb_with_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "76": {
         "node": "kalo",
@@ -2093,14 +1561,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "77": {
         "node": "kalo",
@@ -2121,14 +1582,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "78": {
         "node": "kalo",
@@ -2147,14 +1601,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "79": {
         "node": "kalo",
@@ -2175,14 +1622,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "80": {
         "node": "kalo",
@@ -2201,14 +1641,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "81": {
         "node": "kalo",
@@ -2227,14 +1660,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "82": {
         "node": "kalo",
@@ -2255,14 +1681,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "83": {
         "node": "kalo",
@@ -2284,14 +1703,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "84": {
         "node": "kalo",
@@ -2310,14 +1722,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "85": {
         "node": "kalo",
@@ -2336,14 +1741,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "86": {
         "node": "kalo",
@@ -2365,14 +1763,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "linear_cutter_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "87": {
         "node": "kalo",
@@ -2394,14 +1785,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "88": {
         "node": "kalo",
@@ -2420,14 +1804,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "wiggling_battery_removal"
-                }
-            }
-        }
+        "predicted": {}
     },
     "89": {
         "node": "kalo",
@@ -2448,14 +1825,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "90": {
         "node": "kalo",
@@ -2476,14 +1846,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "91": {
         "node": "kalo",
@@ -2506,14 +1869,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_circular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "92": {
         "node": "kalo",
@@ -2536,14 +1892,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "93": {
         "node": "kalo",
@@ -2564,14 +1913,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "94": {
         "node": "kalo",
@@ -2592,14 +1934,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "95": {
         "node": "kalo",
@@ -2622,14 +1957,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "linear_cutter_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "96": {
         "node": "kalo",
@@ -2648,14 +1976,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "97": {
         "node": "kalo",
@@ -2675,14 +1996,7 @@
             "is_last": false,
             "object_general_class": "pcb_with_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "98": {
         "node": "kalo",
@@ -2701,14 +2015,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "linear_cutter_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "99": {
         "node": "kalo",
@@ -2728,14 +2035,7 @@
             "is_last": false,
             "object_general_class": "pcb_with_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "100": {
         "node": "kalo",
@@ -2754,14 +2054,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "101": {
         "node": "kalo",
@@ -2781,14 +2074,7 @@
             "is_last": false,
             "object_general_class": "pcb_with_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "102": {
         "node": "kalo",
@@ -2807,14 +2093,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "103": {
         "node": "kalo",
@@ -2835,14 +2114,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "104": {
         "node": "kalo",
@@ -2864,14 +2136,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "105": {
         "node": "kalo",
@@ -2890,14 +2155,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "linear_cutter_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "106": {
         "node": "kalo",
@@ -2916,14 +2174,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "flip"
-                }
-            }
-        }
+        "predicted": {}
     },
     "107": {
         "node": "kalo",
@@ -2944,14 +2195,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "linear_cutter_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "108": {
         "node": "kalo",
@@ -2972,14 +2216,7 @@
             "is_last": false,
             "object_general_class": "heat_cost_allocator_kalo"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "109": {
         "node": "kalo",
@@ -2998,14 +2235,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "110": {
         "node": "kalo",
@@ -3025,14 +2255,7 @@
             "is_last": false,
             "object_general_class": "pcb_with_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "linear_cutter_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "111": {
         "node": "kalo",
@@ -3051,14 +2274,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "112": {
         "node": "kalo",
@@ -3077,14 +2293,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "113": {
         "node": "tmp_pcb_with_battery",
@@ -3103,14 +2312,7 @@
             "is_last": true,
             "object_general_class": "pcb_with_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "114": {
         "node": "tmp_pcb_with_battery",
@@ -3129,14 +2331,7 @@
             "is_last": true,
             "object_general_class": "pcb_with_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "linear_cutter_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "115": {
         "node": "tmp_pcb_with_battery",
@@ -3155,14 +2350,7 @@
             "is_last": true,
             "object_general_class": "pcb_with_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "wiggling_battery_removal"
-                }
-            }
-        }
+        "predicted": {}
     },
     "116": {
         "node": "tmp_pcb_with_battery",
@@ -3181,14 +2369,7 @@
             "is_last": true,
             "object_general_class": "pcb_with_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "117": {
         "node": "kaloremotus",
@@ -3207,14 +2388,7 @@
             "is_last": true,
             "object_general_class": "smoke_detector_kaloremotus"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "118": {
         "node": "kaloremotus",
@@ -3234,14 +2408,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_kaloremotus"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "flip"
-                }
-            }
-        }
+        "predicted": {}
     },
     "119": {
         "node": "kaloremotus",
@@ -3260,14 +2427,7 @@
             "is_last": true,
             "object_general_class": "smoke_detector_kaloremotus"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "120": {
         "node": "kaloremotus",
@@ -3287,14 +2447,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_kaloremotus"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "121": {
         "node": "kaloremotus",
@@ -3314,14 +2467,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_kaloremotus"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "122": {
         "node": "kaloremotus",
@@ -3341,14 +2487,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_kaloremotus"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "123": {
         "node": "kaloremotus",
@@ -3367,14 +2506,7 @@
             "is_last": true,
             "object_general_class": "smoke_detector_kaloremotus"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "linear_cutter_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "124": {
         "node": "battery",
@@ -3393,14 +2525,7 @@
             "is_last": true,
             "object_general_class": "waste_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "125": {
         "node": "battery",
@@ -3419,14 +2544,7 @@
             "is_last": true,
             "object_general_class": "waste_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "126": {
         "node": "battery",
@@ -3445,14 +2563,7 @@
             "is_last": true,
             "object_general_class": "waste_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "linear_cutter_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "127": {
         "node": "battery",
@@ -3471,14 +2582,7 @@
             "is_last": true,
             "object_general_class": "waste_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "128": {
         "node": "battery",
@@ -3497,14 +2601,7 @@
             "is_last": true,
             "object_general_class": "waste_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_circular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "129": {
         "node": "battery",
@@ -3523,14 +2620,7 @@
             "is_last": true,
             "object_general_class": "waste_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "flip"
-                }
-            }
-        }
+        "predicted": {}
     },
     "130": {
         "node": "battery",
@@ -3549,14 +2639,7 @@
             "is_last": true,
             "object_general_class": "waste_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "wiggling_battery_removal"
-                }
-            }
-        }
+        "predicted": {}
     },
     "131": {
         "node": "battery",
@@ -3575,14 +2658,7 @@
             "is_last": true,
             "object_general_class": "waste_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "132": {
         "node": "battery",
@@ -3601,14 +2677,7 @@
             "is_last": true,
             "object_general_class": "waste_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "133": {
         "node": "battery",
@@ -3627,14 +2696,7 @@
             "is_last": true,
             "object_general_class": "waste_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "linear_cutter_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "134": {
         "node": "battery",
@@ -3653,14 +2715,7 @@
             "is_last": true,
             "object_general_class": "waste_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "135": {
         "node": "battery",
@@ -3679,14 +2734,7 @@
             "is_last": true,
             "object_general_class": "waste_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "136": {
         "node": "battery",
@@ -3705,14 +2753,7 @@
             "is_last": true,
             "object_general_class": "waste_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "137": {
         "node": "battery",
@@ -3731,14 +2772,7 @@
             "is_last": true,
             "object_general_class": "waste_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "138": {
         "node": "battery",
@@ -3757,14 +2791,7 @@
             "is_last": true,
             "object_general_class": "waste_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_circular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "139": {
         "node": "battery",
@@ -3783,14 +2810,7 @@
             "is_last": true,
             "object_general_class": "waste_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "140": {
         "node": "battery",
@@ -3809,14 +2829,7 @@
             "is_last": true,
             "object_general_class": "waste_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "141": {
         "node": "battery",
@@ -3835,14 +2848,7 @@
             "is_last": true,
             "object_general_class": "waste_battery"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "142": {
         "node": "fumonic",
@@ -3862,14 +2868,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "143": {
         "node": "fumonic",
@@ -3890,14 +2889,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "144": {
         "node": "fumonic",
@@ -3918,14 +2910,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "145": {
         "node": "fumonic",
@@ -3945,14 +2930,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "146": {
         "node": "fumonic",
@@ -3973,14 +2951,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "147": {
         "node": "fumonic",
@@ -4001,14 +2972,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "148": {
         "node": "fumonic",
@@ -4028,14 +2992,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "149": {
         "node": "fumonic",
@@ -4056,14 +3013,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "flip"
-                }
-            }
-        }
+        "predicted": {}
     },
     "150": {
         "node": "fumonic",
@@ -4084,14 +3034,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "flip"
-                }
-            }
-        }
+        "predicted": {}
     },
     "151": {
         "node": "fumonic",
@@ -4110,14 +3053,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_circular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "152": {
         "node": "fumonic",
@@ -4138,14 +3074,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "153": {
         "node": "fumonic",
@@ -4165,14 +3094,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "154": {
         "node": "fumonic",
@@ -4195,14 +3117,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_fumonic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "155": {
         "node": "fumonic",
@@ -4223,14 +3138,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "156": {
         "node": "fumonic",
@@ -4250,14 +3158,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "157": {
         "node": "fumonic",
@@ -4277,14 +3178,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "flip"
-                }
-            }
-        }
+        "predicted": {}
     },
     "158": {
         "node": "fumonic",
@@ -4305,14 +3199,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "159": {
         "node": "fumonic",
@@ -4331,14 +3218,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "160": {
         "node": "fumonic",
@@ -4357,14 +3237,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_circular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "161": {
         "node": "fumonic",
@@ -4384,14 +3257,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "flip"
-                }
-            }
-        }
+        "predicted": {}
     },
     "162": {
         "node": "fumonic",
@@ -4411,14 +3277,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "163": {
         "node": "fumonic",
@@ -4437,14 +3296,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "linear_cutter_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "164": {
         "node": "fumonic",
@@ -4463,14 +3315,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "165": {
         "node": "fumonic",
@@ -4489,14 +3334,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "166": {
         "node": "fumonic",
@@ -4520,14 +3358,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_fumonic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "167": {
         "node": "fumonic",
@@ -4548,14 +3379,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_circular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "168": {
         "node": "fumonic",
@@ -4575,14 +3399,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "169": {
         "node": "fumonic",
@@ -4603,14 +3420,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "170": {
         "node": "fumonic",
@@ -4629,14 +3439,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "171": {
         "node": "fumonic",
@@ -4656,14 +3459,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "172": {
         "node": "fumonic",
@@ -4684,14 +3480,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_circular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "173": {
         "node": "fumonic",
@@ -4712,14 +3501,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "174": {
         "node": "fumonic",
@@ -4739,14 +3521,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "flip"
-                }
-            }
-        }
+        "predicted": {}
     },
     "175": {
         "node": "fumonic",
@@ -4765,14 +3540,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "176": {
         "node": "fumonic",
@@ -4793,14 +3561,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "linear_cutter_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "177": {
         "node": "fumonic",
@@ -4820,14 +3581,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "flip"
-                }
-            }
-        }
+        "predicted": {}
     },
     "178": {
         "node": "fumonic",
@@ -4849,14 +3603,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_fumonic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_on_flat_table"
-                }
-            }
-        }
+        "predicted": {}
     },
     "179": {
         "node": "fumonic",
@@ -4875,14 +3622,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "180": {
         "node": "fumonic",
@@ -4905,14 +3645,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_fumonic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "181": {
         "node": "fumonic",
@@ -4931,14 +3664,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "182": {
         "node": "fumonic",
@@ -4958,14 +3684,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "183": {
         "node": "fumonic",
@@ -4985,14 +3704,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "184": {
         "node": "fumonic",
@@ -5013,14 +3725,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "185": {
         "node": "fumonic",
@@ -5040,14 +3745,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "186": {
         "node": "fumonic",
@@ -5067,14 +3765,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_rectangular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "187": {
         "node": "fumonic",
@@ -5095,14 +3786,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_with_battery_uncovered"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_circular_cut"
-                }
-            }
-        }
+        "predicted": {}
     },
     "188": {
         "node": "sensys",
@@ -5122,14 +3806,7 @@
             "is_last": false,
             "object_general_class": "smoke_detector_sensys"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "levering"
-                }
-            }
-        }
+        "predicted": {}
     },
     "189": {
         "node": "sensys",
@@ -5148,14 +3825,7 @@
             "is_last": true,
             "object_general_class": "smoke_detector_sensys"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_cnc"
-                }
-            }
-        }
+        "predicted": {}
     },
     "190": {
         "node": "tmp_waste_plastic",
@@ -5174,14 +3844,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "wiggling_battery_removal"
-                }
-            }
-        }
+        "predicted": {}
     },
     "191": {
         "node": "tmp_waste_plastic",
@@ -5200,14 +3863,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "192": {
         "node": "tmp_waste_plastic",
@@ -5226,14 +3882,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "flip"
-                }
-            }
-        }
+        "predicted": {}
     },
     "193": {
         "node": "tmp_waste_plastic",
@@ -5252,14 +3901,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     },
     "194": {
         "node": "tmp_waste_plastic",
@@ -5278,14 +3920,7 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "cnc_cut_battery_contacts"
-                }
-            }
-        }
+        "predicted": {}
     },
     "195": {
         "node": "tmp_waste_plastic",
@@ -5304,13 +3939,6 @@
             "is_last": true,
             "object_general_class": "waste_plastic"
         },
-        "predicted": {
-            "Dummy random classifier": {
-                "current": {
-                    "reasoning": "",
-                    "answer": "place_into_vise"
-                }
-            }
-        }
+        "predicted": {}
     }
 }
